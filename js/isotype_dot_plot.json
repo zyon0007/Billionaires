@@ -5,18 +5,7 @@
     "width": 800,
     "height": 200,
     "data": {
-      "values": [
-        {"gender": "Gender", "human": "male"},
-        {"gender": "Gender", "human": "male"},
-        {"gender": "Gender", "human": "male"},
-        {"gender": "Gender", "human": "male"},
-        {"gender": "Gender", "human": "male"},
-        {"gender": "Gender", "human": "male"},
-        {"gender": "Gender", "human": "male"},
-        {"gender": "Gender", "human": "male"},
-        {"gender": "Gender", "human": "male"},
-        {"gender": "Gender", "human": "female"}
-      ]
+      "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/isotype_dot_plot.csv"
     },
     "transform": [
         {
