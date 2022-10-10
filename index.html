@@ -65,6 +65,33 @@
     </div>
 
 
+    <div class="pure-g">
+        <div class="pure-u-1-1">
+            <div class="header">
+                <h2>Visualization 4: donut chart</h2>
+                <p>Billionaires' age group</p>
+            </div>        
+        </div>
+    </div>
+
+    <div class="pure-u-2-3">
+        <div id="donut_chart" class="vis-container"></div>
+    </div>
+
+
+    <div class="pure-g">
+        <div class="pure-u-1-1">
+            <div class="header">
+                <h2>Visualization 5: Diverging Stacked Bar Chart</h2>
+                <p>Billionaires' self made</p>
+            </div>        
+        </div>
+    </div>
+
+    <div class="pure-u-2-3">
+        <div id="diverging_stacked_bar_chart" class="vis-container"></div>
+    </div>
+
 
     <script type="text/javascript">
     
@@ -78,6 +105,14 @@
 
         var vg_3 = "js/isotype_dot_plot.json";
         vegaEmbed("#isotype_dot_plot", vg_3,{"actions": false}).then(function(result) {
+        }).catch(console.error);
+
+        var vg_4 = "js/donut_chart.json";
+        vegaEmbed("#donut_chart", vg_4,{"actions": false}).then(function(result) {
+        }).catch(console.error);
+
+        var vg_5 = "js/diverging_stacked_bar_chart.json";
+        vegaEmbed("#diverging_stacked_bar_chart", vg_5,{"actions": false}).then(function(result) {
         }).catch(console.error);
     
     </script>
