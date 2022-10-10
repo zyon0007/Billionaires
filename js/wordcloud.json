@@ -1,0 +1,73 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "description": "A word cloud visualization depicting Vega research paper abstracts.",
+    "padding": 0,
+
+      "data": [
+        {
+          "name": "table",
+          "url" : "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/wordcloud.csv",
+          "transform": [
+            {
+              "type": "countpattern",
+              "field": "data",
+              "pattern": "[\\w']{3,}"
+            },
+            {
+              "type": "formula", "as": "angle",
+              "expr": "[-35, 0, 35][~~(random() * 3)]"
+            },
+            {
+              "type": "formula", "as": "weight",
+              "expr": "if(datum.text=='Technology' , 800, 400) "
+            }
+          ]
+        }
+      ],
+    
+      "scales": [
+        {
+          "name": "color",
+          "type": "ordinal",
+          "domain": {"data": "table", "field": "text"},
+          "range": ["#072448","#54d2d2","#ff6150","#ffcb00","#f8aa4b","#cda5f3"]
+        }
+      ],
+      
+      "marks": [
+        {
+          "type": "text",
+          "from": {"data": "table"},
+          "encode": {
+            "enter": {
+              "text": {"field": "text"},
+              "align": {"value": "center"},
+              "baseline": {"value": "alphabetic"},
+              "fill": {"scale": "color", "field": "text"},
+               "tooltip": 
+                   {"signal": "'Count of work industry, ' + datum.text + ' = ' + datum.count "}               
+  
+            },
+            "update": {
+              "fillOpacity": {"value": 1}
+            },
+            "hover": {
+              "fillOpacity": {"value": 0.5}
+            }
+          },
+          "transform": [
+            {
+              "type": "wordcloud",
+              "size": [600, 600],
+              "text": {"field": "text"},
+              "rotate": {"field": "datum.angle"},
+              "font": "Helvetica Neue, Arial",
+              "fontSize": {"field": "datum.count"},
+              "fontWeight": {"field": "datum.weight"},
+              "fontSizeRange": [10, 80],
+              "padding": 2
+            }
+          ]
+        }
+      ]  
+  } 
