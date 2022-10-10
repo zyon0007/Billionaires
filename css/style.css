@@ -43,6 +43,16 @@
 	width: 800px;
 }
 
+#wordcloud{
+	top:100px;
+	bottom: 100px; 
+	left: 100px;
+	right: 100px;
+	height: 1000px;
+	width: 800px;
+}
+
+
 .pure-g{
 	margin-bottom: 20px;
 }
