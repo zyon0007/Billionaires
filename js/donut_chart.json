@@ -1,0 +1,29 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "billionaire Age",
+    "background":null,
+    "data": {
+      "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/donut_chart.csv"
+    },
+    "mark": {"type": "arc", "innerRadius": 50},
+    "encoding": {
+        "theta": {"field": "Count", "type": "quantitative"},
+        "color": {"field": "Self Made", 
+                  "type": "nominal",
+                  "scale": {"range": ["#C41E3A", "#0047AB"]},
+                  "legend": {"orient": "top", "title": "Self Made"}
+                },
+        "tooltip": [
+          {
+            "field": "Self Made", 
+            "type": "nominal", 
+            "title": "Self Made"
+          },
+          {
+            "field": "Count",
+            "type": "quantitative",
+            "title": "Count"
+          }
+        ]
+    }
+  }
