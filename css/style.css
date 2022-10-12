@@ -7,7 +7,16 @@
 	width: 800px;
 }
 
-#bar_chart {
+#lollipop_chart {
+	top:100px;
+	bottom: 100px; 
+	left: 100px;
+	right: 100px;
+	height: 1000px;
+	width: 800px;
+}
+
+#bar_interactive{
 	top:100px;
 	bottom: 100px; 
 	left: 100px;
@@ -25,7 +34,7 @@
 	width: 800px;
 }
 
-#donut_chart{
+#faceted_donut_chart{
 	top:100px;
 	bottom: 100px; 
 	left: 100px;
@@ -33,8 +42,15 @@
 	height: 1000px;
 	width: 800px;
 }
+#scatter_bar_interactive{top:100px;
+	bottom: 100px; 
+	left: 100px;
+	right: 100px;
+	height: 1000px;
+	width: 800px;}
 
-#diverging_stacked_bar_chart{
+
+#age_group_pyramid{
 	top:100px;
 	bottom: 100px; 
 	left: 100px;
@@ -52,6 +68,14 @@
 	width: 800px;
 }
 
+#horizontal_stack_bar_chart{
+	top:100px;
+	bottom: 100px; 
+	left: 100px;
+	right: 100px;
+	height: 1000px;
+	width: 800px;
+}
 
 .pure-g{
 	margin-bottom: 20px;
