@@ -1,0 +1,141 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/diverging_stacked_bar_chart.csv"},
+    "width": 400,
+    "height": 200,
+    
+    "layer": [{
+          "transform": [
+            {"calculate": "datum.Gender == 'Female' ? 'Female' : 'Male'", "as": "Gender"},
+            {"calculate": "datum.Gender == 'Female' ? -datum.Count : datum.Count", "as": "ageGroupCount"}
+          ],
+          "mark": "bar",
+          "encoding": {
+            "y": {
+              "field": "Age Group", "sort": "descending"
+            },
+            "x": {
+              "aggregate": "sum", "field": "ageGroupCount",
+              "title": "Age Group Count","scale": {"domain": [-70, 70]}
+            },
+            "color": {
+              "field": "Gender",
+              "scale": {"range": ["#FAAFBA", "#89CFF0"]},
+              "legend": null
+            },
+            "tooltip": [
+              {
+                  "field": "Gender", 
+                  "type": "nominal", 
+                  "title": "Gender"
+              },
+              {
+                "field": "Age Group", 
+                "type": "nominal", 
+                "title": "Age Group"
+              },
+              {
+                "field": "ageGroupCount",
+                "type": "quantitative",
+                "title": "Age Group Count",
+                "formatType": "abs"
+              }
+              ]
+            }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "baseline": "top",
+            "dx": 200,
+            "dy": -5
+          },
+          "encoding": {
+            "color": {
+              "value": "#74b1cf"
+            },
+            "text": {"value": "66"},
+            "size": {
+              "value": 14
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "baseline": "top",
+            "dx": -20,
+            "dy": -5
+          },
+          "encoding": {
+            "color": {
+              "value": "#FAAFBA"
+            },
+            "text": {"value": "4"},
+            "size": {
+              "value": 14
+            }
+          }
+        },
+    {
+      "transform": [
+        {
+          "calculate": "'Majority of the billionaires'",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontWeight":"bold",
+        "dx":110,
+        "dy":-60
+      },
+      "encoding": {
+        "text": {
+          "field": "text_annotation"
+        },
+        "color":{"value":"#FF6863"},
+        "size": {
+          "value": 14
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'is male with old age'",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontWeight":"bold",
+        "dx":90,
+        "dy":-45
+      },
+      "encoding": {
+        "text": {
+          "field": "text_annotation"
+        },
+        "color":{"value":"#FF6863"},
+        "size": {
+          "value": 14
+        }
+      }
+    }
+    ],
+    "config": {
+      "view": {"stroke": null},
+      "axis": {"grid": false},
+      "style": {
+        "guide-title": {
+        "font": "Source Sans Pro, sans-serif",
+        "fontSize":15
+        },
+        "text": {
+        "font": "Source Sans Pro, sans-serif",
+        "fontWeight": "normal"
+        }
+    }
+    }
+  }

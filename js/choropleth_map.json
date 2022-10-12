@@ -1,0 +1,200 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Top 100 Billionaires in USA",
+  "width": 800,
+  "height": 400,
+  "background":null,
+  "params": [
+    {
+      "name": "State_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Arkansas",
+          "California",
+          "Colorado",
+          "Connecticut",
+          "Florida",
+          "Georgia",
+          "Hawaii",
+          "Illinois",
+          "Kansas",
+          "Maryland",
+          "Massachusetts",
+          "Nebraska",
+          "Nevada",
+          "New Jersey",
+          "New York",
+          "North Carolina",
+          "Ohio",
+          "Oklahoma",
+          "Oregon",
+          "Pennsylvania",
+          "Texas",
+          "Washington",
+          "Wisconsin",
+          "Wyoming"
+        ],
+        "labels": [
+          "Show All",
+          "Arkansas",
+          "California",
+          "Colorado",
+          "Connecticut",
+          "Florida",
+          "Georgia",
+          "Hawaii",
+          "Illinois",
+          "Kansas",
+          "Maryland",
+          "Massachusetts",
+          "Nebraska",
+          "Nevada",
+          "New Jersey",
+          "New York",
+          "North Carolina",
+          "Ohio",
+          "Oklahoma",
+          "Oregon",
+          "Pennsylvania",
+          "Texas",
+          "Washington",
+          "Wisconsin",
+          "Wyoming"
+        ],
+        "name": "State Selection: "
+      }
+    }
+  ],
+  "projection": {"type": "equirectangular"},
+  "layer": [
+    { "params": [
+            {
+              "name": "highlight",
+              "select": {"type": "point", "on": "mouseover"}
+            }
+          ],
+      "data": {
+        "url": "https://raw.githubusercontent.com/zyon0007/Homework3/main/ne_110m_admin_1_states_provinces.json",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_1_states_provinces"
+        }
+      },
+      "mark": {"type": "geoshape", "fill": "lightgrey", "stroke": "black",
+            "strokeWidth": 0.4},
+      "transform": [
+        {
+          "calculate": "'No Billionaire in ' + datum.properties.name",
+          "as": "NoBillionaires"
+        }
+      ],
+      "encoding": {
+        "strokeWidth": {
+                "condition": [
+                    {
+                      "param": "highlight",
+                      "empty": false,
+                      "value": 2
+                    }
+                  ],
+                  "value": 0.4
+                },
+        "opacity": {
+                  "condition": {"param": "highlight", "value": 1},
+                  "value": 0.5
+                },
+        "tooltip": {"field": "NoBillionaires"}
+      }
+    },
+
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/zyon0007/Homework3/main/ne_110m_admin_1_states_provinces.json",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_1_states_provinces"
+        }
+      },
+      "transform": [
+        {
+          "lookup": "properties.name",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/zyon0007/Homework3/main/USA_Billionaires.csv"
+            },
+            "key": "State",
+            "fields": ["Number_of_Billionaires", "Population"]
+          }
+        },
+        {
+          "calculate": "datum.Number_of_Billionaires/datum.Population * 100000000",
+          "as": "Number of Billionaires per 100 Million Population"
+        },
+        {
+          "filter": "State_selection == null || datum.properties.name == State_selection"
+        }
+      ],
+
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "color": {
+              "field": "Number of Billionaires per 100 Million Population",
+              "type": "quantitative",
+              "scale": {
+                    "type": "threshold",
+                    "domain": [30, 60, 90, 120],
+                    "range": [
+                      "#fdbe85",
+                      "#fd8d3c",
+                      "#e6550d",
+                      "#a63603",
+                      "#792600",
+                      "#591C01"
+                    ]
+              },
+              "legend": {
+                    "direction": "horizontal",
+                    "orient": "top-right",
+                    "titleLimit": 1000,
+                    "titleFontSize":10
+              }
+        },  
+        "tooltip": [
+              {
+                "field": "properties.name", 
+                "type": "nominal", 
+                "title": "State"
+              },
+              {
+                "field": "Population",
+                "type": "quantitative"
+              },
+              {
+                "field": "Number_of_Billionaires",
+                "type": "quantitative",
+                "title": "Number of Billionaires"
+              },
+              {
+                "field": "Number of Billionaires per 100 Million Population",
+                "type": "quantitative",
+                "format": ".2f"
+              }
+        ]
+      }
+    }
+  ],
+  "config": {"view": {"stroke": ""},
+      "style": {
+          "guide-title": {
+          "font": "Source Sans Pro, sans-serif",
+          "fontSize":15
+          },
+          "text": {
+          "font": "Source Sans Pro, sans-serif",
+          "fontWeight": "normal"
+          }
+      }
+  }
+}

@@ -1,0 +1,162 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/lollipop_chart.csv"},
+    "width": 800,
+    "height": 400,
+    "background":null,
+    "layer": [
+      {
+        "description": "Lollipop Stick",
+        "mark": {"type": "bar",  "width": {"band": 0.15}},
+        "encoding": {
+          "x": {
+           "field": "Names",
+            "type": "ordinal",
+            "axis": {"labelAngle": -45}
+          },
+          "y": {
+             "field": "Worth",
+            "type": "quantitative",
+            "axis": null
+          },
+          "color": {
+            "value": "lightgrey"
+          }
+        }
+      },
+      {
+        "description": "Lollipop",
+        "mark": {
+          "type": "point",
+          "tooltip": true,
+          "filled": true,
+          "opacity": 1
+        },
+        "encoding": {
+          "color": {
+            "field": "Names",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "Elon Musk",
+                "Jeff Bezos",
+                "Bill Gates",
+                "Warren Buffett",
+                "Larry Page",
+                "Sergey Brin",
+                "Larry Ellison",
+                "Steve Ballmer",
+                "Michael Bloomberg",
+                "Mark Zuckerberg"
+              ],
+              "range": [
+                "#ca5cdd",
+                "#e8bcf0",
+                "#e8bcf0",
+                "#e8bcf0",
+                "#e8bcf0",
+                "#e8bcf0",
+                "#e8bcf0",
+                "#e8bcf0",
+                "#e8bcf0",
+                "#e8bcf0"
+              ]
+            },
+            "legend": null
+          },
+          "x": {
+            "field": "Names",
+             "type": "ordinal",
+             "title":"Billionaires' Names"
+           },
+           "y": {
+              "field": "Worth",
+             "type": "quantitative",
+             "title":"Net Worth","scale": {"domain": [0, 240000000000]}
+           },
+           "size": {"value": 3000},
+           "tooltip": [
+            {
+                "field": "Names", 
+                "type": "nominal", 
+                "title": "Name"
+            },
+            {
+               "field": "Worth",
+               "type": "quantitative",
+               "title": "Net Worth",
+               "format": ".0f"
+            },
+            {
+                "field": "Company Name", 
+                "type": "nominal", 
+                "title": "Company"
+            }
+           ]
+        }
+      },
+      {
+        "description": "Value label",
+        "mark": {
+          "type": "text",
+          "baseline": "top",
+          "dx": 0,
+          "dy": -5,"fontWeight":"bold"
+        },
+        "encoding": {
+          "color": {
+            "value": "Black"
+          },
+          "x": {
+            "field": "Names",
+             "type": "ordinal"
+           },
+           "y": {
+                "field": "Worth",
+                "type": "quantitative"
+           },
+          
+          "text": {"field": "Worth", "type": "quantitative",
+                "format":".2e"}
+        }
+      },
+      {
+        "transform": [
+          {
+            "filter":"datum.Names=='Elon Musk'"
+          },
+          {
+            "calculate": "'Top 1 billionaire is Elon Musk with 219,000,000,000 net worth'",
+            "as": "text_annotation"
+          }
+        ],
+        "mark": {
+          "type": "text",
+          "fontWeight":"bold",
+          "dx":-35,
+          "dy":-165
+        },
+        "encoding": {
+          "text": {
+            "field": "text_annotation"
+          },
+          "color":{"value":"#FF6863"},
+          "size": {
+            "value": 14
+          }
+        }
+      }
+    ],
+    "config": {"view": {"stroke": ""},
+        "style": {
+            "guide-title": {
+            "font": "Source Sans Pro, sans-serif",
+            "fontSize":15
+            },
+            "text": {
+            "font": "Source Sans Pro, sans-serif",
+            "fontWeight": "normal"
+            }
+        }
+    }
+}

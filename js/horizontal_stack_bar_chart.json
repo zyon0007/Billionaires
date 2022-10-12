@@ -1,0 +1,84 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/horizontal_stack_bar_chart.csv"},
+    "width": 650,
+    "height": 400,
+    "layer": [
+      {
+        "params": [
+          {
+            "name": "state_highlight",
+            "select": {"type": "point", "fields": ["Title"]},
+            "bind": "legend"
+          }
+        ],
+        "mark": "bar",
+        "encoding": {
+          "x": {"aggregate": "count", 
+                "field": "Work Industry", 
+                "title": "Count of Billionaires"},
+          "y": {"field": "Work Industry"},
+          "color": {
+            "field": "Title",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "CEO",
+                "CEO and Chairman",
+                "Chairman",
+                "Cofounder",
+                "Entrepreneur",
+                "Founder",
+                "Investor"
+              ],
+              "range": [
+                "#C39BD3",
+                "#7FB3D5",
+                "#A3E4D7",
+                "#F9E79F",
+                "#EDBB99",
+                "#7DCEA0",
+                "#DBCBC8"
+              ]
+            },"legend":{"title":"Title (Interactive)"}
+          },
+          "opacity": {
+            "condition": {"param": "state_highlight", "value": 0.8},
+            "value": 0.2
+          },
+          "tooltip": [
+                    {
+                      "field": "Work Industry", 
+                      "type": "nominal", 
+                      "title": "Work Industry"
+                    },        
+                    {
+                        "field": "Title", 
+                        "type": "nominal", 
+                        "title": "Title"
+                    },
+                    {
+                        "aggregate": "count",
+                        "field": "Title",
+                        "type": "quantitative",
+                        "title": "Title Count of Billionaires"
+                    }
+          ]
+        }
+      }
+    ],
+    "config": {
+        "style": {
+            "guide-title": {
+            "font": "Source Sans Pro, sans-serif",
+            "fontSize":15
+            },
+            "text": {
+            "font": "Source Sans Pro, sans-serif",
+            "fontWeight": "normal",
+            "fontSize":15
+            }
+        }
+    }
+
+}

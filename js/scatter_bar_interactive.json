@@ -1,0 +1,132 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/bar_interactive.csv"
+    },
+    "params": [
+        {
+          "name": "zoom",
+          "value": 100,
+          "bind": {
+            "input": "range",
+            "min": 0,
+            "max": 200,
+            "step": 1,
+            "name": "Net Worth per Billion: "
+          }
+        }
+    ],  
+    "hconcat": [{
+        "vconcat": [
+        {
+            "encoding": {
+            "color": {
+                "condition": {
+                "param": "brush",
+                "title": "Age Group",
+                "field": "Age Group",
+                "type": "nominal",
+                "scale": {
+                    "domain": ["Middle Aged Adult", "Old","Young Adult"],
+                    "range": ["#e7ba52", "#1f77b4", "#aec7e8"]
+                }
+                },
+                "value": "lightgray"
+            },
+            "size": {
+                "title": "Worth per Billion",
+                "field": "Worth_per_billion",
+                "scale": {"domain": [0, 220]},
+                "type": "quantitative"
+            },
+            "x": {
+                "title": "Age",
+                "field": "Age",
+                "scale": {"domain": [0, 100]},
+                "type": "quantitative"
+            },
+            "y": {
+                "title": "Age",
+                "field": "Age",
+                "scale": {"domain": [0, 100]},
+                "type": "quantitative"
+            },
+            "tooltip": [
+              {
+                "field": "Names",
+                "title": "Name"
+              },
+              {
+                "field": "Age",
+                "title": "Age"
+              },
+              { 
+                "field": "Worth_per_billion",
+                "title": "Worth per Billion"
+              }
+            ]
+            },
+            "width": 550,
+            "height": 400,
+            "mark": "point",
+            "params": [{
+            "name": "brush",
+            "select": {"type": "interval", "encodings": ["x"]}
+            }],
+            "transform": [{"filter": {"param": "click"}}, 
+            {"filter": "datum.Worth_per_billion > zoom"}
+        ]},
+
+        {
+            "title":"Interactive Bar Chart",
+            "encoding": {
+                "color": {
+                "condition": {
+                "param": "click",
+                "field": "Age Group",
+                "scale": {
+                    "domain": ["Middle Aged Adult", "Old","Young Adult"],
+                    "range": ["#e7ba52", "#1f77b4", "#aec7e8"]
+                }
+                },
+                "value": "lightgray"
+                },
+                "x": {"aggregate": "count", "title":"Number of Billionaires"},
+                "y": {"title": "Age Group", "field": "Age Group"},
+                "tooltip": [  
+                {
+                    "field": "Age Group",
+                    "title": "Age Group"
+                },
+                {"aggregate":"count",
+                    "field": "Age Group",
+                    "title": "Number of billionaires"
+                }
+                ]
+                },
+            "width": 550,
+            "height": 150,
+            "mark": "bar",
+            "params": [{
+            "name": "click",
+            "select": {"type": "point", "encodings": ["color"]}
+            }],
+            "transform": [{"filter": {"param": "brush"}}]
+        }]
+    }],
+    "config": {
+      
+      "style": {
+        "guide-title": {
+        "font": "Source Sans Pro, sans-serif",
+        "fontSize":15
+        },
+        "text": {
+        "font": "Source Sans Pro, sans-serif",
+        "fontWeight": "normal",
+        "fontSize":15
+        }
+    }
+    }
+  }
+  

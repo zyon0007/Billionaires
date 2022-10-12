@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "billionaire Age",
+  "background":null,
+  "data": {
+    "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/female_radial_plot.csv"
+  },
+  "layer":[{
+    "mark": {"type": "arc", "innerRadius": 50},
+    "encoding": {
+        "theta": {"field": "Count", "type": "quantitative"},
+        "color": {"field": "Self_Made", 
+                  "type": "nominal",
+                  "scale": {"range": ["#C41E3A", "#0047AB"]},
+                  "legend": {"orient": "top", "title": "Self Made for Female"}
+                },
+        "tooltip": [
+          {
+            "field": "Self_Made", 
+            "type": "nominal", 
+            "title": "Self Made"
+          },
+          {
+            "field": "Count",
+            "type": "quantitative",
+            "title": "Count"
+          }
+        ]
+    }
+  },
+  {
+    "mark": {"type": "text", "radiusOffset": 15},
+    "encoding": {
+      "text": {"field": "Percentage", "type": "nominal"},
+      "color": {"field": "Self_Made", 
+                  "type": "nominal",
+                  "scale": {"range": ["#C41E3A", "#0047AB"]}
+                }
+    }
+  }
+],
+"encoding": {
+  "theta": {"field": "Count", "type": "quantitative", "stack": true},
+  "radius": {"field": "Count", "scale": {"type": "sqrt", "zero": true, "rangeMin": 100}}
+}
+}
