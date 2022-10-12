@@ -1,0 +1,5 @@
+Gender,Self_Made,Count,Percentage
+Male,TRUE,80,0.89
+Male,FALSE,10,0.11
+Female,TRUE,4,0.40
+Female,FALSE,6,0.60
