@@ -40,16 +40,19 @@
     <div class="pure-g">
             <div class="pure-u-1-1">
                 <div class="header">
-                    <h2>Visualization 2: Bar Chart</h2>
+                    <h2>Visualization 2: Lollipop Chart</h2>
                     <p>Billionaires' Net Worth.</p>
                 </div>        
             </div>
     </div>
     
     <div class="pure-u-2-3">
-        <div id="bar_chart" class="vis-container"></div>
+        <div id="lollipop_chart" class="vis-container"></div>
     </div>
 
+    <div class="pure-u-2-3">
+        <div id="bar_interactive" class="vis-container"></div>
+    </div>
 
     <div class="pure-g">
         <div class="pure-u-1-1">
@@ -68,28 +71,33 @@
     <div class="pure-g">
         <div class="pure-u-1-1">
             <div class="header">
-                <h2>Visualization 4: donut chart</h2>
+                <h2>Visualization 4: Faceted Donut Chart</h2>
                 <p>Billionaires' age group</p>
             </div>        
         </div>
+
+        
+
     </div>
 
     <div class="pure-u-2-3">
-        <div id="donut_chart" class="vis-container"></div>
+        <div id="faceted_donut_chart" class="vis-container"></div>
     </div>
-
-
     <div class="pure-g">
         <div class="pure-u-1-1">
             <div class="header">
-                <h2>Visualization 5: Diverging Stacked Bar Chart</h2>
+                <h2>Visualization 5: Age Group Pyramid</h2>
                 <p>Billionaires' self made</p>
             </div>        
         </div>
     </div>
+    <div class="pure-u-2-3">
+        <div id="scatter_bar_interactive" class="vis-container"></div>
+    </div>
+    
 
     <div class="pure-u-2-3">
-        <div id="diverging_stacked_bar_chart" class="vis-container"></div>
+        <div id="age_group_pyramid" class="vis-container"></div>
     </div>
 
 
@@ -107,30 +115,56 @@
     </div>
 
 
+    <div class="pure-g">
+        <div class="pure-u-1-1">
+            <div class="header">
+                <h2>Visualization 7: Stacked Bar Chart</h2>
+                <p>Billionaires' Title</p>
+            </div>        
+        </div>
+    </div>
+
+    <div class="pure-u-2-3">
+        <div id="horizontal_stack_bar_chart" class="vis-container"></div>
+    </div>
+
+
     <script type="text/javascript">
     
         var vg_1 = "js/choropleth_map.json";
         vegaEmbed("#choropleth_map", vg_1,{"actions": false}).then(function(result) {
         }).catch(console.error);
     
-        var vg_2 = "js/bar_chart.json";
-        vegaEmbed("#bar_chart", vg_2,{"actions": false}).then(function(result) {
+        var vg_2 = "js/lollipop_chart.json";
+        vegaEmbed("#lollipop_chart", vg_2,{"actions": false}).then(function(result) {
+        }).catch(console.error);
+
+        var vg_2 = "js/bar_interactive.json";
+        vegaEmbed("#bar_interactive", vg_2,{"actions": false}).then(function(result) {
         }).catch(console.error);
 
         var vg_3 = "js/isotype_dot_plot.json";
         vegaEmbed("#isotype_dot_plot", vg_3,{"actions": false}).then(function(result) {
         }).catch(console.error);
 
-        var vg_4 = "js/donut_chart.json";
-        vegaEmbed("#donut_chart", vg_4,{"actions": false}).then(function(result) {
+        var vg_4 = "js/faceted_donut_chart.json";
+        vegaEmbed("#faceted_donut_chart", vg_4,{"actions": false}).then(function(result) {
+        }).catch(console.error);
+        
+        var vg_5 = "js/scatter_bar_interactive.json";
+        vegaEmbed("#scatter_bar_interactive", vg_5,{"actions": false}).then(function(result) {
         }).catch(console.error);
 
-        var vg_5 = "js/diverging_stacked_bar_chart.json";
-        vegaEmbed("#diverging_stacked_bar_chart", vg_5,{"actions": false}).then(function(result) {
+        var vg_5 = "js/age_group_pyramid.json";
+        vegaEmbed("#age_group_pyramid", vg_5,{"actions": false}).then(function(result) {
         }).catch(console.error);
 
         var vg_6 = "js/wordcloud.json";
         vegaEmbed("#wordcloud", vg_6,{"actions": false}).then(function(result) {
+        }).catch(console.error);
+
+        var vg_7 = "js/horizontal_stack_bar_chart.json";
+        vegaEmbed("#horizontal_stack_bar_chart", vg_7,{"actions": false}).then(function(result) {
         }).catch(console.error);
     
     </script>
