@@ -1,0 +1,749 @@
+Rank,Names,Age,WorthPerBillion,Worth,Work Industry,Company Name,Country,State,City,Organization,Self Made,Gender,Date of Birth,Title,Age Group
+246,"Ernest Garcia, II.",64,8.6,8600000000.00,Automotive,Cars,United States,Arizona,Tempe,Not provided,TRUE,Male,21/05/1957,Chief Executive Officer,Old
+601,Mark Shoen,71,4.7,4700000000.00,Automotive,U-Haul,United States,Arizona,Phoenix,Not provided,FALSE,Male,20/11/1950,Chief Executive Officer,Old
+709,E. Joe Shoen,72,4.1,4100000000.00,Automotive,U-Haul,United States,Arizona,Phoenix,Not provided,FALSE,Male,28/10/1949,Chief Executive Officer,Old
+822,Arturo Moreno,75,3.6,3600000000.00,Sports,Billboards,United States,Arizona,Phoenix,Not provided,TRUE,Male,14/08/1946,Chief Executive Officer,Old
+883,Bob Parsons,71,3.4,3400000000.00,Technology,WebHosting,United States,Arizona,Scottsdale,Not provided,TRUE,Male,27/11/1950,Chief Executive Officer,Old
+951,"Ernest Garcia, III.",39,3.2,3200000000.00,Automotive,Cars,United States,Arizona,Phoenix,Not provided,FALSE,Male,01/05/1982,Chief Executive Officer,Young Adult
+1053,Stewart Horejsi & family,84,2.9,2900000000.00,Finance & Investments,BerkshireHathaway,United States,Arizona,Phoenix,Not provided,TRUE,Male,19/09/1937,Chief Executive Officer,Old
+1096,Bennett Dorrance,76,2.8,2800000000.00,Food & Beverage,CampbellSoup,United States,Arizona,Paradise Valley,Not provided,FALSE,Male,09/02/1946,Chief Executive Officer,Old
+1096,George Kurtz,51,2.8,2800000000.00,Technology,SecuritySoftware,United States,Arizona,Paradise Valley,Not provided,TRUE,Male,01/10/1970,Chief Executive Officer,Middle Aged Adult
+1818,Peter Sperling,62,1.6,1600000000.00,Service,Education,United States,Arizona,Phoenix,Not provided,FALSE,Male,22/11/1959,Chief Executive Officer,Old
+2076,Jerry Moyes & family,78,1.4,1400000000.00,Logistics,Transportation,United States,Arizona,Tolleson,Not provided,TRUE,Male,15/01/1944,Chief Executive Officer,Old
+2578,Ken Kendrick,78,1,1000000000.00,Sports,Banking SportsTeam,United States,Arizona,Paradise Valley,Not provided,TRUE,Male,02/09/1943,Chief Executive Officer,Old
+16,Jim Walton,73,66.2,66200000000.00,Fashion & Retail,Walmart,United States,Arkansas,Bentonville,"Arvest Bank Group, Inc.",FALSE,Male,07/06/1948,Chief Executive Officer and Chairman,Old
+19,Rob Walton,77,65,65000000000.00,Fashion & Retail,Walmart,United States,Arkansas,Bentonville,Walmart,FALSE,Male,27/10/1944,Director,Old
+601,Johnelle Hunt,90,4.7,4700000000.00,Logistics,Trucking,United States,Arkansas,Fayetteville,Not provided,TRUE,Female,04/01/1932,Chief Executive Officer,Old
+1012,John Tyson,68,3,3000000000.00,Food & Beverage,FoodProcessing,United States,Arkansas,Springdale,Not provided,FALSE,Male,05/09/1953,Chief Executive Officer,Old
+1053,Warren Stephens,65,2.9,2900000000.00,Finance & Investments,Investments Banking,United States,Arkansas,Little Rock,Not provided,FALSE,Male,18/02/1957,Chief Executive Officer,Old
+6,Larry Page,49,111,111000000000.00,Technology,Google,United States,California,Palo Alto,Alphabet,TRUE,Male,26/03/1973,Entrepreneur,Middle Aged Adult
+7,Sergey Brin,48,107,107000000000.00,Technology,Google,United States,California,Los Altos,Alphabet,TRUE,Male,21/08/1973,Board Member,Middle Aged Adult
+15,Mark Zuckerberg,37,67.3,67300000000.00,Technology,Facebook,United States,California,Palo Alto,Meta Platforms,TRUE,Male,14/05/1984,Cofounder,Young Adult
+70,Eric Schmidt,66,22.1,22100000000.00,Technology,Google,United States,California,Atherton,Not provided,TRUE,Male,27/04/1955,Chief Executive Officer,Old
+78,Jensen Huang,59,20.6,20600000000.00,Technology,Semiconductors,United States,California,Los Altos,NVIDIA,TRUE,Male,17/02/1963,Chief Executive Officer,Middle Aged Adult
+110,Laurene Powell Jobs & family,58,16.4,16400000000.00,Technology,Apple Disney,United States,California,Palo Alto,Emerson Collective,FALSE,Female,06/11/1963,Investor,Middle Aged Adult
+112,Donald Bren,89,16.2,16200000000.00,Real Estate,RealEstate,United States,California,Newport Beach,Irvine Company,TRUE,Male,11/05/1932,Chairman,Old
+127,Robert Pera,44,14.6,14600000000.00,Technology,WirelessNetworkingGear,United States,California,San Jose,Ubiquiti,TRUE,Male,10/03/1978,Chief Executive Officer,Middle Aged Adult
+146,John Doerr,70,12.7,12700000000.00,Technology,VentureCapital,United States,California,Woodside,Kleiner Perkins,TRUE,Male,29/06/1951,Investor,Old
+152,Charles Schwab,84,12.2,12200000000.00,Finance & Investments,Brokerage,United States,California,Woodside,Charles Schwab,TRUE,Male,29/07/1937,Investor,Old
+167,Brian Chesky,40,11.5,11500000000.00,Technology,Airbnb,United States,California,San Francisco,AirBnB,TRUE,Male,29/08/1981,Chief Executive Officer and Cofounder,Young Adult
+167,Dustin Moskovitz,37,11.5,11500000000.00,Technology,Facebook,United States,California,San Francisco,Asana,TRUE,Male,22/05/1984,Cofounder,Young Adult
+180,David Cheriton,71,10.9,10900000000.00,Technology,Google,United States,California,Palo Alto,Stanford University,TRUE,Male,29/03/1951,Entrepreneur,Old
+197,Joe Gebbia,40,10,10000000000.00,Technology,Airbnb,United States,California,San Francisco,AirBnB,TRUE,Male,21/08/1981,Cofounder,Young Adult
+197,David Geffen,79,10,10000000000.00,Media & Entertainment,"Movies, RecordLabels",United States,California,Beverly Hills,DreamWorks Animation SKG Inc. (Cl A),TRUE,Male,21/02/1943,Entrepreneur,Old
+201,Andreas von Bechtolsheim & family,66,9.9,9900000000.00,Technology,Google,United States,California,Palo Alto,Arista Networks,TRUE,Male,30/09/1955,Entrepreneur,Old
+206,Jan Koum,46,9.8,9800000000.00,Technology,WhatsApp,United States,California,Atherton,WhatsApp Inc.,TRUE,Male,24/02/1976,Entrepreneur,Middle Aged Adult
+214,Gordon Moore,93,9.5,9500000000.00,Technology,Intel,United States,California,Woodside,Intel,TRUE,Male,03/01/1929,Chairman,Old
+214,John Collison,31,9.5,9500000000.00,Technology,PaymentSoftware,United States,California,San Francisco,Stripe,TRUE,Male,06/08/1990,Entrepreneur,Young Adult
+214,Patrick Collison,33,9.5,9500000000.00,Technology,PaymentSoftware,United States,California,San Francisco,Stripe,TRUE,Male,09/09/1988,Cofounder,Young Adult
+221,Nathan Blecharczyk,38,9.2,9200000000.00,Technology,Airbnb,United States,California,San Francisco,Not provided,TRUE,Male,11/06/1983,Chief Executive Officer,Young Adult
+254,Steven Rales,71,8.4,8400000000.00,Manufacturing,Manufacturing Investments,United States,California,Santa Barbara,Danaher,TRUE,Male,31/03/1951,Investor,Old
+275,Marc Benioff,57,8.1,8100000000.00,Technology,BusinessSoftware,United States,California,San Francisco,Salesforce.com,TRUE,Male,25/09/1964,Chief Executive Officer and Chairman,Middle Aged Adult
+284,Stewart & Lynda Resnick,64,8,8000000000.00,Food & Beverage,Agriculture Water,United States,California,Beverly Hills,Not provided,TRUE,Female,Not provided,Chief Executive Officer and Chairman,Old
+284,George Roberts,78,8,8000000000.00,Finance & Investments,PrivateEquity,United States,California,Atherton,Not provided,TRUE,Male,14/09/1943,Chief Executive Officer,Old
+288,Marijke Mars,57,7.9,7900000000.00,Food & Beverage,Candy PetFood,United States,California,Los Angeles,Not provided,FALSE,Female,28/07/1964,Chief Executive Officer,Middle Aged Adult
+324,Yuri Milner,60,7.3,7300000000.00,Finance & Investments,Fintech,United States,California,Los Altos,DST Global,TRUE,Male,11/11/1961,Investor,Middle Aged Adult
+324,Patrick Soon-Shiong,69,7.3,7300000000.00,Healthcare,Pharmaceuticals,United States,California,Los Angeles,Not provided,TRUE,Male,29/07/1952,Chief Executive Officer,Old
+324,Henry Samueli,67,7.3,7300000000.00,Technology,Semiconductors,United States,California,Newport Beach,Broadcom,TRUE,Male,20/09/1954,Cofounder,Old
+350,Edythe Broad & family,86,6.9,6900000000.00,Diversified,Homebuilding Insurance,United States,California,Los Angeles,Not provided,FALSE,Female,01/01/1936,Chief Executive Officer,Old
+350,Vinod Khosla,67,6.9,6900000000.00,Technology,VentureCapital,United States,California,Portola Valley,Khosla Ventures,TRUE,Male,28/01/1955,Investor,Old
+350,Douglas Leone,64,6.9,6900000000.00,Finance & Investments,VentureCapital,United States,California,Atherton,Sequoia,TRUE,Male,04/07/1957,Partner,Old
+375,Brian Armstrong,39,6.6,6600000000.00,Finance & Investments,Cryptocurrency,United States,California,San Francisco,Not provided,TRUE,Male,25/01/1983,Chief Executive Officer,Young Adult
+386,"Henry Nicholas, III.",62,6.5,6500000000.00,Technology,Semiconductors,United States,California,Newport Coast,Broadcom,TRUE,Male,08/10/1959,Cofounder,Old
+398,Jack Dangermond,76,6.4,6400000000.00,Technology,Mapping Software,United States,California,Redlands,Not provided,TRUE,Male,23/07/1945,Chief Executive Officer,Old
+403,Bobby Murphy,33,6.3,6300000000.00,Technology,Snapchat,United States,California,Venice,Snap,TRUE,Male,19/07/1988,Cofounder,Young Adult
+418,Evan Spiegel,31,6.1,6100000000.00,Technology,Snapchat,United States,California,Los Angeles,Snap,TRUE,Male,04/06/1990,Cofounder,Young Adult
+418,George Lucas,77,6.1,6100000000.00,Media & Entertainment,StarWars,United States,California,San Anselmo,Not provided,TRUE,Male,14/05/1944,Chief Executive Officer,Old
+418,Jack Dorsey,45,6.1,6100000000.00,Technology,Twitter Square,United States,California,San Francisco,Twitter,TRUE,Male,19/11/1976,Entrepreneur,Middle Aged Adult
+424,Tom Gores,57,6,6000000000.00,Finance & Investments,PrivateEquity,United States,California,Beverly Hills,Not provided,TRUE,Male,31/07/1964,Chief Executive Officer,Middle Aged Adult
+431,Michael Moritz,67,5.9,5900000000.00,Technology,VentureCapital,United States,California,San Francisco,Sequoia,TRUE,Male,12/09/1954,Investor,Old
+438,John A. Sobrato & family,82,5.8,5800000000.00,Real Estate,RealEstate,United States,California,Atherton,Sobrato Development Cos.,TRUE,Male,23/05/1939,Founder and Chairman,Old
+460,Ken Xie,59,5.7,5700000000.00,Technology,Cybersecurity,United States,California,Los Altos Hills,Not provided,TRUE,Male,26/01/1963,Chief Executive Officer,Middle Aged Adult
+460,Antony Ressler,60,5.7,5700000000.00,Finance & Investments,Finance,United States,California,Los Angeles,Not provided,TRUE,Male,01/01/1962,Chief Executive Officer,Middle Aged Adult
+471,David Sun,70,5.6,5600000000.00,Technology,ComputerHardware,United States,California,Irvine,Kingston Technology Corporation,TRUE,Male,12/10/1951,Chief Executive Officer,Old
+471,John Tu,80,5.6,5600000000.00,Technology,ComputerHardware,United States,California,Rolling Hills,Kingston Technology Corporation,TRUE,Male,12/08/1941,President,Old
+471,"Edward Roski, Jr.",83,5.6,5600000000.00,Real Estate,RealEstate,United States,California,Los Angeles,"Majestic Realty, Co.",FALSE,Male,25/12/1938,President and Chairman,Old
+480,Don Hankey,78,5.5,5500000000.00,Finance & Investments,AutoLoans,United States,California,Malibu,Hankey Group,TRUE,Male,13/06/1943,Entrepreneur,Old
+480,Gwendolyn Sontheim Meyer,60,5.5,5500000000.00,Food & Beverage,Cargill,United States,California,Rancho Santa Fe,Not provided,FALSE,Female,27/10/1961,Chief Executive Officer,Middle Aged Adult
+480,Eric Smidt,62,5.5,5500000000.00,Fashion & Retail,HardwareStores,United States,California,Beverly Hills,Not provided,TRUE,Male,01/01/1960,Chief Executive Officer,Old
+523,Eric Yuan & family,52,5.2,5200000000.00,Technology,ZoomVideoCommunications,United States,California,Santa Clara,Rx relief,TRUE,Male,20/02/1970,Chief Executive Officer and Founder,Middle Aged Adult
+552,Peter Thiel,54,5,5000000000.00,Finance & Investments,Facebook Investments,United States,California,Los Angeles,Founders Fund,TRUE,Male,11/10/1967,Investor,Middle Aged Adult
+586,Jeff Skoll,57,4.8,4800000000.00,Technology,eBay,United States,California,Los Angeles,Not provided,TRUE,Male,16/01/1965,Chief Executive Officer,Middle Aged Adult
+601,Scott Cook,69,4.7,4700000000.00,Technology,Software,United States,California,Woodside,Not provided,TRUE,Male,26/07/1952,Chief Executive Officer,Old
+622,Dagmar Dolby & family,80,4.6,4600000000.00,Technology,DolbyLaboratories,United States,California,San Francisco,Not provided,FALSE,Female,28/06/1941,Chief Executive Officer,Old
+665,Chris Larsen,61,4.3,4300000000.00,Finance & Investments,Cryptocurrency,United States,California,San Francisco,Not provided,TRUE,Male,15/06/1960,Chief Executive Officer,Old
+665,"Rupert Johnson, Jr.",81,4.3,4300000000.00,Finance & Investments,MoneyManagement,United States,California,Burlingame,Franklin Resources,FALSE,Male,10/08/1940,Director,Old
+665,Rick Caruso,63,4.3,4300000000.00,Real Estate,RealEstate,United States,California,Los Angeles,Not provided,TRUE,Male,07/01/1959,Chief Executive Officer,Old
+687,Lynsi Snyder,39,4.2,4200000000.00,Food & Beverage,In-N-OutBurger,United States,California,Glendora,Not provided,FALSE,Female,05/05/1982,Chief Executive Officer,Young Adult
+687,Romesh T. Wadhwani,74,4.2,4200000000.00,Technology,Software,United States,California,Palo Alto,Symphony Technology Group,TRUE,Male,25/08/1947,Founder and Chairman,Old
+709,Steven Udvar-Hazy,76,4.1,4100000000.00,Service,AircraftLeasing,United States,California,Beverly Hills,Air Lease,TRUE,Male,23/02/1946,Chief Executive Officer and Chairman,Old
+728,Jean (Gigi) Pritzker,59,4,4000000000.00,Service,Hotels Investments,United States,California,Los Angeles,Not provided,FALSE,Female,01/07/1962,Chief Executive Officer,Middle Aged Adult
+728,Max Lytvyn,42,4,4000000000.00,Technology,Software,United States,California,San Francisco,Not provided,TRUE,Male,01/01/1980,Chief Executive Officer,Middle Aged Adult
+764,Donald Sterling,87,3.9,3900000000.00,Real Estate,RealEstate,United States,California,Beverly Hills,Not provided,TRUE,Male,26/04/1934,Chief Executive Officer,Old
+778,James Packer,54,3.8,3800000000.00,Gambling & Casinos,Casinos,United States,California,Los Angeles,Not provided,FALSE,Male,08/09/1967,Chief Executive Officer,Middle Aged Adult
+778,Michael Milken,75,3.8,3800000000.00,Finance & Investments,Investments,United States,California,Los Angeles,Not provided,TRUE,Male,04/07/1946,Chief Executive Officer,Old
+801,Anthony Pritzker,61,3.7,3700000000.00,Service,Hotels Investments,United States,California,Los Angeles,Not provided,FALSE,Male,07/01/1961,Chief Executive Officer,Old
+801,Steven Spielberg,75,3.7,3700000000.00,Media & Entertainment,Movies,United States,California,Pacific Palisades,Not provided,TRUE,Male,18/12/1946,Chief Executive Officer,Old
+801,Reed Hastings,61,3.7,3700000000.00,Media & Entertainment,Netflix,United States,California,Santa Cruz,Netflix,TRUE,Male,08/10/1960,Chief Executive Officer,Old
+822,David Filo,55,3.6,3600000000.00,Technology,Yahoo,United States,California,Palo Alto,Yahoo!,TRUE,Male,15/04/1966,Entrepreneur,Middle Aged Adult
+851,Thomas Siebel,69,3.5,3500000000.00,Technology,BusinessSoftware,United States,California,Woodside,Not provided,TRUE,Male,22/11/1952,Chief Executive Officer,Old
+851,Apoorva Mehta,35,3.5,3500000000.00,Technology,GroceryDeliveryService,United States,California,San Francisco,Instacart,TRUE,Male,19/07/1986,Founder,Young Adult
+883,Michael Xie,53,3.4,3400000000.00,Technology,Cybersecurity,United States,California,Los Altos Hills,Not provided,TRUE,Male,20/02/1969,Chief Executive Officer,Middle Aged Adult
+883,Jeff T. Green,45,3.4,3400000000.00,Media & Entertainment,DigitalAdvertising,United States,California,Newbury Park,Not provided,TRUE,Male,30/03/1977,Chief Executive Officer,Middle Aged Adult
+883,Meg Whitman,65,3.4,3400000000.00,Technology,eBay,United States,California,Los Angeles,Quibi,TRUE,Female,04/08/1956,Chief Executive Officer,Old
+883,Behdad Eghbali,45,3.4,3400000000.00,Finance & Investments,PrivateEquity,United States,California,Los Angeles,Not provided,TRUE,Male,06/05/1976,Chief Executive Officer,Middle Aged Adult
+883,Jose E. Feliciano,48,3.4,3400000000.00,Finance & Investments,PrivateEquity,United States,California,Marina Del Rey,Not provided,TRUE,Male,29/05/1973,Chief Executive Officer,Middle Aged Adult
+883,Archie Aldis Emmerson & family,92,3.4,3400000000.00,Manufacturing,Timberland LumberMills,United States,California,Redding,Not provided,TRUE,Male,10/04/1929,Chief Executive Officer,Old
+913,Jay Paul,74,3.3,3300000000.00,Real Estate,RealEstate,United States,California,San Francisco,Not provided,TRUE,Male,08/07/1947,Chief Executive Officer,Old
+984,Peter Gassner,57,3.1,3100000000.00,Technology,Software,United States,California,Pleasanton,Not provided,TRUE,Male,26/02/1965,Chief Executive Officer,Middle Aged Adult
+984,Haim Saban,77,3.1,3100000000.00,Media & Entertainment,TVNetwork Investments,United States,California,Beverly Hills,Not provided,TRUE,Male,15/10/1944,Chief Executive Officer,Old
+1012,Neal Blue & family,87,3,3000000000.00,Manufacturing,Defense,United States,California,San Diego,Not provided,TRUE,Male,04/04/1935,Chief Executive Officer,Old
+1012,Oren Zeev,57,3,3000000000.00,Finance & Investments,Investments,United States,California,Los Altos,Not provided,TRUE,Male,23/09/1964,Chief Executive Officer,Middle Aged Adult
+1053,Riley Bechtel & family,70,2.9,2900000000.00,Construction & Engineering,Engineering Construction,United States,California,San Francisco,Bechtel Corp.,FALSE,Male,25/03/1952,Chairman,Old
+1053,Nicolas Berggruen,60,2.9,2900000000.00,Real Estate,RealEstate Investments,United States,California,Beverly Hills,Not provided,FALSE,Male,10/08/1961,Chief Executive Officer,Middle Aged Adult
+1096,Sean Parker,42,2.8,2800000000.00,Technology,Facebook,United States,California,Los Angeles,Not provided,TRUE,Male,03/12/1979,Chief Executive Officer,Middle Aged Adult
+1096,Jeff Rothschild,67,2.8,2800000000.00,Technology,Facebook,United States,California,Palo Alto,Meta Platforms,TRUE,Male,02/01/1955,Entrepreneur,Old
+1096,Nicholas Pritzker,78,2.8,2800000000.00,Finance & Investments,Hotels Investments,United States,California,Nicasio,Not provided,FALSE,Male,01/01/1944,Chief Executive Officer,Old
+1096,Richard Peery,83,2.8,2800000000.00,Real Estate,RealEstate,United States,California,Palo Alto,Not provided,TRUE,Male,01/10/1938,Chief Executive Officer,Old
+1096,Garrett Camp,43,2.8,2800000000.00,Technology,Uber,United States,California,San Francisco,Uber Technologies Inc.,TRUE,Male,04/10/1978,Entrepreneur,Middle Aged Adult
+1096,Travis Kalanick,45,2.8,2800000000.00,Technology,Uber,United States,California,Los Angeles,Uber Technologies Inc.,TRUE,Male,06/08/1976,Cofounder,Middle Aged Adult
+1096,Brian Acton,50,2.8,2800000000.00,Technology,WhatsApp,United States,California,Palo Alto,WhatsApp Inc.,TRUE,Male,17/02/1972,Entrepreneur,Middle Aged Adult
+1163,Aneel Bhusri,56,2.7,2700000000.00,Technology,BusinessSoftware,United States,California,San Francisco,Workday,TRUE,Male,04/02/1966,Investor,Middle Aged Adult
+1163,John Pritzker,68,2.7,2700000000.00,Finance & Investments,Hotels Investments,United States,California,San Francisco,Not provided,FALSE,Male,10/08/1953,Chief Executive Officer,Old
+1163,Jerry Yang,53,2.7,2700000000.00,Technology,Yahoo,United States,California,Los Altos Hills,Yahoo!,TRUE,Male,06/11/1968,Cofounder,Middle Aged Adult
+1196,Doris Fisher,90,2.6,2600000000.00,Fashion & Retail,Gap,United States,California,San Francisco,Gap,TRUE,Female,23/08/1931,Cofounder,Old
+1196,Daniel Pritzker,62,2.6,2600000000.00,Finance & Investments,Hotels Investments,United States,California,Marin County,Not provided,FALSE,Male,15/09/1959,Chief Executive Officer,Old
+1196,Jim Coulter,62,2.6,2600000000.00,Finance & Investments,PrivateEquity,United States,California,San Francisco,Not provided,TRUE,Male,01/12/1959,Chief Executive Officer,Old
+1196,Alec Gores,69,2.6,2600000000.00,Finance & Investments,PrivateEquity,United States,California,Beverly Hills,Not provided,TRUE,Male,18/03/1953,Chief Executive Officer,Old
+1196,Oprah Winfrey,68,2.6,2600000000.00,Media & Entertainment,TVShows,United States,California,Montecito,Not provided,TRUE,Female,29/01/1954,Entrepreneur,Old
+1196,Kavitark Ram Shriram,65,2.6,2600000000.00,Technology,VentureCapital Google,United States,California,Menlo Park,Sherpalo Ventures,TRUE,Male,21/01/1957,Investor,Old
+1238,Charles Munger,98,2.5,2500000000.00,Finance & Investments,BerkshireHathaway,United States,California,Los Angeles,Berkshire Hathaway,TRUE,Male,01/01/1924,Chairman,Old
+1238,Jed McCaleb,47,2.5,2500000000.00,Finance & Investments,Cryptocurrency,United States,California,Berkeley,Not provided,TRUE,Male,01/01/1975,Chief Executive Officer,Middle Aged Adult
+1238,Chen Tei-fu,73,2.5,2500000000.00,Fashion & Retail,HerbalProducts,United States,California,Los Angeles,Not provided,TRUE,Male,19/04/1948,Entrepreneur,Old
+1238,David Baszucki,59,2.5,2500000000.00,Media & Entertainment,OnlineGames,United States,California,San Francisco,Not provided,TRUE,Male,20/01/1963,Chief Executive Officer,Middle Aged Adult
+1292,Nikil Viswanathan,34,2.4,2400000000.00,Technology,Blockchain Technology,United States,California,San Francisco,Not provided,TRUE,Male,16/10/1987,Chief Executive Officer,Young Adult
+1292,Joe Lau,32,2.4,2400000000.00,Technology,Blockchain Technology,United States,California,Stanford,Not provided,TRUE,Male,01/07/1989,Chief Executive Officer,Young Adult
+1292,Sarah MacMillan,68,2.4,2400000000.00,Food & Beverage,Cargill,United States,California,Los Angeles,Not provided,FALSE,Female,01/01/1954,Chief Executive Officer,Old
+1292,Rodney Sacks,72,2.4,2400000000.00,Food & Beverage,EnergyDrink,United States,California,Laguna Beach,Monster Beverage,TRUE,Male,24/12/1949,Chief Executive Officer,Old
+1292,Hilton Schlosberg,69,2.4,2400000000.00,Food & Beverage,EnergyDrink,United States,California,Irvine,Not provided,TRUE,Male,01/01/1953,Chief Executive Officer,Old
+1292,John Fisher,60,2.4,2400000000.00,Fashion & Retail,Gap,United States,California,San Francisco,"Pisces, Inc.",FALSE,Male,01/06/1961,President,Middle Aged Adult
+1292,Jeff Tangney,49,2.4,2400000000.00,Healthcare,HealthcareIT,United States,California,Palo Alto,Doximity,TRUE,Male,09/08/1972,Chief Executive Officer,Middle Aged Adult
+1292,George Argyros & family,85,2.4,2400000000.00,Real Estate,RealEstate Investments,United States,California,Newport Beach,Arnel & Affiliates,TRUE,Male,04/02/1937,Investor,Old
+1292,Anthony Wood,56,2.4,2400000000.00,Technology,Roku,United States,California,Palo Alto,Not provided,TRUE,Male,04/12/1965,Chief Executive Officer,Middle Aged Adult
+1341,Osman Kibar,51,2.3,2300000000.00,Healthcare,Biotech,United States,California,La Jolla,Samumed,TRUE,Male,01/04/1971,Chief Executive Officer and Founder,Middle Aged Adult
+1341,David Murdock,98,2.3,2300000000.00,Food & Beverage,RealEstate,United States,California,Ventura,Not provided,TRUE,Male,10/04/1923,Chief Executive Officer,Old
+1397,Riaz Valani,45,2.2,2200000000.00,Finance & Investments,E-cigarettes,United States,California,Malibu,Not provided,TRUE,Male,01/09/1976,Chief Executive Officer,Middle Aged Adult
+1397,Chris Britt,49,2.2,2200000000.00,Finance & Investments,Fintech,United States,California,San Francisco,Not provided,TRUE,Male,17/03/1973,Chief Executive Officer,Middle Aged Adult
+1397,Jeffrey Gundlach,63,2.2,2200000000.00,Finance & Investments,Investments,United States,California,Los Angeles,DoubleLine Capital,TRUE,Male,01/01/1959,Chief Executive Officer,Old
+1397,Bruce Karsh,66,2.2,2200000000.00,Finance & Investments,PrivateEquity,United States,California,Los Angeles,Oaktree Capital Group LLC,TRUE,Male,10/10/1955,President,Old
+1397,"B. Wayne Hughes, Jr.",61,2.2,2200000000.00,Real Estate,StorageFacilities,United States,California,Malibu,Not provided,FALSE,Male,01/01/1961,Chief Executive Officer,Old
+1445,Alice Schwartz,95,2.1,2100000000.00,Healthcare,Biotech,United States,California,El Cerrito,Not provided,TRUE,Female,02/07/1926,Chief Executive Officer,Old
+1445,Jayshree Ullal,61,2.1,2100000000.00,Technology,ComputerNetworking,United States,California,Saratoga,Not provided,TRUE,Female,27/03/1961,Chief Executive Officer,Old
+1445,Gary Friedman,64,2.1,2100000000.00,Fashion & Retail,FurnitureRetail,United States,California,Belvedere,Not provided,TRUE,Male,06/08/1957,Chief Executive Officer,Old
+1445,Gordon Getty,88,2.1,2100000000.00,Energy,GettyOil,United States,California,San Francisco,Ann & Gordon Getty Foundation,FALSE,Male,20/12/1933,President and Chairman,Old
+1445,Reid Hoffman,54,2.1,2100000000.00,Technology,LinkedIn,United States,California,Palo Alto,Greylock Partners,TRUE,Male,05/08/1967,Entrepreneur,Middle Aged Adult
+1513,Tim Cook,61,2,2000000000.00,Technology,Apple,United States,California,Cupertino,Apple,TRUE,Male,01/11/1960,Chief Executive Officer,Old
+1513,Kanye West,44,2,2000000000.00,Fashion & Retail,Music Sneakers,United States,California,Los Angeles,Musician,TRUE,Male,08/06/1977,Chief Executive Officer,Middle Aged Adult
+1513,Evan Williams,50,2,2000000000.00,Technology,Twitter,United States,California,San Francisco,Twitter,TRUE,Male,31/03/1972,Entrepreneur,Middle Aged Adult
+1645,Kim Kardashian,41,1.8,1800000000.00,Fashion & Retail,Cosmetics TV,United States,California,Hidden Hills,Not provided,TRUE,Female,21/10/1980,Personality,Middle Aged Adult
+1645,Ali Ghodsi,43,1.8,1800000000.00,Technology,DataAnalytics,United States,California,San Francisco,Not provided,TRUE,Male,08/12/1978,Chief Executive Officer,Middle Aged Adult
+1645,George Joseph,100,1.8,1800000000.00,Finance & Investments,Insurance,United States,California,Los Angeles,Not provided,TRUE,Male,11/09/1921,Chief Executive Officer,Old
+1645,Gary Michelson,73,1.8,1800000000.00,Healthcare,MedicalDevices,United States,California,Los Angeles,Not provided,TRUE,Male,14/01/1949,Chief Executive Officer,Old
+1645,George Marcus,80,1.8,1800000000.00,Real Estate,RealEstate,United States,California,Los Altos Hills,Not provided,TRUE,Male,15/08/1941,Chief Executive Officer,Old
+1645,Frank Slootman,63,1.8,1800000000.00,Technology,Software,United States,California,Pleasanton,Not provided,TRUE,Male,03/10/1958,Chief Executive Officer,Old
+1645,Tench Coxe,64,1.8,1800000000.00,Finance & Investments,VentureCapital,United States,California,Palo Alto,Not provided,TRUE,Male,14/01/1958,Chief Executive Officer,Old
+1729,Rihanna,34,1.7,1700000000.00,Fashion & Retail,Music Cosmetics,United States,California,Los Angeles,Not provided,TRUE,Female,20/02/1988,Musician,Young Adult
+1729,John Bicket,42,1.7,1700000000.00,Technology,SensorSystems,United States,California,San Francisco,Not provided,TRUE,Male,20/03/1980,Entrepreneur,Middle Aged Adult
+1729,Sanjit Biswas,40,1.7,1700000000.00,Technology,SensorSystems,United States,California,San Francisco,Not provided,TRUE,Male,12/01/1982,Entrepreneur,Young Adult
+1729,Marc Andreessen,50,1.7,1700000000.00,Finance & Investments,VentureCapital,United States,California,Atherton,Andreessen Horowitz,TRUE,Male,09/07/1971,Investor,Middle Aged Adult
+1818,Ion Stoica,57,1.6,1600000000.00,Technology,DataAnalytics,United States,California,Berkeley,Not provided,TRUE,Male,12/02/1965,Chief Executive Officer,Middle Aged Adult
+1818,Matei Zaharia,36,1.6,1600000000.00,Technology,DataAnalytics,United States,California,Berkeley,Not provided,TRUE,Male,21/04/1985,Chief Executive Officer,Young Adult
+1818,Sheryl Sandberg,52,1.6,1600000000.00,Technology,Facebook,United States,California,Menlo Park,Meta Platforms,TRUE,Female,28/08/1969,Chief Executive Officer,Middle Aged Adult
+1818,Bill Gross,77,1.6,1600000000.00,Finance & Investments,Investments,United States,California,Laguna Beach,Pacific Investment Management Company LLC,TRUE,Male,13/04/1944,Cofounder,Old
+1818,Sue Gross,72,1.6,1600000000.00,Finance & Investments,Investments,United States,California,Laguna Beach,Not provided,FALSE,Female,17/02/1950,Chief Executive Officer,Old
+1818,Richard Kayne,76,1.6,1600000000.00,Finance & Investments,Investments,United States,California,Santa Monica,Not provided,TRUE,Male,01/01/1946,Chief Executive Officer,Old
+1818,Patrick Hanrahan,66,1.6,1600000000.00,Technology,Software,United States,California,Portola Valley,Not provided,TRUE,Male,08/05/1955,Chief Executive Officer,Old
+1818,Tom Werner,71,1.6,1600000000.00,Sports,SportsTeams,United States,California,Los Angeles,Not provided,TRUE,Male,12/04/1950,Chief Executive Officer,Old
+1929,Henrique Dubugras,26,1.5,1500000000.00,Finance & Investments,Fintech,United States,California,Los Angeles,Brex,TRUE,Male,10/11/1995,Cofounder,Young Adult
+1929,Pedro Franceschi,25,1.5,1500000000.00,Finance & Investments,Fintech,United States,California,Los Angeles,Brex,TRUE,Male,19/07/1996,Cofounder,Young Adult
+1929,Zach Perret,34,1.5,1500000000.00,Finance & Investments,Fintech,United States,California,San Francisco,Plaid,TRUE,Male,17/09/1987,Cofounder,Young Adult
+1929,Joe Lacob,66,1.5,1500000000.00,Sports,GoldenStateWarriors,United States,California,Atherton,Not provided,TRUE,Male,10/01/1956,Chief Executive Officer,Old
+1929,Thomas Steyer,64,1.5,1500000000.00,Finance & Investments,HedgeFunds,United States,California,San Francisco,Not provided,TRUE,Male,27/06/1957,Chief Executive Officer,Old
+1929,Kevin Systrom,38,1.5,1500000000.00,Technology,Instagram,United States,California,San Francisco,Instagram,TRUE,Male,30/12/1983,Cofounder,Young Adult
+1929,Egon Durban,48,1.5,1500000000.00,Finance & Investments,PrivateEquity,United States,California,Atherton,Not provided,TRUE,Male,23/08/1973,Chief Executive Officer,Middle Aged Adult
+1929,Kenneth Hao,53,1.5,1500000000.00,Finance & Investments,PrivateEquity,United States,California,Hillsborough,Not provided,TRUE,Male,11/09/1968,Chief Executive Officer,Middle Aged Adult
+1929,Safra Catz,60,1.5,1500000000.00,Technology,Software,United States,California,Redwood City,Oracle,TRUE,Female,13/12/1961,Chief Executive Officer,Middle Aged Adult
+2076,Gary Lauder,59,1.4,1400000000.00,Fashion & Retail,EsteeLauder,United States,California,Atherton,Not provided,FALSE,Male,05/05/1962,Chief Executive Officer,Middle Aged Adult
+2076,William Hockey,32,1.4,1400000000.00,Finance & Investments,Fintech,United States,California,San Francisco,Plaid,TRUE,Male,21/09/1989,Cofounder,Young Adult
+2076,Art Levinson,72,1.4,1400000000.00,Diversified,Genentech Apple,United States,California,Hillsborough,Not provided,TRUE,Male,31/03/1950,Chief Executive Officer,Old
+2076,Ben Silbermann,39,1.4,1400000000.00,Media & Entertainment,Instagram,United States,California,San Francisco,Pinterest,TRUE,Male,14/07/1982,Cofounder,Young Adult
+2076,Chen Tianqiao,48,1.4,1400000000.00,Technology,OnlineGames,United States,California,Atherton,Not provided,TRUE,Male,16/05/1973,Chief Executive Officer,Middle Aged Adult
+2076,Mark Pincus,56,1.4,1400000000.00,Technology,OnlineGames,United States,California,San Francisco,Zynga,TRUE,Male,13/02/1966,Chairman,Middle Aged Adult
+2076,Thierry Cruanes,54,1.4,1400000000.00,Technology,Software,United States,California,San Mateo,Not provided,TRUE,Male,23/06/1967,Chief Executive Officer,Middle Aged Adult
+2076,Benoit Dageville,55,1.4,1400000000.00,Technology,Software,United States,California,San Carlos,Not provided,TRUE,Male,29/06/1966,Chief Executive Officer,Middle Aged Adult
+2190,Richard Saghian,40,1.3,1300000000.00,Fashion & Retail,FashionRetail,United States,California,Los Angeles,Not provided,TRUE,Male,06/08/1981,Chief Executive Officer,Young Adult
+2190,Tony Xu,37,1.3,1300000000.00,Technology,FoodDeliveryService,United States,California,San Francisco,Not provided,TRUE,Male,20/09/1984,Chief Executive Officer,Young Adult
+2190,Adam Foroughi,41,1.3,1300000000.00,Media & Entertainment,MobileGames,United States,California,Truckee,Not provided,TRUE,Male,07/05/1980,Chief Executive Officer,Middle Aged Adult
+2190,Paul Sciarra,41,1.3,1300000000.00,Media & Entertainment,Pinterest,United States,California,San Francisco,Not provided,TRUE,Male,15/02/1981,Chief Executive Officer,Middle Aged Adult
+2190,John Ocampo,63,1.3,1300000000.00,Technology,Semiconductors,United States,California,Los Altos,Not provided,TRUE,Male,05/04/1959,Chief Executive Officer,Old
+2190,Frederic Luddy,67,1.3,1300000000.00,Technology,Software,United States,California,San Diego,ServiceNow,TRUE,Male,24/11/1954,Entrepreneur,Old
+2190,James Scapa,65,1.3,1300000000.00,Technology,Software,United States,California,Atherton,Not provided,TRUE,Male,23/01/1957,Chief Executive Officer,Old
+2324,Tim Draper,63,1.2,1200000000.00,Finance & Investments,Cryptocurrency,United States,California,Atherton,Not provided,FALSE,Male,11/06/1958,Chief Executive Officer,Old
+2324,David Girouard,56,1.2,1200000000.00,Finance & Investments,Fintech,United States,California,Redwood City,Not provided,TRUE,Male,13/03/1966,Chief Executive Officer,Middle Aged Adult
+2324,Stanley Tang,29,1.2,1200000000.00,Technology,FoodDeliveryApp,United States,California,San Francisco,DoorDash,TRUE,Male,27/10/1992,Cofounder,Young Adult
+2324,Robert Fisher,68,1.2,1200000000.00,Fashion & Retail,Gap,United States,California,San Francisco,Gap,FALSE,Male,01/08/1953,Chairman,Old
+2324,William Fisher,65,1.2,1200000000.00,Fashion & Retail,Gap,United States,California,San Francisco,Gap,FALSE,Male,01/04/1957,Director,Old
+2324,Steven Tisch,73,1.2,1200000000.00,Diversified,Insurance,United States,California,Beverly Hills,Not provided,FALSE,Male,14/02/1949,Chief Executive Officer,Old
+2324,Yvon Chouinard,83,1.2,1200000000.00,Fashion & Retail,Patagonia,United States,California,Ventura,Not provided,TRUE,Male,09/11/1938,Chief Executive Officer,Old
+2324,Todd McKinnon,50,1.2,1200000000.00,Technology,Software,United States,California,San Francisco,Not provided,TRUE,Male,25/10/1971,Chief Executive Officer,Middle Aged Adult
+2448,Andy Fang,29,1.1,1100000000.00,Technology,FoodDeliveryApp,United States,California,Monte Vista,DoorDash,TRUE,Male,21/06/1992,Cofounder,Young Adult
+2448,Donald Friese,81,1.1,1100000000.00,Manufacturing,Manufacturing,United States,California,Los Angeles,Not provided,TRUE,Male,03/10/1940,Chief Executive Officer,Old
+2448,Andrew Karam,40,1.1,1100000000.00,Media & Entertainment,MobileGames,United States,California,Menlo Park,Not provided,TRUE,Male,12/02/1982,Chief Executive Officer,Young Adult
+2448,Alexander Karp,54,1.1,1100000000.00,Technology,Software,United States,California,Palo Alto,Palantir Technologies,TRUE,Male,01/10/1967,Entrepreneur,Middle Aged Adult
+2578,Jeff Lawson,44,1,1000000000.00,Technology,Software,United States,California,San Francisco,Not provided,TRUE,Male,21/06/1977,Entrepreneur,Middle Aged Adult
+2578,Mike Speiser,51,1,1000000000.00,Technology,Software,United States,California,San Francisco,Sutter Hill Ventures,TRUE,Male,25/01/1971,Director,Middle Aged Adult
+180,Philip Anschutz,82,10.9,10900000000.00,Finance & Investments,Investments,United States,Colorado,Denver,Not provided,FALSE,Male,28/12/1939,Chief Executive Officer,Old
+241,Charles Ergen,69,8.7,8700000000.00,Media & Entertainment,Satellite TV,United States,Colorado,Denver,DISH Network,TRUE,Male,01/03/1953,Founder and Chairman,Old
+321,John Malone,81,7.4,7400000000.00,Media & Entertainment,CableTelevision,United States,Colorado,Elizabeth,Not provided,TRUE,Male,07/03/1941,Chief Executive Officer,Old
+637,Mark Stevens,62,4.5,4500000000.00,Finance & Investments,VentureCapital,United States,Colorado,Steamboat Springs,Not provided,TRUE,Male,17/02/1960,Chief Executive Officer,Old
+822,James Leprino,84,3.6,3600000000.00,Food & Beverage,Cheese,United States,Colorado,Indian Hills,Leprino Foods,FALSE,Male,22/11/1937,Chairman,Old
+984,Pat Stryker,65,3.1,3100000000.00,Healthcare,MedicalEquipment,United States,Colorado,Fort Collins,Not provided,FALSE,Female,06/04/1956,Chief Executive Officer,Old
+1096,Kenneth Tuchman,62,2.8,2800000000.00,Service,CallCenters,United States,Colorado,Denver,Not provided,TRUE,Male,23/10/1959,Chief Executive Officer,Old
+1818,"Cargill MacMillan, III.",62,1.6,1600000000.00,Food & Beverage,Cargill,United States,Colorado,Boulder,Not provided,FALSE,Male,21/12/1959,Chief Executive Officer,Old
+1818,William MacMillan,67,1.6,1600000000.00,Food & Beverage,Cargill,United States,Colorado,Englewood,Not provided,FALSE,Male,25/05/1954,Chief Executive Officer,Old
+2076,Gary Magness,68,1.4,1400000000.00,Media & Entertainment,CableTelevision Investments,United States,Colorado,Denver,Not provided,FALSE,Male,26/02/1954,Chief Executive Officer,Old
+2076,Stewart Butterfield,49,1.4,1400000000.00,Technology,MessagingSoftware,United States,Colorado,Aspen,Slack Technologies,TRUE,Male,21/03/1973,Chief Executive Officer and Cofounder,Middle Aged Adult
+2324,Thomas Bailey,85,1.2,1200000000.00,Finance & Investments,MoneyManagement,United States,Colorado,Aspen,Not provided,TRUE,Male,01/01/1937,Chief Executive Officer,Old
+71,Ray Dalio,72,22,22000000000.00,Finance & Investments,HedgeFunds,United States,Connecticut,Greenwich,Bridgewater Associates,TRUE,Male,08/08/1949,Founder and Chairman,Old
+96,Steve Cohen,65,17.4,17400000000.00,Finance & Investments,HedgeFunds,United States,Connecticut,Greenwich,Point72 Asset Management,TRUE,Male,11/06/1956,Founder,Old
+375,Andreas Halvorsen,60,6.6,6600000000.00,Finance & Investments,HedgeFunds,United States,Connecticut,Darien,Viking Global Investors,TRUE,Male,23/04/1961,Investor,Middle Aged Adult
+438,Karen Pritzker,64,5.8,5800000000.00,Finance & Investments,Hotels Investments,United States,Connecticut,Branford,Not provided,FALSE,Female,07/01/1958,Chief Executive Officer,Old
+536,Alexandre Behring,55,5.1,5100000000.00,Finance & Investments,Investments,United States,Connecticut,Greenwich,Not provided,TRUE,Male,20/02/1967,Chief Executive Officer,Middle Aged Adult
+637,Todd Boehly,48,4.5,4500000000.00,Finance & Investments,Finance,United States,Connecticut,Darien,Not provided,TRUE,Male,20/09/1973,Chief Executive Officer,Middle Aged Adult
+764,"Stephen Mandel, Jr.",66,3.9,3900000000.00,Finance & Investments,HedgeFunds,United States,Connecticut,Greenwich,Lone Pine Capital,TRUE,Male,12/03/1956,Founder,Old
+801,Brad Jacobs,65,3.7,3700000000.00,Logistics,Logistics,United States,Connecticut,Greenwich,Not provided,TRUE,Male,01/07/1956,Chief Executive Officer,Old
+1292,Alexandra Daitch,59,2.4,2400000000.00,Food & Beverage,Cargill,United States,Connecticut,Old Lyme,Not provided,FALSE,Female,01/01/1963,Chief Executive Officer,Middle Aged Adult
+1292,Lucy Stitzer,62,2.4,2400000000.00,Food & Beverage,Cargill,United States,Connecticut,Greenwich,Not provided,FALSE,Female,01/01/1960,Chief Executive Officer,Old
+1397,Vincent McMahon,76,2.2,2200000000.00,Sports,Entertainment,United States,Connecticut,Greenwich,Not provided,TRUE,Male,24/08/1945,Chief Executive Officer,Old
+1579,Mario Gabelli,80,1.9,1900000000.00,Finance & Investments,MoneyManagement,United States,Connecticut,Greenwich,Not provided,TRUE,Male,31/03/1942,Chief Executive Officer,Old
+1818,Clifford Asness,55,1.6,1600000000.00,Finance & Investments,MoneyManagement,United States,Connecticut,Greenwich,AQR Capital Management,TRUE,Male,17/10/1966,Chief Executive Officer,Middle Aged Adult
+2578,Michael Rees,47,1,1000000000.00,Finance & Investments,PrivateEquity,United States,Connecticut,New Canaan,Not provided,TRUE,Male,19/03/1975,Chief Executive Officer,Middle Aged Adult
+80,Thomas Peterffy,77,20.1,20100000000.00,Finance & Investments,Brokerage,United States,Florida,Palm Beach,Not provided,TRUE,Male,30/09/1944,Chief Executive Officer,Old
+103,David Tepper,64,16.7,16700000000.00,Finance & Investments,HedgeFunds,United States,Florida,Palm Beach,Appaloosa Management,TRUE,Male,11/09/1957,President and Chairman,Old
+106,Carl Icahn,86,16.5,16500000000.00,Finance & Investments,Investments,United States,Florida,Indian Creek,Icahn Capital Management,TRUE,Male,16/02/1936,Founder,Old
+313,Shahid Khan,71,7.6,7600000000.00,Automotive,AutoLoans,United States,Florida,Naples,Not provided,TRUE,Male,18/07/1950,Chief Executive Officer,Old
+324,"Paul Tudor Jones, II.",67,7.3,7300000000.00,Finance & Investments,HedgeFunds,United States,Florida,Palm Beach,Tudor Investment Corporation,TRUE,Male,28/09/1954,Founder,Old
+330,Reinhold Schmieding,67,7.2,7200000000.00,Healthcare,MedicalDevices,United States,Florida,Naples,Not provided,TRUE,Male,03/01/1955,Chief Executive Officer,Old
+336,J. Christopher Reyes,68,7.1,7100000000.00,Food & Beverage,FoodDistribution,United States,Florida,Hobe Sound,Reyes Holdings,TRUE,Male,29/12/1953,Cochairman,Old
+336,Jude Reyes,66,7.1,7100000000.00,Food & Beverage,FoodDistribution,United States,Florida,Palm Beach,Reyes Holdings,TRUE,Male,16/09/1955,Cochairman,Old
+350,Micky Arison,72,6.9,6900000000.00,Service,CarnivalCruises,United States,Florida,Bal Harbour,Carnival Corporation,FALSE,Male,29/06/1949,Chief Executive Officer and Chairman,Old
+403,Orlando Bravo,51,6.3,6300000000.00,Finance & Investments,PrivateEquity,United States,Florida,Miami Beach,Not provided,TRUE,Male,23/09/1970,Chief Executive Officer,Middle Aged Adult
+438,Terrence Pegula,71,5.8,5800000000.00,Energy,NaturalGas,United States,Florida,Boca Raton,Buffalo Sabres,TRUE,Male,27/03/1951,Founder,Old
+480,Ronald Wanek,80,5.5,5500000000.00,Manufacturing,FurnitureRetail,United States,Florida,Saint Petersburg,Not provided,TRUE,Male,19/05/1941,Chief Executive Officer,Old
+490,Tom Golisano,80,5.4,5400000000.00,Service,PayrollSoftware,United States,Florida,Naples,Not provided,TRUE,Male,14/11/1941,Chief Executive Officer,Old
+536,Isaac Perlmutter,79,5.1,5100000000.00,Media & Entertainment,MarvelComics,United States,Florida,Palm Beach,Marvel Entertainment,TRUE,Male,01/12/1942,Chairman,Old
+536,Charles B. Johnson,89,5.1,5100000000.00,Finance & Investments,MoneyManagement,United States,Florida,Palm Beach,Franklin Resources,FALSE,Male,06/01/1933,Chairman,Old
+536,Jeff Greene,67,5.1,5100000000.00,Real Estate,RealEstate Investments,United States,Florida,Palm Beach,Not provided,TRUE,Male,10/12/1954,Chief Executive Officer,Old
+552,Dirk Ziff,58,5,5000000000.00,Finance & Investments,Investments,United States,Florida,North Palm Beach,Not provided,FALSE,Male,01/04/1964,Chief Executive Officer,Middle Aged Adult
+579,"Robert Rich, Jr.",81,4.9,4900000000.00,Food & Beverage,FoodProcessing,United States,Florida,Islamorada,Not provided,FALSE,Male,25/01/1941,Chief Executive Officer,Old
+601,Igor Olenicoff,79,4.7,4700000000.00,Real Estate,RealEstate,United States,Florida,Lighthouse Point,Not provided,TRUE,Male,20/09/1942,Chief Executive Officer,Old
+622,Sami Mnaymneh,60,4.6,4600000000.00,Finance & Investments,PrivateEquity,United States,Florida,Miami Beach,Not provided,TRUE,Male,13/07/1961,Chief Executive Officer,Middle Aged Adult
+665,Richard Schulze,81,4.3,4300000000.00,Fashion & Retail,BestBuy,United States,Florida,Bonita Springs,Best Buy,TRUE,Male,02/01/1941,Chairman,Old
+665,Barry Sternlicht,61,4.3,4300000000.00,Finance & Investments,PrivateEquity,United States,Florida,Miami,Not provided,TRUE,Male,27/11/1960,Chief Executive Officer,Old
+709,Russ Weiner,51,4.1,4100000000.00,Food & Beverage,EnergyDrink,United States,Florida,Delray Beach,Not provided,TRUE,Male,05/05/1970,Chief Executive Officer,Middle Aged Adult
+728,Rakesh Gangwal,68,4,4000000000.00,Service,Airline,United States,Florida,Miami,Not provided,TRUE,Male,25/07/1953,Chief Executive Officer,Old
+728,Daniel Och,61,4,4000000000.00,Finance & Investments,HedgeFunds,United States,Florida,Miami Beach,Och-Ziff Capital Management,TRUE,Male,27/01/1961,Founder,Old
+728,Herbert Wertheim,82,4,4000000000.00,Finance & Investments,Investments,United States,Florida,Coral Gables,Not provided,TRUE,Male,23/05/1939,Chief Executive Officer,Old
+801,William Berkley,75,3.7,3700000000.00,Finance & Investments,Insurance,United States,Florida,Coconut Grove,WR Berkley,TRUE,Male,01/09/1946,Chief Executive Officer and Chairman,Old
+822,John Henry,72,3.6,3600000000.00,Sports,Sports,United States,Florida,Boca Raton,Not provided,TRUE,Male,13/09/1949,Chief Executive Officer,Old
+851,"William Wrigley, Jr.",58,3.5,3500000000.00,Food & Beverage,ChewingGum,United States,Florida,North Palm Beach,"Wrigley Management, Inc.",FALSE,Male,01/11/1963,Investor,Middle Aged Adult
+883,Nick Caporella,86,3.4,3400000000.00,Food & Beverage,Beverages,United States,Florida,Plantation,Not provided,TRUE,Male,15/01/1936,Chief Executive Officer,Old
+883,Todd Wanek,58,3.4,3400000000.00,Manufacturing,FurnitureRetail,United States,Florida,St. Petersburg,Not provided,FALSE,Male,16/03/1964,Chief Executive Officer,Middle Aged Adult
+883,Richard Sands,71,3.4,3400000000.00,Food & Beverage,Liquor,United States,Florida,Delray Beach,Not provided,FALSE,Male,03/03/1951,Chief Executive Officer,Old
+883,Robert Sands,63,3.4,3400000000.00,Food & Beverage,Liquor,United States,Florida,Delray Beach,Constellation Brands,FALSE,Male,10/06/1958,Chief Executive Officer,Old
+913,Steve Wynn,80,3.3,3300000000.00,Gambling & Casinos,Casinos Hotels,United States,Florida,Palm Beach,Wynn Resorts,TRUE,Male,27/01/1942,Cofounder,Old
+951,James Clark,78,3.2,3200000000.00,Technology,Netscape Investments,United States,Florida,Palm Beach,Netscape Communications Corporation,TRUE,Male,23/03/1944,Cofounder,Old
+1012,Todd Christopher,59,3,3000000000.00,Fashion & Retail,HairCareProducts,United States,Florida,Clearwater,Not provided,TRUE,Male,08/10/1962,Entrepreneur,Middle Aged Adult
+1012,Donald Trump,75,3,3000000000.00,Real Estate,RealEstate,United States,Florida,Palm Beach,Not provided,FALSE,Male,14/06/1946,Chief Executive Officer,Old
+1096,William Stone,66,2.8,2800000000.00,Technology,Software,United States,Florida,Naples,Not provided,TRUE,Male,09/04/1955,Chief Executive Officer,Old
+1163,C. Dean Metropoulos,75,2.7,2700000000.00,Food & Beverage,Investments,United States,Florida,Palm Beach,Not provided,TRUE,Male,05/05/1946,Chief Executive Officer,Old
+1163,"Edward DeBartolo, Jr.",75,2.7,2700000000.00,Real Estate,ShoppingCenters,United States,Florida,Tampa,Not provided,FALSE,Male,06/11/1946,Chief Executive Officer,Old
+1196,Norman Braman,89,2.6,2600000000.00,Automotive,Art,United States,Florida,Miami,Not provided,TRUE,Male,22/08/1932,Chief Executive Officer,Old
+1196,J. Hyatt Brown,84,2.6,2600000000.00,Finance & Investments,Insurance,United States,Florida,Ormond Beach,Not provided,FALSE,Male,12/07/1937,Chief Executive Officer,Old
+1238,Leon G. Cooperman,78,2.5,2500000000.00,Finance & Investments,HedgeFunds,United States,Florida,Boca Raton,"Omega Advisors, Inc.",TRUE,Male,25/04/1943,Founder,Old
+1341,Kenneth Feld & family,73,2.3,2300000000.00,Media & Entertainment,Entertainment,United States,Florida,Sarasota,Feld Entertainment,FALSE,Male,31/10/1948,Chairman,Old
+1397,Phillip Frost,85,2.2,2200000000.00,Healthcare,Pharmaceuticals,United States,Florida,Miami Beach,Not provided,TRUE,Male,11/11/1936,Chief Executive Officer,Old
+1445,Fred Ehrsam,33,2.1,2100000000.00,Finance & Investments,Cryptocurrency,United States,Florida,Miami,Coinbase,TRUE,Male,10/05/1988,Cofounder,Young Adult
+1445,Thomas James,79,2.1,2100000000.00,Finance & Investments,Finance,United States,Florida,Saint Petersburg,Not provided,FALSE,Male,10/05/1942,Chief Executive Officer,Old
+1445,Ryan Cohen,36,2.1,2100000000.00,Finance & Investments,Investments,United States,Florida,Bal Harbour,Not provided,TRUE,Male,04/08/1985,Chief Executive Officer,Young Adult
+1445,Igor Makarov,60,2.1,2100000000.00,Energy,Investments,United States,Florida,Miami,Not provided,TRUE,Male,05/04/1962,Chief Executive Officer,Middle Aged Adult
+1513,Ryan Breslow,27,2,2000000000.00,Technology,E-commerce,United States,Florida,Miami,Bolt,TRUE,Male,20/05/1994,Cofounder,Young Adult
+1513,Henry Laufer,76,2,2000000000.00,Finance & Investments,HedgeFunds,United States,Florida,Lake Worth,Not provided,TRUE,Male,13/08/1945,Investor,Old
+1513,Robert Duggan,77,2,2000000000.00,Healthcare,Pharmaceuticals,United States,Florida,Clearwater,Not provided,TRUE,Male,28/04/1944,Chief Executive Officer,Old
+1513,S. Daniel Abraham,97,2,2000000000.00,Food & Beverage,Slim-Fast,United States,Florida,Palm Beach,S. Daniel Abraham Center for Middle East Peace,TRUE,Male,15/08/1924,Chairman,Old
+1579,Dwight Schar,80,1.9,1900000000.00,Construction & Engineering,Homebuilding,United States,Florida,Palm Beach,Not provided,TRUE,Male,08/02/1942,Chief Executive Officer,Old
+1645,Charlotte Colket Weber,79,1.8,1800000000.00,Food & Beverage,CampbellSoup,United States,Florida,Hobe Sound,Campbell Soup,FALSE,Female,19/11/1942,Director,Old
+1645,James France,77,1.8,1800000000.00,Sports,Nascar Racing,United States,Florida,Daytona Beach,Not provided,FALSE,Male,24/10/1944,Chief Executive Officer,Old
+1645,Edward Lampert,59,1.8,1800000000.00,Finance & Investments,Sears,United States,Florida,Miami Beach,ESL Investments Inc.,TRUE,Male,19/07/1962,Founder,Middle Aged Adult
+1729,Michael Jordan,59,1.7,1700000000.00,Sports,CharlotteHornets Endorsements,United States,Florida,Jupiter,Not provided,TRUE,Male,17/02/1963,Athlete,Middle Aged Adult
+1729,Jorge Perez,72,1.7,1700000000.00,Real Estate,RealEstate,United States,Florida,Miami,Not provided,TRUE,Male,17/10/1949,Chief Executive Officer,Old
+1729,Jimmy John Liautaud,58,1.7,1700000000.00,Food & Beverage,SandwichChain,United States,Florida,Key Largo,Not provided,TRUE,Male,12/01/1964,Chief Executive Officer,Middle Aged Adult
+1818,Paul Saville,66,1.6,1600000000.00,Real Estate,Homebuilding,United States,Florida,Palm Beach,Not provided,TRUE,Male,14/12/1955,Chief Executive Officer,Old
+1818,William Koch,81,1.6,1600000000.00,Energy,Oil Investments,United States,Florida,Palm Beach,Not provided,FALSE,Male,03/05/1940,Chief Executive Officer,Old
+1818,Randal J. Kirk,68,1.6,1600000000.00,Healthcare,Pharmaceuticals,United States,Florida,Manalapan,Not provided,TRUE,Male,01/03/1954,Chief Executive Officer,Old
+1818,Austin Russell,27,1.6,1600000000.00,Automotive,SensorSystems,United States,Florida,Orlando,Luminar,TRUE,Male,14/03/1995,Founder,Young Adult
+1818,Catherine Lozick,76,1.6,1600000000.00,Manufacturing,ValveManufacturing,United States,Florida,Fort Lauderdale,Not provided,FALSE,Female,01/05/1945,Chief Executive Officer,Old
+1929,Mike Repole,54,1.5,1500000000.00,Food & Beverage,EnergyDrink,United States,Florida,Windermere,Not provided,TRUE,Male,21/01/1968,Chief Executive Officer,Middle Aged Adult
+1929,Bharat Desai,69,1.5,1500000000.00,Technology,ITConsulting,United States,Florida,Fisher Island,Syntel Inc.,TRUE,Male,20/11/1952,Chairman,Old
+1929,Jonathan Oringer,47,1.5,1500000000.00,Technology,StockPhotos,United States,Florida,Miami Beach,Not provided,TRUE,Male,02/05/1974,Chief Executive Officer,Middle Aged Adult
+2076,Scott Kapnick,63,1.4,1400000000.00,Finance & Investments,PrivateEquity,United States,Florida,Naples,Not provided,TRUE,Male,09/02/1959,Investor,Old
+2190,Patrick Zalupski,41,1.3,1300000000.00,Real Estate,Homebuilding,United States,Florida,Jacksonville,Not provided,TRUE,Male,29/11/1980,Chief Executive Officer,Middle Aged Adult
+2190,David Hoffman,69,1.3,1300000000.00,Diversified,Investments,United States,Florida,Naples,Not provided,TRUE,Male,07/08/1952,Chief Executive Officer,Old
+2324,Duke Reyes,65,1.2,1200000000.00,Food & Beverage,BeerDistribution,United States,Florida,Palm Beach,Not provided,FALSE,Male,23/03/1957,Chief Executive Officer,Old
+2324,J. Wayne Weaver,86,1.2,1200000000.00,Diversified,Shoes,United States,Florida,Jacksonville,Not provided,TRUE,Male,01/09/1935,Chief Executive Officer,Old
+2448,Jorge Mas,59,1.1,1100000000.00,Construction & Engineering,Construction,United States,Florida,Miami,Not provided,FALSE,Male,28/02/1963,Chief Executive Officer,Middle Aged Adult
+2448,Robert Toll,81,1.1,1100000000.00,Real Estate,HomeDepot,United States,Florida,Miami Beach,Not provided,TRUE,Male,30/12/1940,Chief Executive Officer,Old
+2448,Michael S. Smith,66,1.1,1100000000.00,Energy,Liquor,United States,Florida,Miami Beach,Not provided,TRUE,Male,09/05/1955,Investor,Old
+2578,Carl DeSantis,82,1,1000000000.00,Food & Beverage,EnergyDrink,United States,Florida,Delray Beach,Not provided,TRUE,Male,19/07/1939,Chief Executive Officer,Old
+2578,Neerja Sethi,67,1,1000000000.00,Technology,ITConsulting Outsourcing,United States,Florida,Fisher Island,Not provided,TRUE,Female,16/01/1955,Entrepreneur,Old
+241,Bernard Marcus,92,8.7,8700000000.00,Fashion & Retail,HomeDepot,United States,Georgia,Atlanta,The Home Depot,TRUE,Male,12/05/1929,Cofounder,Old
+296,Jim Kennedy,74,7.8,7800000000.00,Media & Entertainment,Media Automotive,United States,Georgia,Atlanta,Cox Enterprises,FALSE,Male,29/11/1947,Chairman,Old
+336,Arthur Blank,79,7.1,7100000000.00,Sports,HomeDepot,United States,Georgia,Atlanta,Atlanta Falcons,TRUE,Male,27/09/1942,Chairman,Old
+490,John Brown,87,5.4,5400000000.00,Healthcare,MedicalEquipment,United States,Georgia,Atlanta,Not provided,TRUE,Male,15/09/1934,Chief Executive Officer,Old
+509,Gary Rollins,77,5.3,5300000000.00,Service,PestControl,United States,Georgia,Atlanta,Not provided,FALSE,Male,30/08/1944,Chief Executive Officer,Old
+552,Ben Chestnut,47,5,5000000000.00,Technology,EmailMarketing,United States,Georgia,Atlanta,Not provided,TRUE,Male,15/06/1974,Chief Executive Officer,Middle Aged Adult
+552,Dan Kurzius,50,5,5000000000.00,Technology,EmailMarketing,United States,Georgia,Atlanta,Not provided,TRUE,Male,01/12/1971,Chief Executive Officer,Middle Aged Adult
+622,Bubba Cathy,67,4.6,4600000000.00,Food & Beverage,Chick-fil-A,United States,Georgia,Atlanta,Not provided,FALSE,Male,22/04/1954,Chief Executive Officer,Old
+622,Dan Cathy,69,4.6,4600000000.00,Food & Beverage,Chick-fil-A,United States,Georgia,Atlanta,Not provided,FALSE,Male,01/03/1953,Chief Executive Officer,Old
+622,Trudy Cathy White,66,4.6,4600000000.00,Food & Beverage,Chick-fil-A,United States,Georgia,Hampton,Not provided,FALSE,Female,17/12/1955,Chief Executive Officer,Old
+1341,Ted Turner,83,2.3,2300000000.00,Media & Entertainment,CableTelevision,United States,Georgia,Atlanta,Not provided,FALSE,Male,19/11/1938,Chief Executive Officer,Old
+1513,"Joe Rogers, Jr.",75,2,2000000000.00,Food & Beverage,WaffleHouse,United States,Georgia,Atlanta,Not provided,FALSE,Male,02/12/1946,Chief Executive Officer,Old
+1579,David Zalik,48,1.9,1900000000.00,Technology,Fintech,United States,Georgia,Atlanta,GreenSky,TRUE,Male,02/02/1974,Chief Executive Officer,Middle Aged Adult
+2076,Tope Awotona,40,1.4,1400000000.00,Technology,Software,United States,Georgia,Atlanta,Calendly,TRUE,Male,22/04/1981,Entrepreneur,Young Adult
+2448,Sara Blakely,51,1.1,1100000000.00,Fashion & Retail,Spanx,United States,Georgia,Atlanta,Spanx,TRUE,Female,27/02/1971,Founder,Middle Aged Adult
+2578,Tyler Perry,52,1,1000000000.00,Media & Entertainment,Movies Television,United States,Georgia,Atlanta,Television,TRUE,Male,14/09/1969,Director,Middle Aged Adult
+2578,Ronald Clarke,66,1,1000000000.00,Technology,PaymentSoftware,United States,Georgia,Duluth,FleetCor Technologies,TRUE,Male,15/08/1955,Chief Executive Officer,Old
+2578,Jeff Sprecher,67,1,1000000000.00,Finance & Investments,StockExchanges,United States,Georgia,Atlanta,Not provided,TRUE,Male,23/02/1955,Chief Executive Officer,Old
+8,Larry Ellison,77,106,106000000000.00,Technology,Software,United States,Hawaii,Lanai,Oracle,TRUE,Male,17/08/1944,Chief Executive Officer,Old
+173,Pierre Omidyar,54,11.3,11300000000.00,Technology,eBay PayPal,United States,Hawaii,Honolulu,eBay,TRUE,Male,21/06/1967,Entrepreneur,Middle Aged Adult
+1053,Frank VanderSloot,73,2.9,2900000000.00,Fashion & Retail,Nutrition WellnessProducts,United States,Idaho,Idaho Falls,Not provided,TRUE,Male,14/08/1948,Chief Executive Officer,Old
+53,Ken Griffin,53,27.2,27200000000.00,Finance & Investments,HedgeFunds,United States,Illinois,Chicago,Citadel LLC,TRUE,Male,15/10/1968,Chief Executive Officer and Founder,Middle Aged Adult
+284,Patrick Ryan,84,8,8000000000.00,Finance & Investments,Insurance,United States,Illinois,Winnetka,Ryan Specialty Group,TRUE,Male,15/05/1937,Chief Executive Officer and Chairman,Old
+438,Sam Zell,80,5.8,5800000000.00,Real Estate,RealEstate PrivateEquity,United States,Illinois,Chicago,Not provided,TRUE,Male,28/09/1941,Chief Executive Officer,Old
+460,Joe Mansueto,65,5.7,5700000000.00,Finance & Investments,Investments,United States,Illinois,Chicago,Morningstar Inc.,TRUE,Male,03/09/1956,Entrepreneur,Old
+480,Neil Bluhm,84,5.5,5500000000.00,Real Estate,RealEstate,United States,Illinois,Chicago,Not provided,TRUE,Male,12/01/1938,Chief Executive Officer,Old
+552,Thomas Pritzker,71,5,5000000000.00,Finance & Investments,Hotels Investments,United States,Illinois,Chicago,Hyatt Hotels,FALSE,Male,06/06/1950,Chairman,Old
+665,Mark Walter,61,4.3,4300000000.00,Finance & Investments,Finance,United States,Illinois,Chicago,Guggenheim Partners LLC,TRUE,Male,22/05/1960,Chief Executive Officer,Old
+665,Ty Warner,77,4.3,4300000000.00,Real Estate,RealEstate,United States,Illinois,Oak Brook,Not provided,TRUE,Male,03/09/1944,Chief Executive Officer,Old
+709,Eric Lefkofsky,52,4.1,4100000000.00,Technology,Groupon Investments,United States,Illinois,Glencoe,Groupon,TRUE,Male,02/09/1969,Chairman,Middle Aged Adult
+822,J.B. Pritzker,57,3.6,3600000000.00,Finance & Investments,Hotels Investments,United States,Illinois,Springfield,Not provided,FALSE,Male,19/01/1965,Chief Executive Officer,Middle Aged Adult
+951,Penny Pritzker,62,3.2,3200000000.00,Finance & Investments,Hotels Investments,United States,Illinois,Chicago,Not provided,FALSE,Female,02/05/1959,Chief Executive Officer,Old
+951,Joseph Grendys,60,3.2,3200000000.00,Food & Beverage,PoultryProcessing,United States,Illinois,Chicago,Not provided,TRUE,Male,01/12/1961,Chief Executive Officer,Middle Aged Adult
+1012,Sheldon Lavin,89,3,3000000000.00,Food & Beverage,MeatProcessing,United States,Illinois,Highland Park,Not provided,TRUE,Male,17/06/1932,Chief Executive Officer,Old
+1096,Steven Sarowitz,56,2.8,2800000000.00,Technology,PayrollSoftware,United States,Illinois,Highland Park,Not provided,TRUE,Male,07/11/1965,Chief Executive Officer,Middle Aged Adult
+1513,Jennifer Pritzker,71,2,2000000000.00,Finance & Investments,Hotels Investments,United States,Illinois,Chicago,Tawani Enterprises,FALSE,Female,13/08/1950,Chief Executive Officer,Old
+1645,Jerry Reinsdorf,86,1.8,1800000000.00,Sports,SportsTeams,United States,Illinois,Chicago,Not provided,TRUE,Male,25/02/1936,Chief Executive Officer,Old
+1729,Byron Trott,63,1.7,1700000000.00,Finance & Investments,Investments,United States,Illinois,Winnetka,Not provided,TRUE,Male,02/12/1958,Chief Executive Officer,Old
+1818,Carl Thoma,73,1.6,1600000000.00,Finance & Investments,Investments,United States,Illinois,Chicago,Not provided,TRUE,Male,12/10/1948,Investor,Old
+1929,Michael Polsky,73,1.5,1500000000.00,Energy,ElectricPower,United States,Illinois,Chicago,Not provided,TRUE,Male,01/01/1949,Chief Executive Officer,Old
+1929,Matt Hulsizer,64,1.5,1500000000.00,Finance & Investments,Fintech,United States,Illinois,Chicago,Not provided,TRUE,Male,Not provided,Chief Executive Officer,Old
+1929,Jenny Just,54,1.5,1500000000.00,Finance & Investments,Fintech,United States,Illinois,Winnetka,Not provided,TRUE,Female,05/03/1968,Chief Executive Officer,Middle Aged Adult
+1929,Justin Ishbia,44,1.5,1500000000.00,Finance & Investments,PrivateEquity,United States,Illinois,Chicago,Not provided,FALSE,Male,18/09/1977,Chief Executive Officer,Middle Aged Adult
+2076,Matthew Roszak,49,1.4,1400000000.00,Finance & Investments,Cryptocurrency,United States,Illinois,Chicago,Not provided,TRUE,Male,09/12/1972,Chief Executive Officer,Middle Aged Adult
+2190,Michael Krasny,68,1.3,1300000000.00,Technology,Retail,United States,Illinois,Highland Park,Sawdust Investment Management Corp.,TRUE,Male,08/08/1953,Investor,Old
+2324,Leonid Radvinsky,40,1.2,1200000000.00,Technology,E-commerce,United States,Illinois,Chicago,Not provided,TRUE,Male,05/01/1982,Chief Executive Officer,Young Adult
+177,Carl Cook,59,11.1,11100000000.00,Healthcare,MedicalDevices,United States,Indiana,Bloomington,Not provided,FALSE,Male,19/08/1962,Chief Executive Officer,Middle Aged Adult
+851,James Irsay,62,3.5,3500000000.00,Sports,IndianapolisColts,United States,Indiana,Carmel,Indianapolis Colts,FALSE,Male,13/06/1959,Chief Executive Officer,Old
+851,Herb Simon,87,3.5,3500000000.00,Real Estate,RealEstate,United States,Indiana,Indianapolis,Simon Property Group,TRUE,Male,23/10/1934,Chairman,Old
+350,Harry Stine,80,6.9,6900000000.00,Food & Beverage,Agriculture,United States,Iowa,Adel,Not provided,TRUE,Male,30/11/1941,Entrepreneur,Old
+21,Charles Koch,86,60,60000000000.00,Diversified,KochIndustries,United States,Kansas,Wichita,Koch Industries,FALSE,Male,01/11/1935,Chief Executive Officer,Old
+622,Min Kao & family,73,4.6,4600000000.00,Technology,NavigationEquipment,United States,Kansas,Leawood,Garmin Corporation,TRUE,Male,10/01/1949,Chief Executive Officer and Chairman,Old
+251,Tamara Gustavson,60,8.5,8500000000.00,Service,SelfStorage,United States,Kentucky,Lexington,Not provided,FALSE,Female,16/11/1961,Chief Executive Officer,Middle Aged Adult
+778,Gayle Benson,75,3.8,3800000000.00,Sports,Sports,United States,Louisiana,New Orleans,Not provided,FALSE,Female,26/01/1947,Chief Executive Officer,Old
+1096,Susan Alfond,76,2.8,2800000000.00,Fashion & Retail,Shoes,United States,Maine,Scarborough,Not provided,FALSE,Female,19/07/1945,Chief Executive Officer,Old
+431,Stephen Bisciotti,61,5.9,5900000000.00,Sports,Staffing BaltimoreRavens,United States,Maryland,Millersville,Baltimore Ravens,TRUE,Male,10/04/1960,Founder,Old
+438,Mitchell Rales,65,5.8,5800000000.00,Manufacturing,Manufacturing Investments,United States,Maryland,Potomac,Not provided,TRUE,Male,21/08/1956,Chief Executive Officer,Old
+637,Ted Lerner & family,96,4.5,4500000000.00,Real Estate,RealEstate,United States,Maryland,Chevy Chase,Not provided,TRUE,Male,15/10/1925,Chief Executive Officer,Old
+665,Jim Davis,62,4.3,4300000000.00,Service,Staffing Recruiting,United States,Maryland,Cockeysville,Not provided,TRUE,Male,13/03/1960,Chief Executive Officer,Old
+728,David Rubenstein,72,4,4000000000.00,Finance & Investments,PrivateEquity,United States,Maryland,Bethesda,Carlyle Group,TRUE,Male,11/08/1949,Cofounder,Old
+728,Dan Snyder,57,4,4000000000.00,Sports,WashingtonFootballTeam,United States,Maryland,Potomac,Not provided,TRUE,Male,23/11/1964,Chief Executive Officer,Middle Aged Adult
+801,"Bernard Saul, II.",89,3.7,3700000000.00,Finance & Investments,Banking RealEstate,United States,Maryland,Chevy Chase,Saul Centers Inc.,FALSE,Male,15/04/1932,Chief Executive Officer and Chairman,Old
+1729,Keith Dunleavy & family,52,1.7,1700000000.00,Healthcare,HealthcareIT,United States,Maryland,Annapolis,Not provided,TRUE,Male,25/06/1969,Chief Executive Officer,Middle Aged Adult
+1818,Theodore Leonsis,66,1.6,1600000000.00,Sports,SportsTeams,United States,Maryland,Bethesda,Not provided,TRUE,Male,08/01/1956,Chief Executive Officer,Old
+1929,Kevin Plank,49,1.5,1500000000.00,Fashion & Retail,UnderArmour,United States,Maryland,Lutherville-Timonium,Under Armour,TRUE,Male,13/08/1972,Chief Executive Officer and Chairman,Middle Aged Adult
+2190,Anthony Casalena,39,1.3,1300000000.00,Technology,Software,United States,Maryland,Monkton,Not provided,TRUE,Male,24/04/1982,Chief Executive Officer,Young Adult
+75,Abigail Johnson,60,21.2,21200000000.00,Finance & Investments,MoneyManagement,United States,Massachusetts,Milton,Fidelity Investments,FALSE,Female,19/12/1961,Chief Executive Officer and Chairman,Middle Aged Adult
+263,Robert Kraft,80,8.3,8300000000.00,Sports,NewEnglandPatriots,United States,Massachusetts,Brookline,The Kraft Group,TRUE,Male,05/06/1941,Chief Executive Officer and Chairman,Old
+403,"Edward Johnson, IV.",57,6.3,6300000000.00,Finance & Investments,MoneyManagement,United States,Massachusetts,Boston,Not provided,FALSE,Male,18/11/1964,Chief Executive Officer,Middle Aged Adult
+490,Jim Davis & family,78,5.4,5400000000.00,Manufacturing,NewBalance,United States,Massachusetts,Newton,New Balance ,TRUE,Male,17/05/1943,Chairman,Old
+536,Elizabeth Johnson,58,5.1,5100000000.00,Finance & Investments,MoneyManagement,United States,Massachusetts,Boston,Not provided,FALSE,Female,07/05/1963,Chief Executive Officer,Middle Aged Adult
+622,Stéphane Bancel,49,4.6,4600000000.00,Healthcare,Biotech,United States,Massachusetts,Boston,Not provided,TRUE,Male,20/07/1972,Chief Executive Officer,Middle Aged Adult
+801,"Amos Hostetter, Jr.",85,3.7,3700000000.00,Media & Entertainment,CableTelevision,United States,Massachusetts,Boston,Pilot House Associates,TRUE,Male,12/01/1937,Chairman,Old
+951,"Robert Hale, Jr.",55,3.2,3200000000.00,Telecom,Telecom,United States,Massachusetts,Boston,Not provided,TRUE,Male,08/07/1966,Chief Executive Officer,Middle Aged Adult
+1053,Alan Trefler,66,2.9,2900000000.00,Technology,Software,United States,Massachusetts,Brookline,Not provided,TRUE,Male,10/03/1956,Chief Executive Officer,Old
+1096,Bill Alfond,73,2.8,2800000000.00,Fashion & Retail,Shoes,United States,Massachusetts,Boston,Not provided,FALSE,Male,16/05/1948,Chief Executive Officer,Old
+1096,Ted Alfond,77,2.8,2800000000.00,Fashion & Retail,Shoes,United States,Massachusetts,Weston,Not provided,FALSE,Male,19/08/1944,Chief Executive Officer,Old
+1341,Frank Laukien,62,2.3,2300000000.00,Manufacturing,ScientificEquipment,United States,Massachusetts,Boston,Not provided,FALSE,Male,04/02/1960,Chief Executive Officer,Old
+1445,Timothy Springer,74,2.1,2100000000.00,Healthcare,Biotech,United States,Massachusetts,Chestnut Hill,Not provided,TRUE,Male,23/02/1948,Chief Executive Officer,Old
+1513,Herb Chambers,80,2,2000000000.00,Automotive,CarDealerships,United States,Massachusetts,Boston,Not provided,TRUE,Male,01/01/1942,Chief Executive Officer,Old
+1645,Phillip T. (Terry) Ragon,72,1.8,1800000000.00,Technology,HealthcareIT,United States,Massachusetts,Boston,Not provided,TRUE,Male,01/06/1949,Chief Executive Officer,Old
+1729,Noubar Afeyan,59,1.7,1700000000.00,Healthcare,Biotech,United States,Massachusetts,Lexington,Not provided,TRUE,Male,25/07/1962,Chief Executive Officer,Middle Aged Adult
+1729,Patrizio Vinciarelli,75,1.7,1700000000.00,Technology,ElectronicComponents,United States,Massachusetts,Boston,Not provided,TRUE,Male,26/10/1946,Chief Executive Officer,Old
+1818,Jim Koch,72,1.6,1600000000.00,Food & Beverage,BeerDistribution,United States,Massachusetts,Newton,Not provided,TRUE,Male,27/05/1949,Chief Executive Officer,Old
+1818,Robert Langer,73,1.6,1600000000.00,Healthcare,Biotech,United States,Massachusetts,Boston,Not provided,TRUE,Male,29/08/1948,Chief Executive Officer,Old
+1818,George Sakellaris,75,1.6,1600000000.00,Energy,EnergyServices,United States,Massachusetts,Milton,Not provided,TRUE,Male,03/06/1946,Chief Executive Officer,Old
+1818,Niraj Shah,48,1.6,1600000000.00,Technology,OnlineRetail,United States,Massachusetts,Boston,Not provided,TRUE,Male,10/03/1974,Chief Executive Officer,Middle Aged Adult
+1929,Seth Klarman,64,1.5,1500000000.00,Finance & Investments,Investments,United States,Massachusetts,Chestnut Hill,Baupost Group,TRUE,Male,01/05/1957,Investor,Old
+1929,Steve Conine,49,1.5,1500000000.00,Technology,OnlineRetail,United States,Massachusetts,Boston,Not provided,TRUE,Male,28/08/1972,Chief Executive Officer,Middle Aged Adult
+2448,Paul Fireman,78,1.1,1100000000.00,Fashion & Retail,Reebok,United States,Massachusetts,Brookline,Not provided,TRUE,Male,14/02/1944,Chief Executive Officer,Old
+71,Daniel Gilbert,60,22,22000000000.00,Finance & Investments,QuickenLoans,United States,Michigan,Franklin,Not provided,TRUE,Male,17/01/1962,Chief Executive Officer,Middle Aged Adult
+106,Hank & Doug Meijer,64,16.5,16500000000.00,Fashion & Retail,Supermarkets,United States,Michigan,Grand Rapids,Not provided,FALSE,Male,Not provided,Chief Executive Officer,Old
+363,Ronda Stryker,67,6.8,6800000000.00,Healthcare,MedicalEquipment,United States,Michigan,Portage,Not provided,FALSE,Female,01/05/1954,Chief Executive Officer,Old
+579,Mat Ishbia,42,4.9,4900000000.00,Finance & Investments,MortgageLender,United States,Michigan,Bloomfield Hills,Not provided,FALSE,Male,06/01/1980,Chief Executive Officer,Middle Aged Adult
+654,Marian Ilitch,89,4.4,4400000000.00,Food & Beverage,LittleCaesars,United States,Michigan,Bingham Farms,Not provided,TRUE,Female,07/01/1933,Entrepreneur,Old
+1053,Roger Penske,85,2.9,2900000000.00,Automotive,Cars,United States,Michigan,Birmingham,Not provided,TRUE,Male,20/02/1937,Chief Executive Officer,Old
+1397,William Young,81,2.2,2200000000.00,Manufacturing,Plastics,United States,Michigan,Ypsilanti,Not provided,TRUE,Male,01/01/1941,Chief Executive Officer,Old
+1729,Donald Foss,77,1.7,1700000000.00,Automotive,AutoLoans,United States,Michigan,Farmington Hills,Not provided,TRUE,Male,18/06/1944,Chief Executive Officer,Old
+1729,Alan Zekelman,59,1.7,1700000000.00,Manufacturing,Steel,United States,Michigan,Bloomfield Hills,Not provided,FALSE,Male,01/10/1962,Chief Executive Officer,Middle Aged Adult
+1238,Glen Taylor,80,2.5,2500000000.00,Service,Printing,United States,Minnesota,Mankato,Not provided,TRUE,Male,20/04/1941,Chief Executive Officer,Old
+1645,Stanley Hubbard,88,1.8,1800000000.00,Media & Entertainment,TV,United States,Minnesota,St. Paul,"Hubbard Broadcasting, Inc.",FALSE,Male,28/05/1933,Chief Executive Officer and Chairman,Old
+1818,John MacMillan,72,1.6,1600000000.00,Food & Beverage,Cargill,United States,Minnesota,Plymouth,Not provided,FALSE,Male,20/09/1949,Chief Executive Officer,Old
+1818,Martha MacMillan,70,1.6,1600000000.00,Food & Beverage,Cargill,United States,Minnesota,Orono,Not provided,FALSE,Female,01/10/1951,Chief Executive Officer,Old
+2448,Jeffrey Michael & family,65,1.1,1100000000.00,Technology,DataManagement,United States,Minnesota,Minnetonka,Not provided,TRUE,Male,18/07/1956,Chief Executive Officer,Old
+1513,James Duff,61,2,2000000000.00,Diversified,Tires Diversified,United States,Mississippi,Hattiesburg,Not provided,TRUE,Male,07/03/1961,Chief Executive Officer,Old
+1513,Thomas Duff,65,2,2000000000.00,Diversified,Tires Diversified,United States,Mississippi,Hattiesburg,Not provided,TRUE,Male,31/12/1956,Chief Executive Officer,Old
+235,Pauline MacMillan Keinath,88,8.8,8800000000.00,Food & Beverage,Cargill,United States,Missouri,St. Louis,Not provided,FALSE,Female,01/01/1934,Chief Executive Officer,Old
+424,John Morris,74,6,6000000000.00,Fashion & Retail,Retail,United States,Missouri,Springfield,Not provided,TRUE,Male,19/03/1948,Chief Executive Officer,Old
+438,David Steward,70,5.8,5800000000.00,Technology,ITProvider,United States,Missouri,St. Louis,Not provided,TRUE,Male,02/07/1951,Chief Executive Officer,Old
+822,Rodger Riney & family,76,3.6,3600000000.00,Finance & Investments,Brokerage,United States,Missouri,St. Louis,"Scottrade, Inc.",TRUE,Male,01/01/1946,Cofounder,Old
+883,Jim Kavanaugh,59,3.4,3400000000.00,Technology,ITProvider,United States,Missouri,St. Louis,Not provided,TRUE,Male,17/10/1962,Chief Executive Officer,Middle Aged Adult
+1513,Jim McKelvey,56,2,2000000000.00,Technology,Fintech,United States,Missouri,St. Louis,Not provided,TRUE,Male,19/10/1965,Chief Executive Officer,Middle Aged Adult
+1818,Robert Clark,63,1.6,1600000000.00,Construction & Engineering,Construction,United States,Missouri,St. Louis,Not provided,TRUE,Male,30/01/1959,Chief Executive Officer,Old
+350,Dennis Washington,87,6.9,6900000000.00,Logistics,Construction Mining,United States,Montana,Missoula,Not provided,TRUE,Male,27/07/1934,Chief Executive Officer,Old
+552,"Austen Cargill, II.",71,5,5000000000.00,Food & Beverage,Cargill,United States,Montana,Livingston,Not provided,FALSE,Male,09/03/1951,Chief Executive Officer,Old
+552,Marianne Liebmann,68,5,5000000000.00,Food & Beverage,Cargill,United States,Montana,Bozeman,Not provided,FALSE,Female,11/07/1953,Chief Executive Officer,Old
+1513,Linda Pritzker,68,2,2000000000.00,Service,Hotels Investments,United States,Montana,Missoula,Not provided,FALSE,Female,14/09/1953,Chief Executive Officer,Old
+5,Warren Buffett,91,118,118000000000.00,Finance & Investments,BerkshireHathaway,United States,Nebraska,Omaha,Berkshire Hathaway,TRUE,Male,30/08/1930,Chief Executive Officer,Old
+1341,Henry Davis,71,2.3,2300000000.00,Food & Beverage,BeefProcessing,United States,Nebraska,Omaha,Not provided,FALSE,Male,16/02/1951,Chief Executive Officer,Old
+2076,Daniel Hirschfeld,80,1.4,1400000000.00,Fashion & Retail,FashionRetail,United States,Nebraska,Kearney,Not provided,FALSE,Male,31/05/1941,Entrepreneur,Old
+50,Miriam Adelson,76,27.5,27500000000.00,Gambling & Casinos,Casinos,United States,Nevada,Las Vegas,Not provided,FALSE,Female,10/10/1945,Chief Executive Officer,Old
+142,David Duffield,81,12.9,12900000000.00,Technology,BusinessSoftware,United States,Nevada,Incline Village,Workday,TRUE,Male,21/09/1940,Entrepreneur,Old
+171,Jay Chaudhry,62,11.4,11400000000.00,Technology,SecuritySoftware,United States,Nevada,Reno,Not provided,TRUE,Male,26/08/1959,Chief Executive Officer,Old
+275,Nancy Walton Laurie,70,8.1,8100000000.00,Fashion & Retail,Walmart,United States,Nevada,Henderson,Not provided,FALSE,Female,15/05/1951,Chief Executive Officer,Old
+951,Andrew & Peggy Cherng,64,3.2,3200000000.00,Food & Beverage,Restaurants,United States,Nevada,Las Vegas,Not provided,TRUE,Male,Not provided,Chief Executive Officer and Chairman,Old
+1196,Eren Ozmen,63,2.6,2600000000.00,Manufacturing,Aerospace,United States,Nevada,Reno,Not provided,TRUE,Female,03/09/1958,Entrepreneur,Old
+1196,"Frank Fertitta, III.",60,2.6,2600000000.00,Sports,Casinos MixedMartialArts,United States,Nevada,Las Vegas,Not provided,FALSE,Male,24/02/1962,Chief Executive Officer,Middle Aged Adult
+1196,Lorenzo Fertitta,53,2.6,2600000000.00,Sports,Casinos MixedMartialArts,United States,Nevada,Las Vegas,Not provided,FALSE,Male,03/01/1969,Chief Executive Officer,Middle Aged Adult
+1238,Fatih Ozmen,64,2.5,2500000000.00,Manufacturing,Aerospace,United States,Nevada,Reno,Not provided,TRUE,Male,02/02/1958,Chief Executive Officer,Old
+1341,William Boyd & family,90,2.3,2300000000.00,Gambling & Casinos,Casinos Banking,United States,Nevada,Las Vegas,Not provided,TRUE,Male,04/11/1931,Chief Executive Officer,Old
+1513,Phil Ruffin,87,2,2000000000.00,Diversified,Casinos RealEstate,United States,Nevada,Las Vegas,Not provided,TRUE,Male,17/03/1935,Chief Executive Officer,Old
+1645,Elaine Wynn,79,1.8,1800000000.00,Gambling & Casinos,Casinos Hotels,United States,Nevada,Las Vegas,"Wynn Las Vegas, LLC",TRUE,Female,28/04/1942,Board Member,Old
+2076,"William Foley, II.",77,1.4,1400000000.00,Finance & Investments,Finance,United States,Nevada,Las Vegas,Not provided,TRUE,Male,29/12/1944,Chief Executive Officer,Old
+2076,Weili Dai,60,1.4,1400000000.00,Technology,Semiconductors,United States,Nevada,Las Vegas,Marvell Technology Group,TRUE,Female,14/09/1961,Cofounder,Middle Aged Adult
+2190,Sehat Sutardja,60,1.3,1300000000.00,Technology,Semiconductors,United States,Nevada,Las Vegas,Not provided,TRUE,Male,09/07/1961,Chief Executive Officer,Middle Aged Adult
+2324,John Krystynak,53,1.2,1200000000.00,Media & Entertainment,MobileGames,United States,Nevada,Incline Village,Not provided,TRUE,Male,01/05/1968,Chief Executive Officer,Middle Aged Adult
+386,John Overdeck,52,6.5,6500000000.00,Finance & Investments,HedgeFunds,United States,New Jersey,Millburn,Two Sigma,TRUE,Male,21/12/1969,Investor,Middle Aged Adult
+418,Rocco Commisso,72,6.1,6100000000.00,Telecom,Telecom,United States,New Jersey,Saddle River,Not provided,TRUE,Male,25/11/1949,Chief Executive Officer,Old
+822,Peter Kellogg,79,3.6,3600000000.00,Finance & Investments,Investments,United States,New Jersey,Short Hills,Not provided,FALSE,Male,01/09/1942,Chief Executive Officer,Old
+1579,Larry Robbins,52,1.9,1900000000.00,Finance & Investments,HedgeFunds,United States,New Jersey,Alpine,Glenview Capital Management,TRUE,Male,21/10/1969,Investor,Middle Aged Adult
+1818,Duncan MacMillan,84,1.6,1600000000.00,Finance & Investments,BloombergLP,United States,New Jersey,Princeton,Not provided,TRUE,Male,17/12/1937,Chief Executive Officer,Old
+2324,Michael Price,69,1.2,1200000000.00,Finance & Investments,Investments,United States,New Jersey,Far Hills,MFP Investors Inc.,FALSE,Male,03/07/1952,President,Old
+12,Michael Bloomberg,80,82,82000000000.00,Media & Entertainment,BloombergLP,United States,New York,New York,Bloomberg L.P.,TRUE,Male,14/02/1942,Chief Executive Officer,Old
+21,Julia Koch & family,59,60,60000000000.00,Diversified,KochIndustries,United States,New York,New York,Not provided,FALSE,Female,12/04/1962,Chief Executive Officer,Middle Aged Adult
+37,Stephen Schwarzman,75,34.8,34800000000.00,Finance & Investments,Investments,United States,New York,New York,Blackstone Group,TRUE,Male,14/02/1947,Chief Executive Officer and Chairman,Old
+43,Alain Wertheimer,73,31.2,31200000000.00,Fashion & Retail,Chanel,United States,New York,New York,Not provided,FALSE,Male,28/08/1948,Chief Executive Officer,Old
+43,Gerard Wertheimer,71,31.2,31200000000.00,Fashion & Retail,Chanel,United States,New York,New York,Not provided,FALSE,Male,09/01/1951,Chief Executive Officer,Old
+48,Jim Simons,83,28.6,28600000000.00,Finance & Investments,HedgeFunds,United States,New York,East Setauket,Renaissance Technologies Corp.,TRUE,Male,25/04/1938,Founder,Old
+65,Leonard Lauder,89,23.1,23100000000.00,Fashion & Retail,EsteeLauder,United States,New York,New York,The Estée Lauder Companies,FALSE,Male,19/03/1933,Chairman,Old
+76,Rupert Murdoch & family,91,20.8,20800000000.00,Media & Entertainment,Newspapers TVNetwork,United States,New York,New York,News Corp,FALSE,Male,11/03/1931,Chief Executive Officer and Chairman,Old
+128,Donald Newhouse,92,14.4,14400000000.00,Media & Entertainment,Media,United States,New York,New York,Not provided,FALSE,Male,05/08/1929,Chief Executive Officer,Old
+167,Israel Englander,73,11.5,11500000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,"Millennium Management, L.L.C.",TRUE,Male,30/09/1948,Founder,Old
+192,"Chase Coleman, III.",46,10.3,10300000000.00,Finance & Investments,Investments,United States,New York,New York,Tiger Global Management,TRUE,Male,21/06/1975,Investor,Middle Aged Adult
+197,Leon Black,70,10,10000000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Not provided,TRUE,Male,31/07/1951,Chief Executive Officer,Old
+246,George Soros,91,8.6,8600000000.00,Finance & Investments,HedgeFunds,United States,New York,Katonah,Soros Fund Management LLC,TRUE,Male,12/08/1930,Founder,Old
+267,Stephen Ross,81,8.2,8200000000.00,Real Estate,RealEstate,United States,New York,New York,Not provided,TRUE,Male,10/05/1940,Chief Executive Officer,Old
+288,Valerie Mars,63,7.9,7900000000.00,Food & Beverage,Candy PetFood,United States,New York,New York,Not provided,FALSE,Female,26/01/1959,Chief Executive Officer,Old
+304,Henry Kravis,78,7.7,7700000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,KKR & Co.,TRUE,Male,06/01/1944,Cochairman,Old
+316,David Shaw,71,7.5,7500000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,"D. E. Shaw & Co., L.P.",TRUE,Male,29/03/1951,Founder,Old
+350,Ralph Lauren,82,6.9,6900000000.00,Fashion & Retail,Apparel,United States,New York,New York,Ralph Lauren,TRUE,Male,14/10/1939,Chairman,Old
+363,Stanley Druckenmiller,68,6.8,6800000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Duquesne Family Office,TRUE,Male,14/06/1953,Founder,Old
+363,Jonathan Gray,52,6.8,6800000000.00,Finance & Investments,Investments,United States,New York,New York,Not provided,TRUE,Male,04/02/1970,Chief Executive Officer,Middle Aged Adult
+386,Philippe Laffont,54,6.5,6500000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Coatue Management,TRUE,Male,16/09/1967,Founder,Middle Aged Adult
+386,David Siegel,60,6.5,6500000000.00,Finance & Investments,HedgeFunds,United States,New York,Scarsdale,Two Sigma,TRUE,Male,15/07/1961,Investor,Middle Aged Adult
+411,Bruce Kovner,77,6.2,6200000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Caxton Associates LP,TRUE,Male,25/02/1945,Founder,Old
+411,Leonard Stern,84,6.2,6200000000.00,Real Estate,RealEstate,United States,New York,New York,"Hartz Mountain Industries, Inc.",FALSE,Male,28/03/1938,Chief Executive Officer and Chairman,Old
+438,Ken Langone,86,5.8,5800000000.00,Finance & Investments,Investments,United States,New York,Sands Point,Not provided,TRUE,Male,16/09/1935,Chief Executive Officer,Old
+438,Joshua Harris,57,5.8,5800000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Not provided,TRUE,Male,29/12/1964,Chief Executive Officer,Middle Aged Adult
+480,Jane Lauder,49,5.5,5500000000.00,Fashion & Retail,EsteeLauder,United States,New York,New York,Not provided,FALSE,Female,01/01/1973,Chief Executive Officer,Middle Aged Adult
+490,Charles Dolan & family,95,5.4,5400000000.00,Media & Entertainment,CableTelevision,United States,New York,Oyster Bay,Cablevision Systems Corp.,TRUE,Male,16/10/1926,Founder and Chairman,Old
+523,James Chambers,64,5.2,5200000000.00,Media & Entertainment,Media Automotive,United States,New York,Palisades,Not provided,FALSE,Male,12/04/1957,Chief Executive Officer,Old
+523,Katharine Rayner,77,5.2,5200000000.00,Media & Entertainment,Media Automotive,United States,New York,East Hampton,Not provided,FALSE,Female,12/01/1945,Chief Executive Officer,Old
+523,Margaretta Taylor,79,5.2,5200000000.00,Media & Entertainment,Media Automotive,United States,New York,Southampton,Not provided,FALSE,Female,15/04/1942,Chief Executive Officer,Old
+552,Ronald Lauder,78,5,5000000000.00,Fashion & Retail,EsteeLauder,United States,New York,New York,Not provided,FALSE,Male,26/02/1944,Chief Executive Officer,Old
+552,Daniel Ziff,50,5,5000000000.00,Finance & Investments,Investments,United States,New York,New York,Not provided,FALSE,Male,02/11/1971,Chief Executive Officer,Middle Aged Adult
+552,Robert Ziff,55,5,5000000000.00,Finance & Investments,Investments,United States,New York,New York,Not provided,FALSE,Male,12/08/1966,Chief Executive Officer,Middle Aged Adult
+552,Scott Shleifer,44,5,5000000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Tiger Global Management,TRUE,Male,14/06/1977,Investor,Middle Aged Adult
+586,"Julian Robertson, Jr.",89,4.8,4800000000.00,Finance & Investments,HedgeFunds,United States,New York,Locust Valley,Not provided,TRUE,Male,25/06/1932,Chief Executive Officer,Old
+586,Marc Rowan,59,4.8,4800000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Not provided,TRUE,Male,19/08/1962,Chief Executive Officer,Middle Aged Adult
+622,Tony Tamer,64,4.6,4600000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Not provided,TRUE,Male,12/10/1957,Chief Executive Officer,Old
+637,Ron Baron,78,4.5,4500000000.00,Finance & Investments,MoneyManagement,United States,New York,New York,Not provided,TRUE,Male,23/05/1943,Chief Executive Officer,Old
+654,Barry Diller,80,4.4,4400000000.00,Media & Entertainment,OnlineRetail,United States,New York,New York,Not provided,TRUE,Male,02/02/1942,Chief Executive Officer,Old
+665,Paul Singer,77,4.3,4300000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Elliott Management,TRUE,Male,22/08/1944,Investor,Old
+687,Vincent Viola,66,4.2,4200000000.00,Finance & Investments,ElectronicTrading,United States,New York,New York,Not provided,TRUE,Male,12/02/1956,Chief Executive Officer,Old
+687,Daniel Loeb,60,4.2,4200000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Third Point,TRUE,Male,18/12/1961,Investor,Middle Aged Adult
+687,Jon Stryker,63,4.2,4200000000.00,Healthcare,MedicalEquipment,United States,New York,New York,Not provided,FALSE,Male,03/05/1958,Chief Executive Officer,Old
+709,Thomas Secunda,67,4.1,4100000000.00,Media & Entertainment,BloombergLP,United States,New York,Croton-on-Hudson,Not provided,TRUE,Male,23/06/1954,Chief Executive Officer,Old
+728,Cameron Winklevoss,40,4,4000000000.00,Finance & Investments,Cryptocurrency,United States,New York,New York,Not provided,TRUE,Male,21/08/1981,Chief Executive Officer,Young Adult
+728,Tyler Winklevoss,40,4,4000000000.00,Finance & Investments,Cryptocurrency,United States,New York,New York,Not provided,TRUE,Male,21/08/1981,Chief Executive Officer,Young Adult
+728,John Paulson,66,4,4000000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Paulson & Co. Inc.,TRUE,Male,14/12/1955,Founder,Old
+728,Ramzi Musallam,53,4,4000000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Not provided,TRUE,Male,17/09/1968,Chief Executive Officer,Middle Aged Adult
+764,Don Vultaggio & family,70,3.9,3900000000.00,Food & Beverage,Beverages,United States,New York,Port Washington,Not provided,TRUE,Male,26/02/1952,Chief Executive Officer,Old
+778,Pablo Legorreta,58,3.8,3800000000.00,Finance & Investments,Investments,United States,New York,Sag Harbor,Not provided,TRUE,Male,30/10/1963,Chief Executive Officer,Middle Aged Adult
+778,Katharina Otto-Bernstein,58,3.8,3800000000.00,Real Estate,RealEstate,United States,New York,New York,Not provided,FALSE,Female,01/01/1964,Chief Executive Officer,Middle Aged Adult
+801,William Lauder,61,3.7,3700000000.00,Fashion & Retail,EsteeLauder,United States,New York,New York,Not provided,FALSE,Male,11/04/1960,Chief Executive Officer,Old
+801,Ira Rennert,87,3.7,3700000000.00,Finance & Investments,Investments,United States,New York,New York,Not provided,TRUE,Male,31/05/1934,Chief Executive Officer,Old
+801,John Catsimatidis,73,3.7,3700000000.00,Energy,Oil RealEstate,United States,New York,New York,Not provided,TRUE,Male,07/09/1948,Chief Executive Officer,Old
+801,Richard LeFrak & family,76,3.7,3700000000.00,Real Estate,RealEstate,United States,New York,New York,Not provided,FALSE,Male,29/08/1945,Chief Executive Officer,Old
+822,Charles Cohen,70,3.6,3600000000.00,Real Estate,RealEstate,United States,New York,New York,Not provided,FALSE,Male,08/02/1952,Chief Executive Officer,Old
+822,Jerry Speyer,81,3.6,3600000000.00,Real Estate,RealEstate,United States,New York,New York,Not provided,TRUE,Male,23/06/1940,Chief Executive Officer,Old
+851,Aerin Lauder,51,3.5,3500000000.00,Fashion & Retail,Cosmetics,United States,New York,New York,Not provided,FALSE,Female,23/04/1970,Chief Executive Officer,Middle Aged Adult
+883,Wesley Edens,60,3.4,3400000000.00,Finance & Investments,Investments,United States,New York,New York,Not provided,TRUE,Male,31/10/1961,Chief Executive Officer,Middle Aged Adult
+883,David Gottesman,95,3.4,3400000000.00,Finance & Investments,Investments,United States,New York,Rye,First Manhattan Co.,TRUE,Male,26/04/1926,Chief Executive Officer,Old
+883,Steven Klinsky,65,3.4,3400000000.00,Finance & Investments,Investments,United States,New York,New York,Not provided,TRUE,Male,30/05/1956,Investor,Old
+951,Barry Silbert,45,3.2,3200000000.00,Finance & Investments,Cryptocurrency,United States,New York,Rye,Not provided,TRUE,Male,15/05/1976,Chief Executive Officer,Middle Aged Adult
+951,Daniel Sundheim,45,3.2,3200000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Not provided,TRUE,Male,29/03/1977,Investor,Middle Aged Adult
+984,Karthik Sarma,47,3.1,3100000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Not provided,TRUE,Male,01/12/1974,Chief Executive Officer,Middle Aged Adult
+984,Jeff Sutton,62,3.1,3100000000.00,Real Estate,RealEstate,United States,New York,New York,Not provided,TRUE,Male,17/01/1960,Chief Executive Officer,Old
+1012,Charles Zegar,74,3,3000000000.00,Media & Entertainment,BloombergLP,United States,New York,New York,Not provided,TRUE,Male,29/02/1948,Chief Executive Officer,Old
+1012,William Ackman,55,3,3000000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,"Pershing Square Capital Management, L.P.",TRUE,Male,11/05/1966,Chief Executive Officer and Founder,Middle Aged Adult
+1012,Mortimer Zuckerman,84,3,3000000000.00,Real Estate,RealEstate Media,United States,New York,New York,Boston Properties,TRUE,Male,04/06/1937,Chief Executive Officer and Chairman,Old
+1053,Olivier Pomel,45,2.9,2900000000.00,Technology,CloudComputing,United States,New York,New York,Datadog,TRUE,Male,26/03/1977,Cofounder,Middle Aged Adult
+1053,"Jeremy Jacobs, Sr. & family",82,2.9,2900000000.00,Service,FoodDeliveryService,United States,New York,East Aurora,Not provided,FALSE,Male,21/01/1940,Chief Executive Officer,Old
+1053,Joseph Edelman,66,2.9,2900000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Perceptive Advisors,TRUE,Male,10/06/1955,Investor,Old
+1053,Hamilton James,70,2.9,2900000000.00,Finance & Investments,Investments,United States,New York,New York,Not provided,TRUE,Male,03/08/1951,Chief Executive Officer,Old
+1053,Jane Goldman,66,2.9,2900000000.00,Real Estate,RealEstate,United States,New York,New York,Not provided,FALSE,Female,29/07/1955,Chief Executive Officer,Old
+1053,Daniel Dines,50,2.9,2900000000.00,Technology,Software,United States,New York,New York,Not provided,TRUE,Male,01/01/1972,Chief Executive Officer,Middle Aged Adult
+1096,Felix Baker,53,2.8,2800000000.00,Finance & Investments,Biotech,United States,New York,New York,Not provided,TRUE,Male,29/03/1969,Chief Executive Officer,Middle Aged Adult
+1096,Alexis Lê-Quôc,47,2.8,2800000000.00,Technology,CloudComputing,United States,New York,New York,Datadog,TRUE,Male,14/11/1974,Cofounder,Middle Aged Adult
+1096,Julian Baker,55,2.8,2800000000.00,Finance & Investments,Investments,United States,New York,New York,Not provided,TRUE,Male,21/05/1966,Chief Executive Officer,Middle Aged Adult
+1096,J. Tomilson Hill,73,2.8,2800000000.00,Finance & Investments,Investments,United States,New York,New York,Not provided,TRUE,Male,24/05/1948,Chief Executive Officer,Old
+1096,Allan Goldman,79,2.8,2800000000.00,Real Estate,RealEstate,United States,New York,New York,Not provided,FALSE,Male,06/03/1943,Chief Executive Officer,Old
+1096,Amy Goldman Fowler,67,2.8,2800000000.00,Real Estate,RealEstate,United States,New York,Rhinebeck,Not provided,FALSE,Female,19/04/1954,Chief Executive Officer,Old
+1096,Diane Kemper,76,2.8,2800000000.00,Real Estate,RealEstate,United States,New York,New York,Not provided,FALSE,Female,21/07/1945,Chief Executive Officer,Old
+1163,Ben Ashkenazy,52,2.7,2700000000.00,Real Estate,RealEstate,United States,New York,New York,Not provided,TRUE,Male,23/09/1969,Chief Executive Officer,Middle Aged Adult
+1196,Alejandro Santo Domingo,45,2.6,2600000000.00,Food & Beverage,BeerDistribution,United States,New York,New York,Not provided,FALSE,Male,13/02/1977,Chief Executive Officer,Middle Aged Adult
+1196,Ronald Perelman,79,2.6,2600000000.00,Finance & Investments,LeveragedBuyouts,United States,New York,New York,Not provided,TRUE,Male,01/01/1943,Chief Executive Officer,Old
+1238,Stewart Rahr,76,2.5,2500000000.00,Healthcare,DrugDistribution,United States,New York,New York,Not provided,FALSE,Male,18/02/1946,Chief Executive Officer,Old
+1292,Hamdi Ulukaya,49,2.4,2400000000.00,Food & Beverage,GreekYogurt,United States,New York,Norwich,Chobani,TRUE,Male,26/10/1972,Entrepreneur,Middle Aged Adult
+1292,Chetan Dube,56,2.4,2400000000.00,Technology,Telecom,United States,New York,New York,Not provided,TRUE,Male,05/01/1966,Chief Executive Officer,Middle Aged Adult
+1341,Noam Gottesman,60,2.3,2300000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,TOMS Capital,TRUE,Male,24/05/1961,Chief Executive Officer,Middle Aged Adult
+1341,Stephen Feinberg,62,2.3,2300000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Cerberus Capital Management,TRUE,Male,29/03/1960,Chief Executive Officer and Cofounder,Old
+1341,David Walentas,83,2.3,2300000000.00,Real Estate,RealEstate,United States,New York,New York,Not provided,TRUE,Male,07/08/1938,Chief Executive Officer,Old
+1397,Jeffrey Talpins,47,2.2,2200000000.00,Finance & Investments,HedgeFunds,United States,New York,Larchmont,Element Capital Management,TRUE,Male,06/03/1975,Founder,Middle Aged Adult
+1397,Hope Welker,36,2.2,2200000000.00,Metals & Mining,Mining,United States,New York,New York,Not provided,FALSE,Female,13/08/1985,Chief Executive Officer,Young Adult
+1397,Devin Finzer,31,2.2,2200000000.00,Technology,OnlineRetail,United States,New York,New York,Not provided,TRUE,Male,18/10/1990,Chief Executive Officer,Young Adult
+1397,Alex Atallah,30,2.2,2200000000.00,Technology,OnlineRetail,United States,New York,New York,OpenSea,TRUE,Male,09/03/1992,Cofounder,Young Adult
+1397,Howard Marks,75,2.2,2200000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Oaktree Capital Group LLC,TRUE,Male,23/04/1946,Chairman,Old
+1397,Daniel Lubetzky,53,2.2,2200000000.00,Food & Beverage,SnackBars,United States,New York,New York,Not provided,TRUE,Male,28/09/1968,Chief Executive Officer,Middle Aged Adult
+1513,David Nahmad,74,2,2000000000.00,Fashion & Retail,ArtCollection,United States,New York,New York,Not provided,TRUE,Male,14/04/1947,Chief Executive Officer,Old
+1513,Glenn Dubin,64,2,2000000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Highbridge Capital Management,TRUE,Male,13/04/1957,Cofounder,Old
+1513,Thomas Lee,78,2,2000000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Not provided,TRUE,Male,27/03/1944,Chief Executive Officer,Old
+1513,Josh Kushner,36,2,2000000000.00,Finance & Investments,VentureCapital,United States,New York,New York City,Thrive Capital,TRUE,Male,12/06/1985,Partner,Young Adult
+1579,James Dinan,62,1.9,1900000000.00,Finance & Investments,HedgeFunds,United States,New York,North Salem,York Capital Management,TRUE,Male,22/05/1959,Founder,Old
+1579,David Lichtenstein,60,1.9,1900000000.00,Real Estate,RealEstate,United States,New York,Monsey,Not provided,TRUE,Male,21/11/1961,Chief Executive Officer,Middle Aged Adult
+1645,O. Francis Biondi,57,1.8,1800000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Not provided,TRUE,Male,04/07/1964,Chief Executive Officer,Middle Aged Adult
+1645,Brian Higgins,57,1.8,1800000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,King Street Capital Management,TRUE,Male,08/02/1965,Investor,Middle Aged Adult
+1645,Marc Lasry,61,1.8,1800000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Avenue Capital Group,TRUE,Male,23/09/1960,Founder,Old
+1645,Henry Swieca,64,1.8,1800000000.00,Finance & Investments,HedgeFunds,United States,New York,New York,Talpion Fund Management,TRUE,Male,09/05/1957,Founder,Old
+1729,Nelson Peltz,79,1.7,1700000000.00,Finance & Investments,Investments,United States,New York,Bedford,Trian Fund Management,TRUE,Male,01/06/1942,Founder,Old
+1818,Jamie Dimon,66,1.6,1600000000.00,Finance & Investments,Banking,United States,New York,New York,JPMorgan Chase,TRUE,Male,13/03/1956,Chief Executive Officer,Old
+1818,Andres Santo Domingo,43,1.6,1600000000.00,Food & Beverage,BeerDistribution,United States,New York,New York,Not provided,FALSE,Male,01/06/1978,Chief Executive Officer,Middle Aged Adult
+1818,Louis Bacon,65,1.6,1600000000.00,Finance & Investments,HedgeFunds,United States,New York,Oyster Bay,"Moore Capital Management, LP",TRUE,Male,25/07/1956,Founder,Old
+1818,"Herbert Allen, Jr. & family",82,1.6,1600000000.00,Finance & Investments,Investments Banking,United States,New York,New York,Not provided,FALSE,Male,05/03/1940,Chief Executive Officer,Old
+1929,Alan Gerry,93,1.5,1500000000.00,Media & Entertainment,CableTelevision,United States,New York,Liberty,Not provided,TRUE,Male,25/12/1928,Chief Executive Officer,Old
+1929,John Farber,96,1.5,1500000000.00,Manufacturing,Chemicals,United States,New York,New York,Not provided,TRUE,Male,23/08/1925,Director,Old
+1929,Wilma Tisch,94,1.5,1500000000.00,Finance & Investments,Diversified,United States,New York,New York,Not provided,FALSE,Female,25/06/1927,Chief Executive Officer,Old
+1929,Jonathan Tisch,68,1.5,1500000000.00,Diversified,Insurance NFLteam,United States,New York,New York,Not provided,FALSE,Male,07/12/1953,Chief Executive Officer,Old
+1929,Greg Mondre,47,1.5,1500000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Not provided,TRUE,Male,20/05/1974,Chief Executive Officer,Middle Aged Adult
+1929,Sidney Kimmel,94,1.5,1500000000.00,Fashion & Retail,Retail,United States,New York,New York,Not provided,TRUE,Male,16/01/1928,Chief Executive Officer,Old
+2076,Jay-Z,52,1.4,1400000000.00,Media & Entertainment,Multiple,United States,New York,New York,Roc Nation Sports,TRUE,Male,04/12/1969,Chief Executive Officer,Middle Aged Adult
+2076,George Yancopoulos,62,1.4,1400000000.00,Healthcare,Pharmaceuticals,United States,New York,Yorktown Heights,Not provided,TRUE,Male,10/09/1959,Chief Executive Officer,Old
+2076,Adam Neumann,43,1.4,1400000000.00,Real Estate,WeWork,United States,New York,New York,Not provided,TRUE,Male,01/04/1979,Chief Executive Officer,Middle Aged Adult
+2190,Mitchell Jacobson,71,1.3,1300000000.00,Service,IndustrialEquipment,United States,New York,Locust Valley,Not provided,FALSE,Male,06/03/1951,Chief Executive Officer,Old
+2190,Randal Nardone,66,1.3,1300000000.00,Finance & Investments,Investments Energy,United States,New York,New York,Not provided,TRUE,Male,22/06/1955,Chief Executive Officer,Old
+2324,Michael Steinhardt,81,1.2,1200000000.00,Finance & Investments,HedgeFunds,United States,New York,Mount Kisco,Not provided,TRUE,Male,07/12/1940,Chief Executive Officer,Old
+2324,Laurie Tisch,71,1.2,1200000000.00,Diversified,Insurance NFLteam,United States,New York,New York,Not provided,FALSE,Female,19/02/1951,Chief Executive Officer,Old
+2324,J. Christopher Flowers,64,1.2,1200000000.00,Finance & Investments,Investments,United States,New York,New York,J.C. Flowers & Co. LLC,TRUE,Male,27/10/1957,Director,Old
+2324,Leonard Schleifer,69,1.2,1200000000.00,Healthcare,Pharmaceuticals,United States,New York,Tarrytown,Regeneron Pharmaceuticals,TRUE,Male,07/07/1952,Chief Executive Officer and Founder,Old
+2324,Lawrence Golub,62,1.2,1200000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Not provided,TRUE,Male,03/10/1959,Investor,Old
+2448,Lloyd Blankfein,67,1.1,1100000000.00,Finance & Investments,Banking,United States,New York,New York,Goldman Sachs Group,TRUE,Male,20/09/1954,Chief Executive Officer,Old
+2448,David Golub,59,1.1,1100000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Not provided,TRUE,Male,16/04/1962,Investor,Middle Aged Adult
+2578,Boris Jordan,55,1,1000000000.00,Manufacturing,Cannabis,United States,New York,New York,Not provided,TRUE,Male,02/06/1966,Chief Executive Officer,Middle Aged Adult
+2578,Joseph Steinberg,78,1,1000000000.00,Finance & Investments,Investments,United States,New York,New York,Not provided,TRUE,Male,05/02/1944,Chief Executive Officer,Old
+2578,Larry Fink,69,1,1000000000.00,Finance & Investments,MoneyManagement,United States,New York,New York,BlackRock,TRUE,Male,02/11/1952,Chief Executive Officer and Cofounder,Old
+2578,Scott Nuttall,49,1,1000000000.00,Finance & Investments,PrivateEquity,United States,New York,New York,Not provided,TRUE,Male,25/11/1972,Chief Executive Officer,Middle Aged Adult
+2578,Axel Stawski,71,1,1000000000.00,Real Estate,RealEstate,United States,New York,Sagaponack,Not provided,TRUE,Male,14/11/1950,Chief Executive Officer,Old
+321,Tim Sweeney,51,7.4,7400000000.00,Media & Entertainment,VideoGames,United States,North Carolina,Cary,Not provided,TRUE,Male,13/12/1970,Chief Executive Officer,Middle Aged Adult
+369,James Goodnight,79,6.7,6700000000.00,Technology,Software,United States,North Carolina,Cary,SAS Institute,TRUE,Male,06/01/1943,Chief Executive Officer,Old
+913,John Sall,74,3.3,3300000000.00,Technology,Software,United States,North Carolina,Cary,SAS Institute,TRUE,Male,04/04/1948,Cofounder,Old
+1445,Dennis Gillings,77,2.1,2100000000.00,Healthcare,ClinicalTrials,United States,North Carolina,Durham,Not provided,TRUE,Male,25/04/1944,Chief Executive Officer,Old
+2578,Mark Rein,58,1,1000000000.00,Media & Entertainment,VideoGames,United States,North Carolina,Raleigh,Not provided,TRUE,Male,02/05/1963,Chief Executive Officer,Middle Aged Adult
+438,Les Wexner & family,84,5.8,5800000000.00,Fashion & Retail,Retail,United States,Ohio,New Albany,L Brands,TRUE,Male,08/09/1937,Chief Executive Officer and Chairman,Old
+728,Denise York & family,71,4,4000000000.00,Sports,SanFrancisco49ers,United States,Ohio,Youngstown,San Francisco 49ers,FALSE,Female,21/10/1950,Cochairman,Old
+1341,Clayton Mathile,81,2.3,2300000000.00,Food & Beverage,PetFood,United States,Ohio,Brookville,Not provided,TRUE,Male,11/01/1941,Investor,Old
+2190,August Troendle,66,1.3,1300000000.00,Healthcare,Pharmaceuticals,United States,Ohio,Cincinnati,Not provided,TRUE,Male,01/01/1956,Chief Executive Officer,Old
+2448,Norma Lerner,86,1.1,1100000000.00,Finance & Investments,Banking,United States,Ohio,Cleveland,Not provided,FALSE,Female,28/03/1936,Chief Executive Officer,Old
+2448,Nancy Lerner,61,1.1,1100000000.00,Finance & Investments,Banking CreditCards,United States,Ohio,Cleveland,Not provided,FALSE,Female,11/05/1960,Chief Executive Officer,Old
+2448,Randolph Lerner,60,1.1,1100000000.00,Finance & Investments,Banking CreditCards,United States,Ohio,Cleveland,Not provided,FALSE,Male,21/02/1962,Chief Executive Officer,Middle Aged Adult
+98,Harold Hamm & family,76,17.2,17200000000.00,Energy,Oil Gas,United States,Oklahoma,Oklahoma City,Continental Resources,TRUE,Male,11/12/1945,Chief Executive Officer and Chairman,Old
+201,George Kaiser,79,9.9,9900000000.00,Energy,Oil Gas Banking,United States,Oklahoma,Tulsa,BOK Financial,FALSE,Male,29/07/1942,Chairman,Old
+213,Tom & Judy Love,64,9.7,9700000000.00,Fashion & Retail,Retail GasStations,United States,Oklahoma,Oklahoma City,Love's Travel Stops and Country Stores,TRUE,Male,Not provided,Chief Executive Officer and Chairman,Old
+324,David Green & family,80,7.3,7300000000.00,Fashion & Retail,Retail,United States,Oklahoma,Oklahoma City,Hobby Lobby,TRUE,Male,13/11/1941,Chief Executive Officer,Old
+851,Lynn Schusterman,83,3.5,3500000000.00,Energy,Oil Gas Investments,United States,Oklahoma,Tulsa,Not provided,FALSE,Female,21/01/1939,Chief Executive Officer,Old
+1238,Chad Richison,51,2.5,2500000000.00,Technology,PayrollSoftware,United States,Oklahoma,Edmond,Not provided,TRUE,Male,10/10/1970,Chief Executive Officer,Middle Aged Adult
+27,Phil Knight & family,84,47.3,47300000000.00,Fashion & Retail,Nike,United States,Oregon,Hillsboro,Nike,TRUE,Male,24/02/1938,Chairman,Old
+913,Travis Boersma,51,3.3,3300000000.00,Food & Beverage,Coffee,United States,Oregon,Grants Pass,Not provided,TRUE,Male,01/01/1971,Chief Executive Officer,Middle Aged Adult
+1341,Timothy Boyle,72,2.3,2300000000.00,Fashion & Retail,ColumbiaSportswear,United States,Oregon,Portland,Not provided,TRUE,Male,07/09/1949,Chief Executive Officer,Old
+156,Jeff Yass,63,12,12000000000.00,Finance & Investments,Trading Investments,United States,Pennsylvania,Haverford,Not provided,TRUE,Male,17/07/1958,Chief Executive Officer,Old
+284,Michael Rubin,49,8,8000000000.00,Fashion & Retail,OnlineRetail,United States,Pennsylvania,Bryn Mawr,Kynetic,TRUE,Male,21/07/1972,Entrepreneur,Middle Aged Adult
+288,Victoria Mars,65,7.9,7900000000.00,Food & Beverage,Candy PetFood,United States,Pennsylvania,Philadelphia,Not provided,FALSE,Female,15/12/1956,Chief Executive Officer,Old
+851,Mary Alice Dorrance Malone,72,3.5,3500000000.00,Food & Beverage,CampbellSoup,United States,Pennsylvania,Coatesville,Not provided,FALSE,Female,03/02/1950,Chief Executive Officer,Old
+851,Jeffrey Lurie,70,3.5,3500000000.00,Sports,Pharmaceuticals,United States,Pennsylvania,Wynnewood,Not provided,FALSE,Male,08/09/1951,Chief Executive Officer,Old
+883,John Middleton,67,3.4,3400000000.00,Food & Beverage,Tobacco,United States,Pennsylvania,Bryn Mawr,Not provided,FALSE,Male,02/03/1955,Chief Executive Officer,Old
+951,Thomas Hagen,86,3.2,3200000000.00,Finance & Investments,Insurance,United States,Pennsylvania,Erie,Not provided,FALSE,Male,01/01/1936,Chief Executive Officer,Old
+1341,Thomas Tull,51,2.3,2300000000.00,Media & Entertainment,Movies Investments,United States,Pennsylvania,Pittsburgh,Not provided,TRUE,Male,11/06/1970,Chief Executive Officer,Middle Aged Adult
+1645,David Paul,55,1.8,1800000000.00,Healthcare,MedicalDevices,United States,Pennsylvania,Audubon,"Globus Medical, Inc.",TRUE,Male,25/12/1966,Founder and Chairman,Middle Aged Adult
+1729,Edward Stack,67,1.7,1700000000.00,Fashion & Retail,Dick'sSportingGoods,United States,Pennsylvania,Sewickley,Dick's Sporting Goods,TRUE,Male,27/12/1954,Entrepreneur,Old
+1818,Brian Roberts,62,1.6,1600000000.00,Media & Entertainment,Comcast,United States,Pennsylvania,Philadelphia,Comcast,FALSE,Male,28/06/1959,Chief Executive Officer,Old
+1818,Jared Isaacman,39,1.6,1600000000.00,Technology,PaymentSoftware,United States,Pennsylvania,Easton,Not provided,TRUE,Male,11/02/1983,Chief Executive Officer,Young Adult
+1929,Alan Miller & family,84,1.5,1500000000.00,Healthcare,HealthcareIT,United States,Pennsylvania,Lower Merion,Not provided,TRUE,Male,17/08/1937,Chief Executive Officer,Old
+2076,Maggie Hardy Knox,56,1.4,1400000000.00,Service,BuildingMaterials,United States,Pennsylvania,Belle Vernon,Not provided,FALSE,Female,07/12/1965,Chief Executive Officer,Middle Aged Adult
+2190,"Alfred West, Jr.",79,1.3,1300000000.00,Finance & Investments,MoneyManagement,United States,Pennsylvania,Paoli,Not provided,TRUE,Male,07/12/1942,Chief Executive Officer,Old
+2324,Richard Hayne,74,1.2,1200000000.00,Fashion & Retail,UrbanOutfitters,United States,Pennsylvania,Philadelphia,Urban Outfitters,TRUE,Male,01/09/1947,Chairman,Old
+2578,"Richard Yuengling, Jr.",79,1,1000000000.00,Food & Beverage,BeerDistribution,United States,Pennsylvania,Pottsville,Not provided,FALSE,Male,10/03/1943,Chief Executive Officer,Old
+1397,Jonathan Nelson,65,2.2,2200000000.00,Finance & Investments,PrivateEquity,United States,Rhode Island,Providence,Providence Equity Partners,TRUE,Male,18/05/1956,Chief Executive Officer,Old
+1729,Anita Zucker,70,1.7,1700000000.00,Manufacturing,Chemicals,United States,South Carolina,Charleston,Not provided,FALSE,Female,19/01/1952,Chief Executive Officer,Old
+883,T. Denny Sanford,86,3.4,3400000000.00,Finance & Investments,Banking CreditCards,United States,South Dakota,Sioux Falls,Not provided,TRUE,Male,23/12/1935,Chief Executive Officer,Old
+73,"Thomas Frist, Jr. & family",83,21.8,21800000000.00,Healthcare,Hospitals,United States,Tennessee,Nashville,Not provided,TRUE,Male,12/08/1938,Chief Executive Officer,Old
+601,Fred Smith,77,4.7,4700000000.00,Logistics,FedEx,United States,Tennessee,Memphis,FedEx,TRUE,Male,11/08/1944,Chief Executive Officer and Chairman,Old
+687,Martha Ingram & family,86,4.2,4200000000.00,Media & Entertainment,BookDistribution Transportation,United States,Tennessee,Nashville,Ingram Industries,FALSE,Female,20/08/1935,Chairman,Old
+778,Jimmy Haslam,68,3.8,3800000000.00,Fashion & Retail,GasStations Retail,United States,Tennessee,Knoxville,Pilot Company,FALSE,Male,09/03/1954,Chief Executive Officer,Old
+984,Jon Yarbrough,64,3.1,3100000000.00,Gambling & Casinos,VideoGames,United States,Tennessee,Franklin,Not provided,TRUE,Male,10/05/1957,Chief Executive Officer,Old
+1163,Brad Kelley,65,2.7,2700000000.00,Real Estate,Tobacco,United States,Tennessee,Franklin,Not provided,TRUE,Male,23/12/1956,Chief Executive Officer,Old
+1341,Bill Haslam,63,2.3,2300000000.00,Fashion & Retail,GasStations,United States,Tennessee,Knoxville,Not provided,FALSE,Male,23/08/1958,Chief Executive Officer,Old
+1579,Willis Johnson,74,1.9,1900000000.00,Automotive,DamagedCars,United States,Tennessee,Franklin,Not provided,TRUE,Male,26/05/1947,Chief Executive Officer,Old
+2076,Jeffrey Lorberbaum,67,1.4,1400000000.00,Manufacturing,Flooring,United States,Tennessee,Chattanooga,Not provided,FALSE,Male,25/10/1954,Chief Executive Officer,Old
+2190,Forrest Preston,89,1.3,1300000000.00,Healthcare,HealthcareIT,United States,Tennessee,Cleveland,Not provided,TRUE,Male,22/03/1933,Chief Executive Officer,Old
+2578,Dean Solon,57,1,1000000000.00,Energy,SolarSystems,United States,Tennessee,Gallatin,Not provided,TRUE,Male,01/01/1965,Chief Executive Officer,Middle Aged Adult
+1,Elon Musk,50,219,219000000000.00,Automotive,Tesla SpaceX,United States,Texas,Austin,Tesla,TRUE,Male,28/06/1971,Chief Executive Officer,Middle Aged Adult
+18,Alice Walton,72,65.3,65300000000.00,Fashion & Retail,Walmart,United States,Texas,Fort Worth,Crystal Bridges Museum of American Art,FALSE,Female,07/10/1949,Philanthropist,Old
+24,Michael Dell,57,55.1,55100000000.00,Technology,DellComputers,United States,Texas,Austin,Dell Inc.,TRUE,Male,23/02/1965,Chief Executive Officer and Chairman,Middle Aged Adult
+183,Stanley Kroenke,74,10.7,10700000000.00,Sports,Sports RealEstate,United States,Texas,Electra,Not provided,TRUE,Male,29/07/1947,Chief Executive Officer,Old
+185,Jerry Jones,79,10.6,10600000000.00,Sports,DallasCowboys,United States,Texas,Dallas,Dallas Cowboys,TRUE,Male,13/10/1942,President,Old
+201,Andrew Beal,69,9.9,9900000000.00,Finance & Investments,Banking RealEstate,United States,Texas,Dallas,Not provided,TRUE,Male,29/11/1952,Chief Executive Officer,Old
+227,Ann Walton Kroenke,73,9,9000000000.00,Fashion & Retail,Walmart,United States,Texas,Electra,Not provided,FALSE,Female,18/12/1948,Chief Executive Officer,Old
+316,Jeffery Hildebrand,63,7.5,7500000000.00,Energy,Oil,United States,Texas,Houston,Not provided,TRUE,Male,05/03/1959,Chief Executive Officer,Old
+316,Richard Kinder,77,7.5,7500000000.00,Energy,Pipelines,United States,Texas,Houston,Kinder Morgan,TRUE,Male,19/10/1944,Chief Executive Officer and Chairman,Old
+369,Robert F. Smith,59,6.7,6700000000.00,Finance & Investments,PrivateEquity,United States,Texas,Austin,Not provided,TRUE,Male,01/12/1962,Investor,Middle Aged Adult
+375,Dannine Avara,58,6.6,6600000000.00,Energy,Pipelines,United States,Texas,Houston,Not provided,FALSE,Female,09/03/1964,Chief Executive Officer,Middle Aged Adult
+375,Scott Duncan,39,6.6,6600000000.00,Energy,Pipelines,United States,Texas,Houston,Not provided,FALSE,Male,01/11/1982,Chief Executive Officer,Young Adult
+375,Milane Frantz,52,6.6,6600000000.00,Energy,Pipelines,United States,Texas,Houston,Not provided,FALSE,Female,12/08/1969,Chief Executive Officer,Middle Aged Adult
+375,Randa Duncan Williams,60,6.6,6600000000.00,Energy,Pipelines,United States,Texas,Houston,Enterprise GP Holdings,FALSE,Female,28/08/1961,Chairman,Middle Aged Adult
+386,Ray Lee Hunt,78,6.5,6500000000.00,Energy,Oil RealEstate,United States,Texas,Dallas,Not provided,FALSE,Male,06/04/1943,Chief Executive Officer,Old
+471,Tilman Fertitta,64,5.6,5600000000.00,Food & Beverage,HoustonRockets Entertainment,United States,Texas,Houston,Fertitta Entertainment,TRUE,Male,25/06/1957,Chief Executive Officer and Chairman,Old
+509,Ken Fisher,71,5.3,5300000000.00,Finance & Investments,MoneyManagement,United States,Texas,Dallas,Not provided,TRUE,Male,29/11/1950,Chief Executive Officer,Old
+536,Robert Bass,74,5.1,5100000000.00,Energy,Oil Investments,United States,Texas,Fort Worth,Not provided,FALSE,Male,19/03/1948,Chief Executive Officer,Old
+552,Autry Stephens,83,5,5000000000.00,Energy,Oil,United States,Texas,Midland,Not provided,TRUE,Male,01/01/1939,Chief Executive Officer,Old
+601,Mark Cuban,63,4.7,4700000000.00,Media & Entertainment,OnlineRetail,United States,Texas,Dallas,Dallas Mavericks,TRUE,Male,31/07/1958,Founder,Old
+601,Robert Brockman,80,4.7,4700000000.00,Technology,Software,United States,Texas,Houston,Not provided,TRUE,Male,28/05/1941,Chief Executive Officer,Old
+637,Robert Rowling,68,4.5,4500000000.00,Service,Hotels Investments,United States,Texas,Dallas,Not provided,FALSE,Male,26/09/1953,Chief Executive Officer,Old
+637,Trevor Rees-Jones,70,4.5,4500000000.00,Energy,Oil Gas,United States,Texas,Dallas,Not provided,TRUE,Male,12/08/1951,Chief Executive Officer,Old
+637,David Bonderman,79,4.5,4500000000.00,Finance & Investments,PrivateEquity,United States,Texas,Fort Worth,Not provided,TRUE,Male,27/11/1942,Chief Executive Officer,Old
+637,Bert Beveridge,60,4.5,4500000000.00,Food & Beverage,Vodka,United States,Texas,Austin,Not provided,TRUE,Male,01/01/1962,Chief Executive Officer,Middle Aged Adult
+665,Margot Birmingham Perot,88,4.3,4300000000.00,Technology,ComputerServices RealEstate,United States,Texas,Dallas,Not provided,FALSE,Female,15/11/1933,Chief Executive Officer,Old
+665,W. Herbert Hunt,93,4.3,4300000000.00,Energy,Oil,United States,Texas,Dallas,Not provided,FALSE,Male,06/03/1929,Investor,Old
+665,Dan Friedkin,57,4.3,4300000000.00,Automotive,ToyotaDealerships,United States,Texas,Houston,Gulf States Toyota,FALSE,Male,27/02/1965,Founder,Middle Aged Adult
+687,Janice McNair,85,4.2,4200000000.00,Sports,Energy Sports,United States,Texas,Houston,Not provided,FALSE,Female,30/09/1936,Chief Executive Officer,Old
+709,Thai Lee,63,4.1,4100000000.00,Technology,ITProvider,United States,Texas,Austin,Not provided,TRUE,Female,27/11/1958,Chief Executive Officer,Old
+728,Kelcy Warren,66,4,4000000000.00,Energy,Pipelines,United States,Texas,Dallas,Not provided,TRUE,Male,09/11/1955,Chief Executive Officer,Old
+883,Sid Bass,79,3.4,3400000000.00,Energy,Oil Investments,United States,Texas,Fort Worth,Not provided,FALSE,Male,09/04/1942,Chief Executive Officer,Old
+913,John Arnold,48,3.3,3300000000.00,Finance & Investments,HedgeFunds,United States,Texas,Houston,Centaurus Advisors,TRUE,Male,09/03/1974,Founder,Middle Aged Adult
+951,"H. Ross Perot, Jr.",63,3.2,3200000000.00,Real Estate,RealEstate,United States,Texas,Dallas,Not provided,FALSE,Male,07/11/1958,Chief Executive Officer,Old
+1012,Joseph Liemandt,53,3,3000000000.00,Technology,Software,United States,Texas,Austin,Not provided,TRUE,Male,05/08/1968,Chief Executive Officer,Middle Aged Adult
+1053,"Drayton McLane, Jr.",85,2.9,2900000000.00,Fashion & Retail,Walmart Logistics,United States,Texas,Temple,Not provided,FALSE,Male,22/07/1936,Chief Executive Officer,Old
+1096,John Paul DeJoria,77,2.8,2800000000.00,Fashion & Retail,HairProducts Tequila,United States,Texas,Austin,Not provided,TRUE,Male,13/04/1944,Chief Executive Officer,Old
+1163,Bill Austin,80,2.7,2700000000.00,Manufacturing,HealthcareIT,United States,Texas,Brownsville,Not provided,TRUE,Male,25/02/1942,Chief Executive Officer,Old
+1163,George Bishop,84,2.7,2700000000.00,Energy,Oil Gas,United States,Texas,The Woodlands,Not provided,TRUE,Male,06/10/1937,Entrepreneur,Old
+1238,Gerald Ford,77,2.5,2500000000.00,Finance & Investments,Banking,United States,Texas,Dallas,Ford Financial Fund,TRUE,Male,04/08/1944,Director,Old
+1238,Donald Horton & family,72,2.5,2500000000.00,Real Estate,Homebuilding,United States,Texas,Fort Worth,Not provided,TRUE,Male,05/03/1950,Chief Executive Officer,Old
+1292,William Franke,84,2.4,2400000000.00,Diversified,Airlines,United States,Texas,Houston,Not provided,TRUE,Male,15/04/1937,Chief Executive Officer,Old
+1292,Edward Bass,76,2.4,2400000000.00,Energy,Oil Investments,United States,Texas,Fort Worth,Not provided,FALSE,Male,10/09/1945,Chief Executive Officer,Old
+1341,Ray Davis,80,2.3,2300000000.00,Energy,Pipelines,United States,Texas,Dallas,Not provided,TRUE,Male,18/12/1941,Chief Executive Officer,Old
+1445,Lee Bass,65,2.1,2100000000.00,Energy,Oil Investments,United States,Texas,Fort Worth,Not provided,FALSE,Male,24/05/1956,Chief Executive Officer,Old
+1445,Jim Breyer,60,2.1,2100000000.00,Technology,VentureCapital,United States,Texas,Austin,Breyer Capital,TRUE,Male,26/07/1961,Investor,Middle Aged Adult
+1513,Todd Wagner,61,2,2000000000.00,Media & Entertainment,OnlineRetail,United States,Texas,Dallas,Not provided,TRUE,Male,02/08/1960,Chief Executive Officer,Old
+1645,Mark & Robyn Jones,64,1.8,1800000000.00,Finance & Investments,Insurance,United States,Texas,Fort Worth,Not provided,TRUE,Female,Not provided,Chief Executive Officer and Chairman,Old
+1645,Paul Foster,64,1.8,1800000000.00,Energy,Oil,United States,Texas,El Paso,Western Refining,TRUE,Male,08/10/1957,Chairman,Old
+1645,Christopher Goldsbury,79,1.8,1800000000.00,Food & Beverage,Salsa,United States,Texas,San Antonio,Silver Ventures,FALSE,Male,01/01/1943,Chief Executive Officer,Old
+1645,Leslie Alexander,78,1.8,1800000000.00,Sports,SportsTeams,United States,Texas,Houston,Not provided,TRUE,Male,30/06/1943,Chief Executive Officer,Old
+1729,James Leininger,77,1.7,1700000000.00,Healthcare,MedicalDevices,United States,Texas,San Antonio,Not provided,TRUE,Male,30/03/1945,Chief Executive Officer,Old
+1729,David Booth,76,1.7,1700000000.00,Finance & Investments,MutualFunds,United States,Texas,Austin,Dimensional Fund Advisors,TRUE,Male,01/01/1946,Chief Executive Officer and Chairman,Old
+1729,Stephen Winn,75,1.7,1700000000.00,Real Estate,RealEstate,United States,Texas,Dallas,Not provided,TRUE,Male,12/09/1946,Chief Executive Officer,Old
+1729,Billy Joe (Red) McCombs,94,1.7,1700000000.00,Diversified,RealEstate Oil Car Sports,United States,Texas,San Antonio,Not provided,TRUE,Male,19/10/1927,Chief Executive Officer,Old
+1929,Drew Houston,39,1.5,1500000000.00,Technology,CloudStorageService,United States,Texas,Austin,Dropbox,TRUE,Male,04/03/1983,Chief Executive Officer,Young Adult
+1929,Fayez Sarofim,93,1.5,1500000000.00,Finance & Investments,MoneyManagement,United States,Texas,Houston,Not provided,FALSE,Male,19/11/1928,Chief Executive Officer,Old
+1929,Timothy Headington,71,1.5,1500000000.00,Energy,Oil Gas Investments,United States,Texas,Dallas,Not provided,FALSE,Male,24/04/1950,Chief Executive Officer,Old
+1929,Kenny Troutt,74,1.5,1500000000.00,Telecom,Telecom,United States,Texas,Dallas,Not provided,TRUE,Male,08/01/1948,Chief Executive Officer,Old
+2076,Jim Crane,68,1.4,1400000000.00,Sports,Logistics Baseball,United States,Texas,Houston,Not provided,TRUE,Male,17/01/1954,Chief Executive Officer,Old
+2076,Darwin Deason,81,1.4,1400000000.00,Service,Software,United States,Texas,Dallas,Not provided,TRUE,Male,14/05/1940,Chief Executive Officer,Old
+2190,Dan Wilks,65,1.3,1300000000.00,Energy,NaturalGas,United States,Texas,Cisco,Not provided,TRUE,Male,30/05/1956,Chief Executive Officer,Old
+2190,Farris Wilks,70,1.3,1300000000.00,Energy,NaturalGas,United States,Texas,Cisco,Not provided,TRUE,Male,09/02/1952,Chief Executive Officer,Old
+2190,Marvy Finger,86,1.3,1300000000.00,Real Estate,RealEstate,United States,Texas,Houston,Not provided,TRUE,Male,08/12/1935,Entrepreneur,Old
+2324,John Goff,67,1.2,1200000000.00,Real Estate,RealEstate,United States,Texas,Fort Worth,Not provided,TRUE,Male,01/01/1955,Chief Executive Officer,Old
+2448,A. Jayson Adair,52,1.1,1100000000.00,Automotive,DamagedCars,United States,Texas,Dallas,Not provided,TRUE,Male,16/10/1969,Chief Executive Officer,Middle Aged Adult
+2578,"Wilbur  'Ed' Bosarge, Jr.",82,1,1000000000.00,Finance & Investments,Trading,United States,Texas,Houston,Not provided,TRUE,Male,28/07/1939,Chief Executive Officer,Old
+951,Gail Miller,78,3.2,3200000000.00,Automotive,CarDealerships,United States,Utah,Salt Lake City,Not provided,TRUE,Female,14/10/1943,Chief Executive Officer,Old
+951,Matthew Prince,47,3.2,3200000000.00,Technology,Cybersecurity,United States,Utah,Park City,Not provided,TRUE,Male,01/01/1975,Chief Executive Officer,Middle Aged Adult
+1818,Ryan Smith,43,1.6,1600000000.00,Technology,CloudComputing,United States,Utah,Provo,Qualtrics,TRUE,Male,28/06/1978,Chief Executive Officer and Cofounder,Middle Aged Adult
+1818,Scott Watterson,66,1.6,1600000000.00,Technology,FitnessEquipment,United States,Utah,Logan,Not provided,TRUE,Male,18/05/1955,Chief Executive Officer,Old
+2076,Jared Smith,47,1.4,1400000000.00,Technology,CloudComputing,United States,Utah,Provo,Not provided,TRUE,Male,02/10/1974,Chief Executive Officer,Middle Aged Adult
+2448,Scott Smith,72,1.1,1100000000.00,Technology,CloudComputing,United States,Utah,Provo,Not provided,TRUE,Male,12/04/1949,Chief Executive Officer,Old
+41,Jacqueline Mars,82,31.7,31700000000.00,Food & Beverage,Candy PetFood,United States,Virginia,The Plains,Not provided,FALSE,Female,10/10/1939,Chief Executive Officer,Old
+288,Pamela Mars,61,7.9,7900000000.00,Food & Beverage,Candy PetFood,United States,Virginia,Alexandria,Not provided,FALSE,Female,01/08/1960,Chief Executive Officer,Old
+687,Daniel D'Aniello,75,4.2,4200000000.00,Finance & Investments,PrivateEquity,United States,Virginia,Vienna,Not provided,TRUE,Male,14/09/1946,Chief Executive Officer,Old
+778,"William Conway, Jr.",72,3.8,3800000000.00,Finance & Investments,PrivateEquity,United States,Virginia,McLean,Carlyle Group,TRUE,Male,27/08/1949,Cofounder,Old
+913,Winifred J. Marquart,62,3.3,3300000000.00,Manufacturing,CleaningProducts,United States,Virginia,Virginia Beach,Not provided,FALSE,Female,06/04/1959,Chief Executive Officer,Old
+1818,Michael Saylor,57,1.6,1600000000.00,Technology,Cryptocurrency,United States,Virginia,Vienna,Not provided,TRUE,Male,04/02/1965,Chief Executive Officer,Middle Aged Adult
+1929,Steve Case,63,1.5,1500000000.00,Technology,AOL,United States,Virginia,McLean,Not provided,TRUE,Male,21/08/1958,Chief Executive Officer,Old
+2324,George Pedersen,86,1.2,1200000000.00,Manufacturing,Defense Contractor,United States,Virginia,McLean,Not provided,TRUE,Male,18/08/1935,Chief Executive Officer,Old
+2448,Richard Fairbank,71,1.1,1100000000.00,Finance & Investments,Banking,United States,Virginia,McLean,Not provided,TRUE,Male,01/09/1950,Chief Executive Officer,Old
+2,Jeff Bezos,58,171,171000000000.00,Technology,Amazon,United States,Washington,Seattle,Amazon,TRUE,Male,12/01/1964,Entrepreneur,Middle Aged Adult
+4,Bill Gates,66,129,129000000000.00,Technology,Microsoft,United States,Washington,Medina,Bill & Melinda Gates Foundation,TRUE,Male,28/10/1955,Cofounder,Old
+9,Steve Ballmer,66,91.4,91400000000.00,Technology,Microsoft,United States,Washington,Hunts Point,Los Angeles Clippers,TRUE,Male,24/03/1956,Founder,Old
+30,MacKenzie Scott,51,43.6,43600000000.00,Technology,Amazon,United States,Washington,Seattle,Not provided,FALSE,Female,07/04/1970,Philanthropist,Middle Aged Adult
+411,Melinda French Gates,57,6.2,6200000000.00,Technology,Microsoft,United States,Washington,Medina,Bill & Melinda Gates Foundation,FALSE,Female,15/08/1964,Cochairman,Middle Aged Adult
+438,Charles Simonyi,73,5.8,5800000000.00,Technology,Microsoft,United States,Washington,Medina,Not provided,TRUE,Male,10/09/1948,Chief Executive Officer,Old
+728,Howard Schultz,68,4,4000000000.00,Food & Beverage,Starbucks,United States,Washington,Seattle,Not provided,TRUE,Male,19/07/1953,Chief Executive Officer,Old
+764,Gabe Newell,59,3.9,3900000000.00,Gambling & Casinos,VideoGames,United States,Washington,Seattle,Valve Corporation,TRUE,Male,03/11/1962,Chief Executive Officer and Cofounder,Middle Aged Adult
+1096,James Jannard,72,2.8,2800000000.00,Fashion & Retail,Sunglasses,United States,Washington,San Juan Islands,Not provided,TRUE,Male,08/06/1949,Chief Executive Officer,Old
+1397,Craig McCaw,72,2.2,2200000000.00,Telecom,Telecom,United States,Washington,Hunts Point,Not provided,FALSE,Male,11/08/1949,Chief Executive Officer,Old
+1513,Orion Hindawi,42,2,2000000000.00,Technology,Software,United States,Washington,Seattle,Tanium,TRUE,Male,10/01/1980,Chief Executive Officer,Middle Aged Adult
+1645,David Hindawi,77,1.8,1800000000.00,Technology,Software,United States,Washington,Seattle,Tanium,TRUE,Male,08/12/1944,Chairman,Old
+2076,Martin Selig,84,1.4,1400000000.00,Real Estate,RealEstate,United States,Washington,Seattle,Not provided,TRUE,Male,31/12/1937,Chief Executive Officer,Old
+2448,Bob Muglia,62,1.1,1100000000.00,Technology,Software,United States,Washington,Mercer Island,Not provided,TRUE,Male,02/10/1959,Chief Executive Officer,Old
+2578,Bruce Nordstrom,88,1,1000000000.00,Fashion & Retail,NordstromDepartmentStores,United States,Washington,Seattle,Not provided,FALSE,Male,01/10/1933,Chief Executive Officer,Old
+2578,Glenn Sanford,55,1,1000000000.00,Real Estate,RealEstate Brokerage,United States,Washington,Blaine,Not provided,TRUE,Male,15/10/1966,Chief Executive Officer,Middle Aged Adult
+104,"John Menard, Jr.",82,16.6,16600000000.00,Fashion & Retail,HomeDepot,United States,Wisconsin,Eau Claire,Menards,TRUE,Male,22/01/1940,Entrepreneur,Old
+183,Diane Hendricks,75,10.7,10700000000.00,Construction & Engineering,Roofing,United States,Wisconsin,Afton,ABC Supply,TRUE,Female,02/03/1947,Entrepreneur,Old
+235,"Herbert Kohler, Jr. & family",83,8.8,8800000000.00,Manufacturing,Plumbing,United States,Wisconsin,Kohler,Kohler Co.,FALSE,Male,20/02/1939,Chairman,Old
+343,Judy Faulkner,78,7,7000000000.00,Technology,HealthcareIT,United States,Wisconsin,Madison,Epic Systems,TRUE,Female,11/08/1943,Chief Executive Officer and Founder,Old
+552,"James Cargill, II.",72,5,5000000000.00,Food & Beverage,Cargill,United States,Wisconsin,Birchwood,Not provided,FALSE,Male,07/04/1949,Chief Executive Officer,Old
+913,H. Fisk Johnson,63,3.3,3300000000.00,Manufacturing,CleaningProducts,United States,Wisconsin,Racine,Not provided,FALSE,Male,19/05/1958,Chief Executive Officer,Old
+913,S. Curtis Johnson,66,3.3,3300000000.00,Manufacturing,CleaningProducts,United States,Wisconsin,Racine,Not provided,FALSE,Male,05/05/1955,Chief Executive Officer,Old
+913,Helen Johnson-Leipold,65,3.3,3300000000.00,Manufacturing,CleaningProducts,United States,Wisconsin,Racine,Not provided,FALSE,Female,30/12/1956,Chief Executive Officer,Old
+41,John Mars,86,31.7,31700000000.00,Food & Beverage,Candy PetFood,United States,Wyoming,Jackson,Not provided,FALSE,Male,15/10/1935,Chief Executive Officer,Old
+106,Lukas Walton,35,16.5,16500000000.00,Fashion & Retail,Walmart,United States,Wyoming,Jackson,Not provided,FALSE,Male,19/09/1986,Chief Executive Officer,Young Adult
+288,Christy Walton,73,7.9,7900000000.00,Fashion & Retail,Walmart,United States,Wyoming,Jackson,Children's Scholarship Fund,FALSE,Female,08/02/1949,Cochairman,Old
+552,Hansjoerg Wyss,87,5,5000000000.00,Healthcare,MedicalDevices,United States,Wyoming,Wilson,Not provided,TRUE,Male,01/01/1935,Chief Executive Officer,Old
+637,J. Joe Ricketts & family,80,4.5,4500000000.00,Finance & Investments,TDAmeritrade,United States,Wyoming,Little Jackson Hole,Not provided,TRUE,Male,16/07/1941,Chief Executive Officer,Old
+1445,Amy Wyss,51,2.1,2100000000.00,Healthcare,MedicalEquipment,United States,Wyoming,Wilson,Not provided,FALSE,Female,01/01/1971,Chief Executive Officer,Middle Aged Adult
