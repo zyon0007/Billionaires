@@ -1,0 +1,5 @@
+Gender,SelfMade,SelfMadeCount,SelfMadePercentage
+Male,TRUE,527,0.80
+Male,FALSE,131,0.20
+Female,TRUE,23,0.26
+Female,FALSE,67,0.74
