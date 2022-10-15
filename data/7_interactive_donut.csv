@@ -1,0 +1,68 @@
+﻿WorkIndustry,Title,TitleCount,TitlePercentage
+Automotive,CEO,8,0.53
+Automotive,Founder,7,0.47
+Construction and Engineering,Chairman,2,0.29
+Construction and Engineering,CEO,4,0.57
+Construction and Engineering,Entrepreneur,1,0.14
+Diversified,CEO,14,0.58
+Diversified,Chairman,10,0.42
+Energy,Chairman,19,0.27
+Energy,CEO,24,0.34
+Energy,Entrepreneur,13,0.18
+Energy,Founder,10,0.14
+Energy,Investor,5,0.07
+Fashion and Retail,Chairman,13,0.21
+Fashion and Retail,CEO,22,0.36
+Fashion and Retail,Cofounder,9,0.15
+Fashion and Retail,Director,7,0.11
+Fashion and Retail,Entrepreneur,5,0.08
+Fashion and Retail,Founder,5,0.08
+Finance and Investments,Chairman,8,0.14
+Finance and Investments,CEO,18,0.32
+Finance and Investments,Entrepreneur,6,0.11
+Finance and Investments,Founder,11,0.20
+Finance and Investments,Investor,13,0.23
+Food and Beverage,Chairman,18,0.24
+Food and Beverage,CEO,25,0.33
+Food and Beverage,Cochairman,15,0.20
+Food and Beverage,Entrepreneur,10,0.13
+Food and Beverage,Investor,8,0.11
+Gambling and Casinos,Board Member,1,0.14
+Gambling and Casinos,CEO,4,0.57
+Gambling and Casinos,Cofounder,2,0.29
+Healthcare,CEO,15,0.75
+Healthcare,Founder,5,0.25
+Logistics,CEO,4,0.80
+Logistics,Chairman,1,0.20
+Manufacturing,Chairman,12,0.27
+Manufacturing,CEO,18,0.40
+Manufacturing,Entrepreneur,10,0.22
+Manufacturing,Investor,5,0.11
+Media and Entertainment,Chairman,7,0.22
+Media and Entertainment,CEO,12,0.38
+Media and Entertainment,Cofounder,5,0.16
+Media and Entertainment,Director,5,0.16
+Media and Entertainment,Founder,3,0.09
+Metals and Mining,CEO,2,0.67
+Metals and Mining,Chairman,1,0.33
+Real Estate,Chairman,13,0.20
+Real Estate,CEO,20,0.31
+Real Estate,Entrepreneur,11,0.17
+Real Estate,Founder,8,0.12
+Real Estate,Investor,8,0.12
+Real Estate,President,5,0.08
+Service,Chairman,5,0.25
+Service,CEO,15,0.75
+Sports,Athlete,2,0.06
+Sports,Chairman,9,0.25
+Sports,CEO,15,0.42
+Sports,Cochairman,5,0.14
+Sports,President,5,0.14
+Technology,Chairman,8,0.09
+Technology,CEO,30,0.34
+Technology,Cofounder,20,0.22
+Technology,Entrepreneur,16,0.18
+Technology,Founder,5,0.06
+Technology,Investor,10,0.11
+Telecom,CEO,3,0.75
+Telecom,Chairman,1,0.25
