@@ -1,0 +1,65 @@
+﻿WorkIndustry,Title,TitleCount,TitlePercentage,TitlePercentageFormula
+Automotive,Chief Executive Officer,8,0.53,0.533333333
+Automotive,Founder,7,0.47,0.466666667
+Construction and Engineering,Chairman,2,0.29,0.285714286
+Construction and Engineering,Chief Executive Officer,4,0.57,0.571428571
+Construction and Engineering,Entrepreneur,1,0.14,0.142857143
+Diversified,Chief Executive Officer,14,1.00,1
+Energy,Chairman,19,0.27,0.267605634
+Energy,Chief Executive Officer,24,0.34,0.338028169
+Energy,Entrepreneur,13,0.18,0.183098592
+Energy,Founder,10,0.14,0.14084507
+Energy,Investor,5,0.07,0.070422535
+Fashion and Retail,Chairman,13,0.21,0.213114754
+Fashion and Retail,Chief Executive Officer,22,0.36,0.360655738
+Fashion and Retail,Cofounder,9,0.15,0.147540984
+Fashion and Retail,Director,7,0.11,0.114754098
+Fashion and Retail,Entrepreneur,5,0.08,0.081967213
+Fashion and Retail,Founder,5,0.08,0.081967213
+Finance and Investments,Chairman,8,0.14,0.142857143
+Finance and Investments,Chief Executive Officer,18,0.32,0.321428571
+Finance and Investments,Entrepreneur,6,0.11,0.107142857
+Finance and Investments,Founder,11,0.20,0.196428571
+Finance and Investments,Investor,13,0.23,0.232142857
+Food and Beverage,Chairman,18,0.24,0.236842105
+Food and Beverage,Chief Executive Officer,25,0.33,0.328947368
+Food and Beverage,Cochairman,15,0.20,0.197368421
+Food and Beverage,Entrepreneur,10,0.13,0.131578947
+Food and Beverage,Investor,8,0.11,0.105263158
+Gambling and Casinos,Board Member,1,0.14,0.14
+Gambling and Casinos,Chief Executive Officer,4,0.57,0.57
+Gambling and Casinos,Cofounder,2,0.29,0.29
+Healthcare,Chief Executive Officer,15,0.75,0.75
+Healthcare,Founder,5,0.25,0.25
+Logistics,Chief Executive Officer,4,0.80,0.8
+Logistics,Chairman,1,0.20,0.2
+Manufacturing,Chairman,14,0.30,0.29787234
+Manufacturing,Chief Executive Officer,18,0.38,0.382978723
+Manufacturing,Entrepreneur,10,0.21,0.212765957
+Manufacturing,Investor,5,0.11,0.106382979
+Media and Entertainment,Chairman,7,0.22,0.21875
+Media and Entertainment,Chief Executive Officer,12,0.38,0.375
+Media and Entertainment,Cofounder,5,0.16,0.15625
+Media and Entertainment,Director,5,0.16,0.15625
+Media and Entertainment,Founder,3,0.09,0.09375
+Metals and Mining,Chief Executive Officer,1,1.00,1
+Real Estate,Chairman,13,0.20,0.2
+Real Estate,Chief Executive Officer,20,0.31,0.307692308
+Real Estate,Entrepreneur,11,0.17,0.169230769
+Real Estate,Founder,8,0.12,0.123076923
+Real Estate,Investor,8,0.12,0.123076923
+Real Estate,President,5,0.08,0.076923077
+Service,Chairman,5,0.25,0.25
+Service,Chief Executive Officer,15,0.75,0.75
+Sports,Athlete,2,0.05,0.054054054
+Sports,Chairman,10,0.27,0.27027027
+Sports,Chief Executive Officer,15,0.41,0.405405405
+Sports,Cochairman,5,0.14,0.135135135
+Sports,President,5,0.14,0.135135135
+Technology,Chairman,8,0.09,0.08988764
+Technology,Chief Executive Officer,30,0.34,0.337078652
+Technology,Cofounder,20,0.22,0.224719101
+Technology,Entrepreneur,16,0.18,0.179775281
+Technology,Founder,5,0.06,0.056179775
+Technology,Investor,10,0.11,0.112359551
+Telecom,Chief Executive Officer,1,1.00,1
