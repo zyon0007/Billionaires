@@ -1,0 +1,80 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "padding": 0,
+    "background":null,
+      "data": [
+        {
+          "name": "table",
+          "url" : "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/6_wordcloud.csv",
+          "transform": [
+            {
+              "type": "countpattern",
+              "field": "data",
+              "pattern": "[\\w']{3,}"
+            },
+            {
+              "type": "formula", "as": "angle",
+              "expr": "[-45, 0, 45][~~(random() * 3)]"
+            },
+            {
+              "type": "formula", "as": "weight",
+              "expr": "if(datum.text=='Investments' || datum.text=='RealEstate', 800, 200) "
+            }
+          ]
+        }
+      ],
+    
+      "scales": [
+        {
+          "name": "color",
+          "type": "ordinal",
+          "domain": {"data": "table", "field": "text"},
+          "range": ["4e79a7","#a0cbe8",
+                    "#79706e","#ffbe7d",
+                    "#59a14f","#8cd17d",
+                    "#b6992d","#f1ce63",
+                    "#499894","#86bcb6",
+                    "#b07aa1","#bab0ac",
+                    "#d37295","#fabfd2",
+                    "#f28e2b","#d4a6c8",
+                    "#9d7660","#d7b5a6"]
+        }
+      ],
+      
+      "marks": [
+        {
+          "type": "text",
+          "from": {"data": "table"},
+          "encode": {
+            "enter": {
+              "text": {"field": "text"},
+              "align": {"value": "center"},
+              "baseline": {"value": "alphabetic"},
+              "fill": {"scale": "color", "field": "text"},
+               "tooltip": 
+                   {"signal": "'Count of ' + datum.text + ' = ' + datum.count "}               
+  
+            },
+            "update": {
+              "fillOpacity": {"value": 1}
+            },
+            "hover": {
+              "fillOpacity": {"value": 0.5}
+            }
+          },
+          "transform": [
+            {
+              "type": "wordcloud",
+              "size": [1250, 450],
+              "text": {"field": "text"},
+              "rotate": {"field": "datum.angle"},
+              "font": "Source Sans Pro, sans-serif",
+              "fontSize": {"field": "datum.count"},
+              "fontWeight": {"field": "datum.weight"},
+              "fontSizeRange": [15, 80],
+              "padding": 2
+            }
+          ]
+        }
+      ] 
+  } 

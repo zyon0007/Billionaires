@@ -1,0 +1,78 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",    
+    "background":null,
+    "width":  "container",
+    "height": 450,
+    "data": {
+      "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/2_isotype.csv"
+    },
+    "layer":[{
+      "params": [
+      {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
+    ],
+    "transform": [
+        {
+            "calculate": "{'Male': '🧍🏻‍♂️','Male1': '🧍🏻‍♂️','Male2': '🧍🏻‍♂️', 'Female': '🧍🏻‍♀️'}[datum.Human]",
+            "as": "icon"
+        },
+        {"window": [{"op": "rank", "as": "rank"}], "groupby": ["Human"]}
+    ],
+    
+    "mark": {"type": "text", "baseline": "middle"},
+    
+    "encoding": {
+        "x": {"field": "rank", "type": "ordinal", "axis": null},
+        "y": {"field": "Human", "type": "nominal", "sort": null, "title": "Gender", "axis":null},
+        "text": {"field": "icon", "type": "nominal"},
+        "size": {"value": 80},
+        "tooltip": [
+            {
+            "field": "Gender", 
+            "type": "nominal", 
+            "title": "Gender"
+          }
+        ],
+        "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0.4}
+    }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'1 icon = 30 billionaires'",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontWeight":"bold",
+        "dx":490,
+        "dy":180
+      },
+      "encoding": {
+        "text": {
+          "field": "text_annotation"
+        },
+        "color":{"value":"#FF2E2E"},
+        "size": {
+          "value": 20
+        }
+      }
+    }
+    ],
+    "config": {
+      "view": {"stroke": ""},
+      "font": "Source Sans Pro, sans-serif",
+      "style": {
+                    "guide-title": {
+                    "font": "Source Sans Pro, sans-serif",
+                    "fontSize":15
+                    },
+                    "text": {
+                    "font": "Source Sans Pro, sans-serif",
+                    "fontWeight": "bold",
+                    "fontSize":15
+                    }
+                }
+    }
+            
+  }

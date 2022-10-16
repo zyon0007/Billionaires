@@ -1,0 +1,78 @@
+#headline {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 3em;
+}
+.container {
+	border-radius: 15px;
+	box-shadow: 6px 6px #797979;
+}
+
+.bg1 {
+	border-radius: 15px;
+	background-color: #fffcf8;
+	border: 2px solid #d1b200da;
+}
+
+.bg2 {
+	border-radius: 15px;
+	background-color: #fbfeff;
+	border: 2px solid #0062d1da;
+}
+
+.bg3 {
+	border-radius: 15px;
+	background-color: #faf5f4;
+	border: 2px solid #d1b200da;
+}
+
+body {
+	font-size: x-large;
+	font-family: "Source Sans Pro", sans-serif !important;
+	background-color: #ffffff;
+	color:#5c5c5c;
+}
+h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:bold;
+	font-size: 40px;
+	color:#000000;
+}
+h5{
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+.bold{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:bold;
+	color:#000000;
+}
+.enlarge_text{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 35px;
+	font-weight:bold;
+	color:#000000;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: justify;
+}
+
+
+.vega-bind-name {
+	padding: 5px;
+}
+  
+#flourish-credit {
+	display: none !important;
+}
+  
+select {
+	background-color: rgb(255, 255, 255);
+	padding: 2px;
+}
+
+.pop {
+	font-size: xx-large;
+	text-shadow: 2px 2px 2px rgb(255, 255, 255),
+	2px 2px 1px rgb(255, 255, 255);
+}

@@ -1,0 +1,279 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background":null,
+    "params": [
+      {
+    "name": "State_selection",
+    "bind": {
+      "input": "select",
+      "options": [
+        null,
+        "Alabama",
+        "Alaska",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Delaware",
+        "Florida",
+        "Georgia",
+        "Hawaii",
+        "Idaho",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Montana",
+        "Nebraska",
+        "Nevada",
+        "New Hampshire",
+        "New Jersey",
+        "New Mexico",
+        "New York",
+        "North Carolina",
+        "North Dakota",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvania",
+        "Rhode Island",
+        "South Carolina",
+        "South Dakota",
+        "Tennessee",
+        "Texas",
+        "Utah",
+        "Vermont",
+        "Virginia",
+        "Washington",
+        "West Virginia",
+        "Wisconsin",
+        "Wyoming"
+      ],
+      "labels":[
+        "Show All",
+        "Alabama",
+        "Alaska",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Delaware",
+        "Florida",
+        "Georgia",
+        "Hawaii",
+        "Idaho",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Montana",
+        "Nebraska",
+        "Nevada",
+        "New Hampshire",
+        "New Jersey",
+        "New Mexico",
+        "New York",
+        "North Carolina",
+        "North Dakota",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvania",
+        "Rhode Island",
+        "South Carolina",
+        "South Dakota",
+        "Tennessee",
+        "Texas",
+        "Utah",
+        "Vermont",
+        "Virginia",
+        "Washington",
+        "West Virginia",
+        "Wisconsin",
+        "Wyoming"
+      ],
+      "name": "State Selection: "
+    }
+  }
+  ],
+  
+    "vconcat": [
+      {
+        "width": "container",
+        "height": 450,
+        "projection": {"type": "albersUsa"},
+        "layer": [
+        {
+          "params": [
+            {
+              "name": "highlight",
+              "select": {"type": "point", "on": "mouseover"}
+            }
+          ],
+              "data": {
+                "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/topojson/US_States_SOVI_Infographics.json",
+                "format": {"type": "topojson", "feature": "US_States_SOVI_Infographics"}
+              },
+              "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "black", "strokeWidth": 0.4},
+              "transform": [
+                {
+                  "calculate": "'No Billionaire in ' + datum.properties.STATE_NAME",
+                  "as": "NoBillionaires"
+                }
+              ],
+              "encoding": {
+                  "strokeWidth": {
+                    "condition": [
+                      {
+                        "param": "highlight",
+                        "empty": false,
+                        "value": 2
+                      }
+                    ],
+                      "value": 0.3
+                  },
+                  "opacity": {
+                    "condition": {"param": "highlight", "value": 1},
+                    "value": 0.4
+                  },
+                  "tooltip": {"field": "NoBillionaires"}}
+            
+      },
+          
+      { 
+            "data": {
+                "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/topojson/US_States_SOVI_Infographics.json",
+                "format": {"type": "topojson", "feature": "US_States_SOVI_Infographics"}
+            },
+            "transform": [
+                {
+                    "lookup": "properties.STATE_NAME",
+                    "from": {
+                      "data": {
+                        "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/1_choropleth_map.csv"},
+                      "key": "State",
+                      "fields": ["Number_of_Billionaires", "Population"]
+                    }
+                  },
+                  {"calculate": "datum.Number_of_Billionaires/datum.Population * 100000000", 
+                          "as": "Number of Billionaires per 100 Million Population"},                  
+                  {"filter": "State_selection == null || datum.properties.STATE_NAME == State_selection"}
+
+            ],
+            "layer":[{
+              "mark":{"type":"geoshape", "stroke": "black", "strokeWidth": 0.4},
+            "encoding": {
+                "color": {
+                    "field": "Number of Billionaires per 100 Million Population",
+                    "type": "quantitative",
+                    "scale": {
+                      "type": "threshold",
+                      "domain": [100,200,300,400,500,600],
+                      "scheme": "lightorange"
+                      },
+                      "legend": {
+                        "titleFontSize":14,
+                        "direction":"horizontal", 
+                        "orient":"bottom", 
+                        "titleLimit":1000
+                    }
+                  },
+                  "strokeWidth": {
+                    "condition": [
+                      {
+                        "param": "highlight",
+                        "empty": false,
+                        "value": 2
+                      }
+                    ],
+                    "value": 0.3
+                  },
+                  "opacity": {
+                    "condition": {"param": "highlight", "value": 1},
+                    "value": 0.4
+                  },
+  
+              "tooltip": [
+                {
+                  "field": "properties.STATE_NAME", 
+                  "type": "nominal", 
+                  "title": "State"
+                },
+                {
+                  "field": "Number_of_Billionaires", 
+                  "type": "nominal", 
+                  "title": "Number of Billionaires"
+                },
+                {
+                  "field": "Number of Billionaires per 100 Million Population", 
+                  "type": "quantitative",
+                  "format":".0f"
+                }
+              ]
+            }
+            }]
+          },
+          {
+          "data": {"url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/1_choropleth_map.csv"},
+          "transform": [
+              {
+                  "calculate": "'Highest number of billionaires linebreak per 100 million population: Wyoming'",
+                  "as": "text_annotation"
+              }
+          ],
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "fontStyle":"italic",
+                "dy":-225,
+                "dx":50
+              },
+              "encoding": {
+                "text": {"field": "text_annotation"},
+                "color": {"value": "#FF2E2E"},
+                "size": {"value": 17}
+              }
+            }
+          ]
+        }
+    ]
+  }],
+    "config": {
+          "view": {"stroke": null},
+          "lineBreak":"linebreak",
+          "font": "Source Sans Pro, sans-serif",
+          "style": {
+              "text": {
+                  "font":"Source Sans Pro, sans-serif",
+                  "fontWeight": "normal",
+                  "fontSize":10
+              },
+              "legend":{
+                  "labelFont": "Source Sans Pro, sans-serif",
+                  "labelFontSize": 12,
+                  "titleFontSize": 14
+              }
+          }
+      }
+  } 

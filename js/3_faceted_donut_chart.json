@@ -1,0 +1,155 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/3_faceted_donut.csv"},
+    "transform": [
+      {"calculate": "datum.Gender == 'Female' ? 'Female' : 'Male'", "as": "Gender"}
+    ],
+    "background":null,
+    "spacing": 200,
+    "hconcat": [
+      {
+        "width": 1,
+        "height": 450,
+        "view": {"stroke": null},
+        "mark": {
+          "type": "text"
+        },
+        "encoding": {
+          "text": {"value": ""}
+          
+        }
+      },
+        {
+          "width": 250,
+          "height": 450,
+          "transform": [{
+              "filter": {"field": "Gender", "equal": "Female"}
+          }],
+          "layer":[
+            {"params": [
+              {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
+            ],
+              "mark": {"type": "arc", "innerRadius": 90, "outerRadius": 160, "stroke": "#fff"},
+              "encoding": {
+                  "theta": {"field": "SelfMadePercentage", "type": "quantitative", "stack": true},
+                  "color": {"field": "SelfMade", 
+                            "type": "nominal",
+                            "scale": {"range": ["#E15759", "#4E79A7"]},
+                            "legend":{"title":"Self Made",
+                                      "labelFont": "Source Sans Pro, sans-serif",
+                                      "labelFontSize": 15,
+                                      "titleFontSize": 15}
+                          },
+                  "tooltip": [
+                      {
+                      "field": "Gender", 
+                      "type": "nominal", 
+                      "title": "Gender"
+                    },
+                    {
+                      "field": "SelfMade", 
+                      "type": "nominal", 
+                      "title": "Self Made"
+                    },
+                    {
+                      "field": "SelfMadeCount",
+                      "type": "quantitative",
+                      "title": "Self Made Count"
+                    }
+                  ],
+                  "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0.4}
+              }
+            },
+            {
+              "mark": {"type": "text", "radius": 0},
+              "encoding": {
+                "text": {"value": "Total Female: 90"},
+                "color": {"value": "#ff9d9a"}
+                
+              }
+            }, 
+            {
+              "mark": {"type": "text", "radiusOffset": 180},
+              "encoding": {
+                "text": {"field": "SelfMadePercentage", "type": "quantitative", "format":".0%"},
+                "theta": {"field": "SelfMadePercentage", "type": "quantitative", "stack": true},
+                "radius": {"field": "SelfMadePercentage", "scale": {"type": "sqrt"}},
+                "color": {"field": "SelfMade", "type": "nominal", "legend": null}
+              }
+            }
+          ]
+        }, 
+        {
+            "width": 250,
+            "height": 450,
+            "transform": [{
+                "filter": {"field": "Gender", "equal": "Male"}
+            }],
+            "layer":[{"params": [
+              {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
+            ],
+                "mark": {"type": "arc", "innerRadius": 90, "outerRadius": 160, "stroke": "#fff"},
+                "encoding": {
+                    "theta": {"field": "SelfMadePercentage", "type": "quantitative", "stack": true},
+                    "color": {"field": "SelfMade", 
+                              "type": "nominal",
+                              "scale": {"range": ["#C41E3A", "#0047AB"]}
+                            },
+                    "tooltip": [
+                        {
+                        "field": "Gender", 
+                        "type": "nominal", 
+                        "title": "Gender"
+                      },
+                      {
+                        "field": "SelfMade", 
+                        "type": "nominal", 
+                        "title": "Self Made"
+                      },
+                      {
+                        "field": "SelfMadeCount",
+                        "type": "quantitative",
+                        "title": "Self Made Count"
+                      }
+                    ],
+                    "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0.4}
+                }
+              },
+              {
+                "mark": {"type": "text", "radius": 0},
+                "encoding": {
+                  "text": {"value": "Total Male: 658"},
+                  "color": {"value": "#9cc0d9"}
+                }
+              }, 
+              {
+                "mark": {"type": "text", "radiusOffset": 180},
+                "encoding": {
+                  "text": {"field": "SelfMadePercentage", "type": "quantitative", "format":".0%"},
+                  "theta": {"field": "SelfMadePercentage", "type": "quantitative", "stack": true},
+                  "radius": {"field": "SelfMadePercentage", "scale": {"type": "sqrt"}},
+                  "color": {"field": "SelfMade", "type": "nominal", "legend": null}
+                }
+              }
+            ]
+        }
+    ],
+    "config": {
+      "view": {"stroke": null},
+      "axis": {"grid": false},
+      "lineBreak":"linebreak",
+      "font": "Source Sans Pro, sans-serif",
+      "style": {
+        "guide-title": {
+        "font": "Source Sans Pro, sans-serif",
+        "fontSize":15
+        },
+        "text": {
+        "font": "Source Sans Pro, sans-serif",
+        "fontWeight": "bold",
+        "fontSize":17
+        }
+    }
+    }
+  }
+  

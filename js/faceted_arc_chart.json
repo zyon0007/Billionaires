@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "autosize": { "contains": "padding", "resize": true, "type": "fit" },
+    "description": "A docut chart for comparison",
+    "data": { "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/faceted_donut_chart.csv"},
+    "spacing": 100,
+    "facet": {
+      "column": {
+        "field": "Gender"
+      }
+    },
+    "spec": {
+      "layer": [
+        {
+          "mark": { "type": "arc", "innerRadius": 60, "stroke": "#fff"},
+          "encoding": {
+            "theta": {"field": "Percentage", "type": "quantitative", "stack": true},
+                  "color": {"field": "Self_Made", 
+                            "type": "nominal",
+                            "scale": {"range": ["#C41E3A", "#0047AB"]},
+                            "legend":{"orient": "bottom","title":"Self Made"}
+                          },
+                  "tooltip": [
+                      {
+                      "field": "Gender", 
+                      "type": "nominal", 
+                      "title": "Gender"
+                    },
+                    {
+                      "field": "Self_Made", 
+                      "type": "nominal", 
+                      "title": "Self Made"
+                    },
+                    {
+                      "field": "Count",
+                      "type": "quantitative",
+                      "title": "Self Made Count"
+                    }
+                  ]
+          }
+        },
+        {
+          "mark": {"type": "text", "radius": 0},
+          "encoding": {
+            "text": {"value": "Total Female: 10"},
+            "color": {"value": "#d6949e"}
+          }
+        }, 
+        {
+          "mark": {"type": "text", "radiusOffset": 125},
+          "encoding": {
+            "text": {"field": "Percentage", "type": "nominal","format":".0%"},
+            "theta": {"field": "Percentage", "type": "quantitative", "stack": true},
+            "radius": {"field": "Percentage", "scale": {"type": "sqrt"}},
+            "color": {"field": "Self_Made", "type": "nominal", "legend": null}
+          }
+        }
+      ]
+    },
+    "config": {
+      "view": { "stroke": null },
+      "axis": { "grid": true }
+    }
+  }

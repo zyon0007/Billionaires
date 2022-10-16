@@ -1,0 +1,151 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 450,
+    "background":null,
+    "data": {
+        "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/7_interactive_donut.csv"
+    },
+    "params": [
+        {
+            "name": "Industry_selection",
+            "value": "Technology",
+            "bind": {
+              "input": "select",
+              "options": [
+                  "Automotive",
+                  "Construction and Engineering",
+                  "Diversified",
+                  "Energy",
+                  "Fashion and Retail",
+                  "Finance and Investments",
+                  "Food and Beverage",
+                  "Gambling and Casinos",
+                  "Healthcare",
+                  "Logistics",
+                  "Manufacturing",
+                  "Media and Entertainment",
+                  "Metals and Mining",
+                  "Real Estate",
+                  "Service",
+                  "Sports",
+                  "Technology",
+                  "Telecom"
+            ],
+            "name": "Industry selection: "
+          }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "Industry_selection == null || datum.WorkIndustry == Industry_selection"
+        }
+    ],
+    "layer": [
+        {
+            "mark": {
+                "type": "arc",
+                "innerRadius": 40, "stroke": "#fff"
+            },
+            "params": [{
+                "name": "Title",
+                "select": {"type": "point", "fields": ["Title"]},
+                "bind": "legend"
+              }],
+            "encoding": {
+                "tooltip": [
+                    {
+                        "field": "WorkIndustry", 
+                        "type": "nominal",
+                        "title": "Work Industry"
+                    },
+                    {
+                        "field": "Title", 
+                        "type": "nominal",
+                        "title": "Title"
+                    },
+                    {
+                        "field": "TitleCount",
+                        "type": "quantitative",
+                        "title": "Title Count"
+                    }
+                ],
+                "opacity": {
+                      "condition": {"param": "Title", "value": 1},
+                      "value": 0.2
+                    }
+            }
+        },
+        { 
+            "transform": [
+                { "calculate": "format(datum.TitlePercentage*100, ',.0f')", "as": "percentage"},
+                {
+                    "calculate": "datum.percentage + '% linebreak ' + datum.Title",
+                    "as": "text_annotation"
+                }
+            ],
+            "mark": {"type": "text", "radiusOffset": 47},
+            "encoding": {"text": {"field": "text_annotation", "type": "nominal"}}
+        } 
+    ],
+    "encoding": {
+        "theta":{
+            "field": "TitlePercentage", 
+            "type": "quantitative",
+            "stack":true
+        },
+        "radius": {"field": "TitlePercentage", "scale": {"type": "sqrt", "rangeMin": 180}},
+        "color":{
+            "field": "Title",
+              "scale": {
+                "domain": [
+                    "Athlete",
+                    "Board Member",
+                    "Chairman",
+                    "CEO",
+                    "Cochairman",
+                    "Cofounder",
+                    "Director",
+                    "Entrepreneur",
+                    "Founder",
+                    "Investor",
+                    "President"
+                        ],
+                "range": [
+                        "#ffbe7d",
+                        "#4e79a7",
+                        "#f28e2b",
+                        "#59a14f",
+                        "#A020F0",
+                        "#f1ce63",
+                        "#a0cbe8",
+                        "#bab0ac",
+                        "#b6992d",
+                        "#499894",
+                        "#9d7660"
+                    ]},
+                "legend":{"title":"Billionaire's Title",
+                            "labelFont": "Source Sans Pro, sans-serif",
+                            "orient": "top",
+                            "columnPadding":25,
+                            "labelFontSize": 17,
+                            "titleFontSize": 17}
+        }
+    },
+    "config": {
+      "font": "Source Sans Pro, sans-serif",
+      "lineBreak":"linebreak",
+      "style": {
+          "guide-title": {
+              "font": "Source Sans Pro, sans-serif",
+              "fontSize":15
+          },
+          "text": {
+              "font": "Source Sans Pro, sans-serif",
+              "fontWeight": "normal",
+              "fontStyle":"italic",
+              "fontSize":15
+          }
+      }
+  }
+}

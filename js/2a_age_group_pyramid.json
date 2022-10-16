@@ -1,0 +1,208 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/8_diverging_bar.csv"},
+    "background":null,
+    "transform": [
+      {"calculate": "datum.Gender == 'Female' ? 'Female' : 'Male'", "as": "Gender"}
+    ],
+    "spacing": 0,
+    
+    "hconcat": [
+            {
+            "width": 520,
+            "height": 450,
+            "transform": [{
+            "filter": {"field": "Gender", "equal": "Female"}
+            }],
+            "layer": [
+            {
+              "params": [
+                {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
+              ],
+              "mark": "bar",
+                "encoding": {
+                    "y": {
+                      "field": "Age Group", "axis": null, "sort": "descending"
+                    },
+                    "x": {
+                      "aggregate": "sum", "field": "Count",
+                      "title": "Age Group Count",
+                      "axis": {"format": "s"},
+                      "sort": "descending","scale": {"domain": [0, 450]}
+                    },
+                    "color": {
+                      "field": "Gender",
+                      "scale": {"range": ["#FAAFBA", "#89CFF0"]},
+                      "legend": null
+                    },
+                    "tooltip": [
+                      {
+                          "field": "Gender", 
+                          "type": "nominal", 
+                          "title": "Gender"
+                      },
+                      {
+                        "field": "Age Group", 
+                        "type": "nominal", 
+                        "title": "Age Group"
+                      },
+                      {
+                        "field": "Count",
+                        "type": "quantitative",
+                        "title": "Age Group Count"
+                      }
+                      ],
+                      "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0.4}
+                }
+            },{
+                "mark": {
+                  "type": "text",
+                  "baseline": "top",
+                  "dx": 170,
+                  "dy": -5
+                },
+                "encoding": {
+                  "color": {
+                    "value": "#FAAFBA"
+                  },
+                  "text": {"value": "62"},
+                  "size": {
+                    "value": 18
+                  }
+                }
+              }
+        
+        ]
+
+            }, 
+
+    {
+      "width": 200,
+      "height": 450,
+      "view": {"stroke": null},
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "fontSize":16
+      },
+      "encoding": {
+        "y": {"field": "Age Group", "type": "ordinal", "axis": null, "sort": "descending"},
+        "text": {"field": "Age Group", "type": "ordinal"}
+        
+      }
+    }, 
+    
+    {
+        "width": 520,
+        "height": 450,
+      "transform": [{
+        "filter": {"field": "Gender", "equal": "Male"}
+      }],
+        "layer": [
+        {
+          "params": [
+            {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
+          ],
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "Age Group", "title": null,
+          "axis": null, "sort": "descending"
+        },
+        "x": {
+          "aggregate": "sum", "field": "Count",
+          "title": "Age Group Count",
+          "axis": {"format": "s"},"scale": {"domain": [0, 450]}
+        },
+        "color": {
+          "field": "Gender",
+          "legend": null
+        },
+        "tooltip": [
+          {
+              "field": "Gender", 
+              "type": "nominal", 
+              "title": "Gender"
+          },
+          {
+            "field": "Age Group", 
+            "type": "nominal", 
+            "title": "Age Group"
+          },
+          {
+            "field": "Count",
+            "type": "quantitative",
+            "title": "Age Group Count"
+          }
+          ],
+          "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0.4}
+      }}
+        ,
+        {"transform": [
+        {
+          "calculate": "'Majority of the billionaires is male with old age'",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontWeight":"bold",
+        "fontStyle":"italic",
+        "dx":70,
+        "dy":-80
+      },
+      "encoding": {
+        "text": {
+          "field": "text_annotation"
+        },
+        "color":{"value":"#FF2E2E"},
+        "size": {
+          "value": 17
+        }
+      }
+    },
+    {
+        "mark": {
+          "type": "text",
+          "baseline": "top",
+          "dx": 265,
+          "dy": -5
+        },
+        "encoding": {
+          "color": {
+            "value": "#74b1cf"
+          },
+          "text": {"value": "436"},
+          "size": {
+            "value": 18
+          }
+        }
+      }
+    
+    ]}],
+    "config": {
+      "font": "Source Sans Pro, sans-serif",
+      "view": {"stroke": null},
+      "lineBreak":"linebreak",
+      "axis": {
+          "grid": false,
+          "labelFont": "Source Sans Pro, sans-serif",
+          "titleFont": "Source Sans Pro, sans-serif",
+          "gridColor": "lighter",
+          "labelFontSize":12,
+          "titleFontSize": 15
+      },
+      "style": {
+          "guide-title": {
+          "font": "Source Sans Pro, sans-serif",
+          "fontSize":15
+          },
+          "text": {
+          "font": "Source Sans Pro, sans-serif",
+          "fontWeight": "normal",
+          "fontSize":15
+          }
+      }
+      }
+  }
+  

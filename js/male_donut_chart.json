@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple radial chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/7_interactive_donut.csv"
+  },
+  "params": [
+      {
+          "name": "Industry_selection",
+          "value": "Technology",
+          "bind": {
+            "input": "select",
+            "options": [
+                "Automotive",
+                "Construction and Engineering",
+                "Diversified",
+                "Energy",
+                "Fashion and Retail",
+                "Finance and Investments",
+                "Food and Beverage",
+                "Gambling and Casinos",
+                "Healthcare",
+                "Logistics",
+                "Manufacturing",
+                "Media and Entertainment",
+                "Metals and Mining",
+                "Real Estate",
+                "Service",
+                "Sports",
+                "Technology",
+                "Telecom"
+          ],
+          "name": "Industry selection: "
+        }
+      }
+  ],
+  "transform": [
+      {
+          "filter": "Industry_selection == null || datum.WorkIndustry == Industry_selection"
+      }
+  ],
+  "layer": [{
+    "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
+  },{
+    "mark": {"type": "text", "radiusOffset": 80},
+    "encoding": {
+      "text": {"field": "data", "type": "quantitative"}
+    }
+  },
+  {   
+      "transform": [
+          { "calculate": "datum.TitlePercentage*100", "as": "percentage"},
+          {
+              "calculate": "datum.percentage + '%'",
+              "as": "text_annotation"
+          }
+      ],
+      "mark": {"type": "text"},
+      "encoding": {"text": {"field": "text_annotation", "type": "nominal"}}
+  }],
+  "encoding": {
+    "theta": {"field": "TitleCount", "type": "quantitative", "stack": true},
+    "radius": {"field": "TitleCount", "scale": {"type": "sqrt", "zero": true, "rangeMin": 30}},
+    "color": {"field": "Title", "type": "nominal", "legend": null}
+  }
+}

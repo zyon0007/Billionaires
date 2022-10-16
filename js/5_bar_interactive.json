@@ -1,0 +1,200 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width":  "container",
+    "height": 450,
+    "background":null,
+    "data": {
+      "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/4_scatter.csv"
+    },
+    "transform": [
+      {"calculate": "toNumber(datum.WorthPerBillion)", "as": "Net Worth"},
+      {
+        "window": [{"op": "rank", "as": "rank"}],
+        "sort": [{"field": "Net Worth", "order": "descending"}]
+      },
+      {"filter": "datum.rank <= top_n_rank"}
+    ],
+    "params": [
+      {
+        "name": "top_n_rank", "value": 10,
+        "bind": {
+          "input": "range", "min": 1, "max": 40, "step": 1,
+          "name": "Rank: "
+        }
+      }
+    ],
+    "layer": [
+      {
+        "params": [
+            {"name": "brush", "select": {"type": "interval", "encodings": ["y"]}}
+          ],
+        "mark": "bar",
+        "encoding": {
+          "x": {
+            "field": "Net Worth",
+            "type": "quantitative",
+            "title": "Net Worth per Billion",
+            "aggregate": "mean"
+            
+          },
+          "y": {
+            "field": "Names",
+            "title": "Names",
+            "type": "nominal",
+            "axis": null,
+            "sort": {
+              "field": "Net Worth",
+              "op": "average",
+              "order": "descending"
+            }
+          },
+          "color": {
+            "field": "Gender",
+            "scale": {
+            "domain": ["Male",
+                      "Female"],
+            "range": [ "#89CFF0","#FAAFBA"]},
+            "legend":{
+                      "title":"Gender",
+                      "labelFont": "Source Sans Pro, sans-serif",
+                      "orient": "bottom",
+                      "labelFontSize": 15,
+                      "columnPadding":25,
+                      "titlePadding":10,
+                      "titleFontSize": 15}
+          },
+          "opacity": {"condition": {"param": "brush", "value": 1}, "value": 0.5},
+          "tooltip": [
+            {"field": "Names", "type": "nominal", "title": "Names"},
+            {"field":"Gender","type": "nominal","title":"Gender"},
+            {
+              "field": "Net Worth",
+              "type": "quantitative",
+              "title": "Net Worth"
+            },
+            {
+                "field": "Company Name", 
+                "type": "nominal", 
+                "title": "Company"
+            }
+          ]
+        }
+      },
+      {
+        "transform": [{"filter": {"param": "brush"}}],
+        "mark": "rule",
+        "encoding": {
+          "x": {
+            "aggregate": "mean",
+            "field": "Net Worth",
+            "type": "quantitative"
+          },
+          "color": {"value": "firebrick"},
+          "size": {"value": 2}
+        }
+      },
+      {
+        "transform": [
+          {"filter": {"param": "brush"}},
+          {
+            "aggregate": [
+              {
+                "op": "mean",
+                "field": "Net Worth",
+                "as": "mean_worth"
+              }
+            ],
+            "groupby": ["brush"]
+          },
+          {"calculate": "'# The filtered billionaires have an average of '", "as": "text_annotation"}
+        ],
+        "mark": {"type": "text", "align": "center", "dx": 0, "dy": 280},
+        "encoding": {"text": {"field": "text_annotation"}, "color": {"value": "black"}}
+      },
+      {
+        "transform": [
+          {"filter": {"param": "brush"}},
+          {
+            "aggregate": [
+              {
+                "op": "mean",
+                "field": "Net Worth",
+                "as": "mean_worth"
+              }
+            ],
+            "groupby": ["brush"]
+          },
+          {"calculate": "round(datum['mean_worth']) + ' net worth per billion.'", "as": "text_annotation"}
+        ],
+        "mark": {"type": "text", "align": "center", "dx": 0, "dy": 300},
+        "encoding": {"text": {"field": "text_annotation"}, "color": {"value": "#FF2E2E"}}
+      }, 
+      {
+        "mark": {"type": "text", "align": "left", "x": 5,
+        "fontWeight":"bold"},
+        "encoding": {
+          "y": {
+            "field": "Names",
+            "title": "Names",
+            "type": "nominal",
+            "axis": null,
+            "sort": {
+              "field": "Net Worth",
+              "op": "average",
+              "order": "descending"
+            }
+          },
+          "text": {"field": "Names"},
+          "color": {"value": "black"}
+        }
+      },{
+        "transform": [
+          {
+            "filter":"datum.Names=='Elon Musk'"
+          },
+          {
+            "calculate": "'Top 1: Elon Musk, The founder of Tesla'",
+            "as": "text_annotation"
+          }
+        ],
+        "mark": {
+          "type": "text",
+          "fontWeight":"bold",
+          "fontStyle":"italic",
+          "dx":470,
+          "dy":-235
+        },
+        "encoding": {
+          "text": {
+            "field": "text_annotation"
+          },
+          "color":{"value":"#FF2E2E"},
+          "size": {
+            "value": 17
+          }
+        }
+      }
+    ],
+    "config": {
+      "font": "Source Sans Pro, sans-serif",
+      "axis": {
+          "labelFont": "Source Sans Pro, sans-serif",
+          "titleFont": "Source Sans Pro, sans-serif",
+          "gridColor": "lighter",
+          "labelFontSize":12,
+          "titleFontSize": 15
+      },
+      "style": {
+          "guide-title": {
+              "font": "Source Sans Pro, sans-serif",
+              "fontSize":15
+          },
+          "text": {
+              "font": "Source Sans Pro, sans-serif",
+              "fontWeight": "normal",
+              "fontStyle":"italic",
+              "fontSize":15
+          }
+      }
+  }
+  }

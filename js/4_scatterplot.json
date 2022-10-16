@@ -1,0 +1,163 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A scatterplot showing body mass and flipper lengths of penguins.",
+    "width":  "container",
+    "height": 450,
+    "background":null,
+    "data": {
+      "url": "https://raw.githubusercontent.com/zyon0007/Billionaires/main/data/4_scatter.csv"
+    },"params": [
+          {
+          "name": "Gender_selection",
+          "bind": {
+            "input": "select",
+            "options": [
+              null,
+              "Male",
+              "Female"
+            ],
+            "labels": [
+              "Show All", 
+              "Male",
+              "Female"
+          ],
+            "name": "Gender Selection: "
+          }
+          }
+    ],
+    "layer": [
+      {
+        "transform": [ 
+          {
+            "filter": "Gender_selection == null || datum.Gender == Gender_selection"
+          }
+        ],
+        "mark": {
+              "type": "circle",
+              "opacity": 0.8,
+              "stroke": "black",
+              "strokeWidth": 1},
+        "params": [{
+          "name": "agegroup",
+          "select": {"type": "point", "fields": ["Age Group"]},
+          "bind": "legend"
+        }],
+        "encoding": {
+          "x": {
+            "field": "Age",
+            "type": "quantitative",
+            "scale": {"domain": [0, 100]}
+          },
+          "y": {
+            "field": "WorthPerBillion",
+            "type": "quantitative",
+            "scale": {"domain": [0, 240]},
+            "title":"Net Worth per Billion"
+          },
+          "size":{"field":"WorthPerBillion", "type": "quantitative","legend":{"title":"Net Worth Per Billion",
+                                                                              "labelFont": "Source Sans Pro, sans-serif",
+                                                                              "labelFontSize": 15,
+                                                                              "titlePadding":10,
+                                                                              "columnPadding":25,
+                                                                              "titleFontSize": 15}},
+          "color": {
+            "field": "Age Group",
+              "scale": {
+                "domain": [
+                          "Young Adult",
+                          "Middle Aged Adult",
+                          "Old"
+                        ],
+                "range": [ "#4e79a7","#f28e2b","#499894"]},
+                "legend":{"title":"Age Group",
+                          "labelFont": "Source Sans Pro, sans-serif",
+                          "labelFontSize": 15,
+                          "titlePadding":10,
+                          "columnPadding":25,
+                          "titleFontSize": 15}
+              },
+                
+          "tooltip": [
+            {
+              "field": "Names",
+              "title": "Name"
+            },
+            {
+              "field": "Age",
+              "title": "Age"
+            },
+            {
+              "field": "Age Group",
+              "title": "Age Group"
+            },
+            { 
+              "field": "WorthPerBillion",
+              "title": "Worth per Billion"
+            }
+          ],
+          "opacity": {
+                "condition": {"param": "agegroup", "value": 1},
+                "value": 0.1
+              }
+        }
+      },
+      {
+        "transform": [
+          {
+            "filter": {
+              "field": "Names",
+              "oneOf": [
+                "Elon Musk",
+                "Alice Walton"
+              ]
+            }
+          }
+        ],
+        "mark": {
+          "type": "text",
+          "dy": 0,
+          "dx": -48,
+          "fontStyle":"bold"
+        },
+        "encoding": {
+          "x": {
+            "field": "Age",
+            "type": "quantitative"
+          },
+          "y": {
+            "field": "WorthPerBillion",
+            "type": "quantitative"
+          },
+          "text": {
+            "field": "Names",
+            "type": "nominal"
+          },
+          "color": {
+            "value": "black"
+          }
+        }
+      }
+    ]
+    ,
+    "config": {
+      "font": "Source Sans Pro, sans-serif",
+      "axis": {
+          "labelFont": "Source Sans Pro, sans-serif",
+          "titleFont": "Source Sans Pro, sans-serif",
+          "gridColor": "lighter",
+          "labelFontSize":12,
+          "titleFontSize": 15
+      },
+      "style": {
+          "guide-title": {
+          "font": "Source Sans Pro, sans-serif",
+          "fontSize":15
+          },
+          "text": {
+          "font": "Source Sans Pro, sans-serif",
+          "fontWeight": "normal",
+          "fontSize":15
+          }
+      }
+      }
+  }

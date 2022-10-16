@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Vegalite -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <title>Billionaires in USA</title>
+
+</head>
+
+<body style="background-color: #faf5f0;">
+    
+    <!-- Heading -->
+    <div class="section p-3">
+        <div class="container">
+            <div class="row bg3"> 
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="h1 align-middle p-2" id="headline">
+                        <p>
+                            <span class="fw-bold" style="color: #D1B000">Billionaires</span>
+                            <span class="fw-bold" style="color: #000000">in United States</span>   
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div>
+                        <h4>
+                            In 
+                            <span class = "bold">2022</span>, 
+                            <span class = "bold">United</span>
+                            <span class = "bold">States</span> is the country with the 
+                            <span class = "bold">highest</span> number of
+                            <span class="bold">billionaires</span> worldwide.
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <h6>
+                        
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Choropleth Map Interactive -->
+    <div class="section p-3">
+        <div class="container">
+            <div class="row bg2">
+                <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
+                    <h1>
+                        <span class = "bold">Number of </span> 
+                        <span class="h1 fw-bold" style="color: #D1B000">Billionaires</span> 
+                        <span class = "bold">in each state</span>
+                    </h1>
+                </div>
+                <div class="span p-4">
+                    <p>
+                        This map visualisation indicates the number of billionaires per 100 million population in each state of the United States. 
+                        <span class = "bold">More than 50%</span> of the state
+                        <span class = "bold">owns less than 400</span> billionaires per 100 million population. The state with the 
+                        <span class = "enlarge_text">highest</span> 
+                        number of billionaires per 100 million population is
+                        <span class="enlarge_text" style="color: #dc3d19;">Wyoming</span> with 
+                        <span class = "enlarge_text">1022</span> billionaires per 100 million population. The state without billionaires will be greyed out.
+                    </p>
+                    <p class="fs-6" style="color: #5d5d5d;">
+                        After hovering, 
+                        <span class = "bold">double click</span> on any empty space in the visualisation to view the
+                        <span class = "bold">overall colour opacity</span>.
+                    </p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div id="usamap" class="p-3 w-100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Isotype Dot Plot -->
+    <div class="section p-3">
+        <div class="container">
+            <div class="row bg1">
+                <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
+                    <h1>
+                        <span class="h1 fw-bold" style="color: #D1B000">Billionaire's</span> 
+                        <span class = "bold">Gender</span>
+                    </h1>
+                </div>
+                <div class="span p-4">
+                    <p>
+                        Each icon in this visualisation represents 30 billionaires. 
+                        The difference between the number of male billionaires and female billionaires is huge. There are 
+                        <span class = "bold">22 icons</span> representing
+                        <span class = "enlarge_text">660</span>
+                        <span class="enlarge_text" style="color: #74b1cf;">male</span> 
+                        <span class = "enlarge_text">billionaires</span> and 
+                        <span class = "bold">3 icons</span> representing 
+                        <span class = "enlarge_text">90</span>
+                        <span class="enlarge_text" style="color: #FAAFBA;">female</span> 
+                        <span class = "enlarge_text">billionaires</span>. Thus, 
+                        <span class = "enlarge_text">88%</span> of the billionaires in the United States are
+                        <span class="enlarge_text" style="color: #74b1cf;">male</span>
+                        <span class = "enlarge_text">billionaires</span>.
+                    </p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div id="isotype" class="p-3 w-100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diverging Bar Chart -->
+    <div class="section p-3">
+        <div class="container">
+            <div class="row bg2">
+                <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
+                    <h1>
+                        <span class="h1 fw-bold" style="color: #D1B000">Billionaire's</span> 
+                        <span class = "bold">Age Group</span>
+                    </h1>
+                </div>
+                <div class="span p-4">
+                    <p>
+                        There are
+                        <span class = "bold">3 age groups</span> of billionaires such as 
+                        <span class = "bold">Young Adult</span> (Age Range 21-40), 
+                        <span class = "bold">Middle Aged Adult</span> (Age Range 41-60) and 
+                        <span class = "bold">Old</span> (Age Range 61 and above). The sequence of highest to lowest number of billionaires in each age group for both genders 
+                        <span class="fw-bold" style="color: #74b1cf;">male</span> and 
+                        <span class="fw-bold" style="color: #FAAFBA;">female</span> are 
+                        <span class = "bold">symmetrical</span>. 
+                    </p>
+                    <p>    
+                        <span class = "enlarge_text">65%</span> of the billionaires are from 
+                        <span class = "enlarge_text">old</span> age. Followed by billionaires from middle age. Lastly, only
+                        <span class = "enlarge_text">6%</span> of billionaires are from a 
+                        <span class = "enlarge_text">young</span> age.
+                    </p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div id="diverging" class="p-3 w-100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scatterplot -->
+    <div class="section p-3">
+        <div class="container">
+            <div class="row bg1">
+                <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
+                    <h1>
+                        <span class="h1 fw-bold" style="color: #D1B000">Billionaire's</span> 
+                        <span class = "bold">Net Worth</span>
+                    </h1>
+                </div>
+                <div class="span p-4">
+                    <p>
+                        <span class = "enlarge_text">80%</span> of the billionaires in each age group own 
+                        <span class = "enlarge_text">less than 20</span> net worth per billion for both gender 
+                        <span class="fw-bold" style="color: #74b1cf;">male</span> and 
+                        <span class="fw-bold" style="color: #FAAFBA;">female</span>. 
+                    </p>
+                    <p>    
+                        The 
+                        <span class = "enlarge_text">richest</span> 
+                        <span class="enlarge_text" style="color: #74b1cf;">male</span> billionaires falls in the 
+                        <span class = "bold" style="color: #f28e2b;">middle age group</span> which is 
+                        <span class = "enlarge_text">Elon Musk</span> who is 
+                        <span class = "enlarge_text">50</span> years old with 
+                        <span class = "enlarge_text">219</span> net worth per billion. 
+                    </p>
+                    <p>  
+                        The 
+                        <span class = "enlarge_text">richest</span>
+                        <span class="enlarge_text" style="color: #FAAFBA;">female</span> billionaires falls in the 
+                        <span class = "bold" style="color:#499894;">old age group</span> which is 
+                        <span class = "enlarge_text">Alice Walton</span> who is 
+                        <span class = "enlarge_text">72</span> years old with 
+                        <span class = "enlarge_text">65.3</span> net worth per billion. The net worth per billion between male and female is huge too.
+                    </p>
+                    <p class="fs-6" style="color: #5d5d5d;">
+                        The following interactive visualisation allows 
+                        <span class = "bold">filtering</span> by 
+                        <span class = "bold">clicking</span> on the Age Group from 
+                        <span class = "bold">legend</span>. 
+                      </p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div id="scatterplot" class="p-3 w-100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Faceted Donut Chart -->
+    <div class="section p-3">
+        <div class="container">
+            <div class="row bg2">
+                <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
+                    <h1>
+                        <span class="h1 fw-bold" style="color: #D1B000">Billionaire's</span> 
+                        <span class = "bold">Self Made</span>
+                    </h1>
+                </div>
+                <div class="span p-4">
+                    <p>
+                        <span class = "enlarge_text" style="color: #4E79A7;">80%</span> of the 
+                        <span class="enlarge_text" style="color: #74b1cf;">male</span> 
+                        <span class = "enlarge_text">billionaires</span> are self-made billionaires while only 
+                        <span class = "enlarge_text" style="color: #4E79A7;">26%</span> of the 
+                        <span class="enlarge_text" style="color: #FAAFBA;">female</span>
+                        <span class = "enlarge_text">billionaires</span> are self-made billionaires. 
+                        Those self-made billionaires have become rich and successful through their own efforts.
+                    </p>
+                    <p class="fs-6" style="color: #5d5d5d;">
+                        After hovering, 
+                        <span class = "bold">double click</span> on any empty space in the visualisation to view the
+                        <span class = "bold">overall colour opacity</span>.
+                    </p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div id="faceted" class="p-3 w-100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bar Chart Interactive -->
+    <div class="section p-3">
+        <div class="container">
+            <div class="row bg1">
+                <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
+                    <h1>
+                        <span class="h1 fw-bold" style="color: #D1B000">Billionaire's</span> 
+                        <span class = "bold">Ranking</span>
+                    </h1>
+                </div>
+                <div class="span p-4">
+                    <p>
+                        The 
+                        <span class = "enlarge_text">Top 1</span> billionaire in the United States is 
+                        <span class="enlarge_text" style="color: #74b1cf;">Elon Musk</span> while 
+                        <span class="enlarge_text" style="color: #FAAFBA;">Alice Walton</span> is the 
+                        <span class = "enlarge_text">Top 12</span> billionaire in the United states. The average net worth per billion of the 
+                        <span class = "bold">Top 10</span> billionaires in the United States is 
+                        <span class = "bold">120</span>.    
+                    </p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div id="ranking" class="p-3 w-100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Word Cloud -->
+    <div class="section p-3">
+        <div class="container">
+            <div class="row bg2">
+                <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
+                    <h1>
+                        <span class="h1 fw-bold" style="color: #D1B000">Billionaire's</span> 
+                        <span class = "bold">Company</span>
+                    </h1>
+                </div>
+                <div class="span p-4">
+                    <p>
+                        At the first glance of the word cloud, the 
+                        <span class = "enlarge_text">biggest</span> font size of word is 
+                        <span class = "enlarge_text" style="color: #f28e2b;">Investments</span>, followed by 
+                        <span class = "bold" style="color: #79706e;">Real Estate</span>. These are the 
+                        <span class = "enlarge_text">Top 2</span> companies where the 
+                        <span class = "enlarge_text">majority</span> of the billionaires are from. 
+                    </p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div id="cloud" class="p-3 w-100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Donut Interactive -->
+    <div class="section p-3">
+        <div class="container">
+            <div class="row bg1">
+                <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
+                    <h1>
+                        <span class="h1 fw-bold" style="color: #D1B000">Billionaire's</span> 
+                        <span class = "bold">Title based on Work Industry</span>
+                    </h1>
+                </div>
+                <div class="span p-4">
+                    <p>
+                        <span class = "enlarge_text">Majority</span> of the billionaires in 
+                        <span class = "bold">each work industry</span> is 
+                        <span class = "enlarge_text" style="color: #59a14f;">Chief Executive Officer, CEO</span>. 
+                        <span class = "enlarge_text">Sports</span> industry is the only industry with an 
+                        <span class = "enlarge_text" style="color: #ffbe7d;">Athlete</span> title as the title is only relevant to the respective industry. 
+                    </p>
+                    <p class="fs-6" style="color: #5d5d5d;">
+                        The following interactive visualisation allows 
+                        <span class = "bold">filtering</span> by 
+                        <span class = "bold">clicking</span> on the Title from 
+                        <span class = "bold">legend</span>. 
+                      </p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div id="donut" class="p-3 w-100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="justify-content-center">
+        <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
+            <p>Visualised by: Yong Zi Ying - 30885027</p>
+        </div>
+        
+    </footer>
+
+
+    <script type="text/javascript">
+    
+        var usamap = "js/1_choropleth_maps.json";
+        vegaEmbed("#usamap", usamap)
+            .then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
+        var isotype = "js/2_isotype_dot_plot.json";
+        vegaEmbed("#isotype", isotype)
+            .then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
+        var diverging = "js/2a_age_group_pyramid.json";
+        vegaEmbed("#diverging", diverging)
+            .then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
+        var scatterplot = "js/4_scatterplot.json";
+        vegaEmbed("#scatterplot", scatterplot)
+            .then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
+        var faceted = "js/3_faceted_donut_chart.json";
+        vegaEmbed("#faceted", faceted)
+            .then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
+        var ranking = "js/5_bar_interactive.json";
+        vegaEmbed("#ranking", ranking)
+            .then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
+        var cloud = "js/6_company_wordcloud.json";
+        vegaEmbed("#cloud", cloud)
+            .then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
+        var donut = "js/7_interactive_donut.json";
+        vegaEmbed("#donut", donut)
+            .then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
