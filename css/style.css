@@ -9,20 +9,14 @@
 
 .bg1 {
 	border-radius: 15px;
-	background-color: #fffcf8;
-	border: 2px solid #d1b200da;
+	background-color: #ffffff;
+	border: 2px solid #000000da;
 }
 
 .bg2 {
 	border-radius: 15px;
-	background-color: #fbfeff;
-	border: 2px solid #0062d1da;
-}
-
-.bg3 {
-	border-radius: 15px;
-	background-color: #faf5f4;
-	border: 2px solid #d1b200da;
+	background-color: #fffcf8;
+	border: 2px solid #D1B000;
 }
 
 body {
