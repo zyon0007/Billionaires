@@ -87,7 +87,7 @@
             },
             { 
               "field": "WorthPerBillion",
-              "title": "Worth per Billion"
+              "title": "Net Worth per Billion"
             }
           ],
           "opacity": {
