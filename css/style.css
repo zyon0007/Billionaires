@@ -3,20 +3,20 @@
 	font-size: 3em;
 }
 .container {
-	border-radius: 15px;
-	box-shadow: 6px 6px #797979;
+	border-radius: 10px;
+	box-shadow: 6px 8px #797979;
 }
 
 .bg1 {
-	border-radius: 15px;
+	border-radius: 10px;
 	background-color: #ffffff;
-	border: 2px solid #000000da;
+	border: 2.5px solid #000000da;
 }
 
 .bg2 {
-	border-radius: 15px;
-	background-color: #fffcf8;
-	border: 2px solid #D1B000;
+	border-radius: 10px;
+	background-color: #fffdfb;
+	border: 2.5px solid #b99d00;
 }
 
 body {
@@ -42,7 +42,7 @@ h5{
 }
 .enlarge_text{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 35px;
+	font-size: 30px;
 	font-weight:bold;
 	color:#000000;
 }
