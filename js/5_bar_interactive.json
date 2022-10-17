@@ -70,7 +70,7 @@
             {
               "field": "Net Worth",
               "type": "quantitative",
-              "title": "Net Worth"
+              "title": "Net Worth per Billion"
             },
             {
                 "field": "Company Name", 
