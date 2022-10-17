@@ -35,6 +35,7 @@
         "mark": {
               "type": "circle",
               "opacity": 0.8,
+              "size":100,
               "stroke": "black",
               "strokeWidth": 1},
         "params": [{
@@ -54,12 +55,6 @@
             "scale": {"domain": [0, 240]},
             "title":"Net Worth per Billion"
           },
-          "size":{"field":"WorthPerBillion", "type": "quantitative","legend":{"title":"Net Worth Per Billion",
-                                                                              "labelFont": "Source Sans Pro, sans-serif",
-                                                                              "labelFontSize": 15,
-                                                                              "titlePadding":10,
-                                                                              "columnPadding":25,
-                                                                              "titleFontSize": 15}},
           "color": {
             "field": "Age Group",
               "scale": {
