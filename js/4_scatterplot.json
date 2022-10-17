@@ -92,7 +92,7 @@
           ],
           "opacity": {
                 "condition": {"param": "agegroup", "value": 1},
-                "value": 0.1
+                "value": 0.05
               }
         }
       },
